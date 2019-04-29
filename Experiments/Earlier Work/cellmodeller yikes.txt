@@ -1,0 +1,33 @@
+iborg@iborg-desktop:~$ cmgui
+Set up OpenCL context:
+  Platform: NVIDIA CUDA
+  Device: GeForce GTX TITAN X
+Importing model StaphAureus from string
+    0 117392 cells   478370 cts       7 iterations  residual = 2.181702
+    0 117392 cells   512003 cts       7 iterations  residual = 2.324758
+    0 117392 cells   521224 cts       6 iterations  residual = 2.892826
+    0 117392 cells   526560 cts       7 iterations  residual = 2.159234
+    0 117392 cells   529390 cts       6 iterations  residual = 2.822334
+    0 117392 cells   532225 cts       6 iterations  residual = 2.779012
+    0 117392 cells   534166 cts       7 iterations  residual = 2.155217
+iborg@iborg-desktop:~$ cmgui
+Set up OpenCL context:
+  Platform: NVIDIA CUDA
+  Device: GeForce GTX TITAN X
+Importing model StaphAureus from string
+    0 117392 cells   478370 cts       7 iterations  residual = 2.181702
+    0 117392 cells   512003 cts       7 iterations  residual = 2.324758
+    0 117392 cells   521224 cts       6 iterations  residual = 2.892826
+    0 117392 cells   526560 cts       7 iterations  residual = 2.159234
+    0 117392 cells   529390 cts       6 iterations  residual = 2.822334
+    0 117392 cells   532225 cts       6 iterations  residual = 2.779012
+    0 117392 cells   534166 cts       7 iterations  residual = 2.155217
+      10      118748 cells      599311 contacts    0.128579 hour(s) or 7.714769 minute(s) or 462.886169 second(s)
+   10 118927 cells   583754 cts      15 iterations  residual = 2.497456
+   10 118927 cells   596297 cts       9 iterations  residual = 2.574163
+   10 118927 cells   598199 cts       7 iterations  residual = 2.590346
+   10 118927 cells   599055 cts       7 iterations  residual = 2.314711
+   10 118927 cells   599602 cts       6 iterations  residual = 2.912504
+   10 118927 cells   599964 cts       6 iterations  residual = 2.788209
+   10 118927 cells   600216 cts       6 iterations  residual = 2.843959
+

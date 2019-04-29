@@ -1,0 +1,1060 @@
+Set up OpenCL context:
+  Platform: NVIDIA CUDA
+  Device: GeForce GTX TITAN X
+Importing model StaphAureusReducedGrowthRateAtLength1
+    0     1 cells       2 cts       1 iterations  residual = 0.000000
+      10           4 cells          10 contacts    0.000560 hour(s) or 0.033595 minute(s) or 2.015689 second(s)
+   10     4 cells      10 cts       0 iterations  residual = 0.000028
+      20           4 cells          11 contacts    0.000590 hour(s) or 0.035378 minute(s) or 2.122688 second(s)
+   20     4 cells      11 cts       0 iterations  residual = 0.000042
+      30           4 cells          11 contacts    0.000619 hour(s) or 0.037135 minute(s) or 2.228120 second(s)
+   30     4 cells      11 cts       0 iterations  residual = 0.000078
+      40           4 cells          11 contacts    0.000649 hour(s) or 0.038928 minute(s) or 2.335659 second(s)
+   40     4 cells      11 cts       0 iterations  residual = 0.000060
+      50           4 cells          11 contacts    0.000679 hour(s) or 0.040763 minute(s) or 2.445783 second(s)
+   50     4 cells      11 cts       0 iterations  residual = 0.000053
+      60           4 cells          11 contacts    0.000709 hour(s) or 0.042567 minute(s) or 2.554002 second(s)
+   60     4 cells      11 cts       0 iterations  residual = 0.000055
+      70           4 cells          11 contacts    0.000797 hour(s) or 0.047803 minute(s) or 2.868161 second(s)
+   70     4 cells      11 cts       0 iterations  residual = 0.000054
+      80           4 cells          11 contacts    0.000828 hour(s) or 0.049664 minute(s) or 2.979849 second(s)
+   80     4 cells      11 cts       0 iterations  residual = 0.000056
+      90           4 cells          11 contacts    0.000858 hour(s) or 0.051482 minute(s) or 3.088902 second(s)
+   90     4 cells      11 cts       0 iterations  residual = 0.000056
+     100           4 cells          11 contacts    0.000888 hour(s) or 0.053280 minute(s) or 3.196791 second(s)
+  100     4 cells      11 cts       0 iterations  residual = 0.000058
+     110           4 cells          10 contacts    0.000918 hour(s) or 0.055069 minute(s) or 3.304139 second(s)
+  110     4 cells      10 cts       0 iterations  residual = 0.000061
+     120           4 cells          10 contacts    0.000948 hour(s) or 0.056870 minute(s) or 3.412194 second(s)
+  120     4 cells      10 cts       0 iterations  residual = 0.000063
+     130           4 cells          10 contacts    0.000978 hour(s) or 0.058701 minute(s) or 3.522051 second(s)
+  130     4 cells      10 cts       0 iterations  residual = 0.000067
+     140           4 cells          10 contacts    0.001008 hour(s) or 0.060502 minute(s) or 3.630133 second(s)
+  140     4 cells      10 cts       0 iterations  residual = 0.000073
+     150           4 cells           8 contacts    0.001038 hour(s) or 0.062300 minute(s) or 3.737984 second(s)
+  150     4 cells       8 cts       0 iterations  residual = 0.000079
+     160           4 cells           7 contacts    0.001068 hour(s) or 0.064100 minute(s) or 3.845995 second(s)
+  160     4 cells       7 cts       0 iterations  residual = 0.000087
+     170           4 cells           7 contacts    0.001099 hour(s) or 0.065916 minute(s) or 3.954967 second(s)
+  170     4 cells       7 cts       0 iterations  residual = 0.000095
+     180           4 cells           7 contacts    0.001129 hour(s) or 0.067710 minute(s) or 4.062616 second(s)
+  180     4 cells       7 cts       1 iterations  residual = 0.000000
+     190           4 cells           7 contacts    0.001160 hour(s) or 0.069578 minute(s) or 4.174680 second(s)
+  190     4 cells       7 cts       0 iterations  residual = 0.000053
+     200           4 cells           7 contacts    0.001190 hour(s) or 0.071380 minute(s) or 4.282809 second(s)
+  200     4 cells       7 cts       0 iterations  residual = 0.000062
+     210           4 cells           7 contacts    0.001220 hour(s) or 0.073188 minute(s) or 4.391262 second(s)
+  210     4 cells       7 cts       0 iterations  residual = 0.000071
+     220           4 cells           6 contacts    0.001250 hour(s) or 0.074992 minute(s) or 4.499524 second(s)
+  220     4 cells       6 cts       0 iterations  residual = 0.000083
+     230           4 cells           5 contacts    0.001280 hour(s) or 0.076802 minute(s) or 4.608121 second(s)
+  230     4 cells       5 cts       0 iterations  residual = 0.000095
+     240           4 cells           6 contacts    0.001310 hour(s) or 0.078628 minute(s) or 4.717672 second(s)
+  240     4 cells       6 cts       0 iterations  residual = 0.000051
+     250           4 cells           7 contacts    0.001341 hour(s) or 0.080462 minute(s) or 4.827714 second(s)
+  250     4 cells       7 cts       0 iterations  residual = 0.000063
+     260           4 cells           7 contacts    0.001371 hour(s) or 0.082262 minute(s) or 4.935741 second(s)
+  260     4 cells       7 cts       0 iterations  residual = 0.000077
+     270           4 cells           6 contacts    0.001401 hour(s) or 0.084082 minute(s) or 5.044935 second(s)
+  270     4 cells       6 cts       0 iterations  residual = 0.000094
+     280           4 cells           7 contacts    0.001433 hour(s) or 0.085958 minute(s) or 5.157452 second(s)
+  280     4 cells       7 cts       0 iterations  residual = 0.000052
+     290           4 cells           7 contacts    0.001464 hour(s) or 0.087819 minute(s) or 5.269119 second(s)
+  290     4 cells       7 cts       0 iterations  residual = 0.000067
+     300           4 cells           6 contacts    0.001494 hour(s) or 0.089651 minute(s) or 5.379081 second(s)
+  300     4 cells       6 cts       0 iterations  residual = 0.000083
+     310           4 cells           6 contacts    0.001525 hour(s) or 0.091517 minute(s) or 5.491013 second(s)
+  310     4 cells       6 cts       1 iterations  residual = 0.000000
+     320           4 cells           5 contacts    0.001557 hour(s) or 0.093417 minute(s) or 5.605014 second(s)
+  320     4 cells       5 cts       0 iterations  residual = 0.000061
+     330           4 cells           7 contacts    0.001588 hour(s) or 0.095283 minute(s) or 5.716982 second(s)
+  330     4 cells       7 cts       0 iterations  residual = 0.000081
+     340           4 cells           6 contacts    0.001618 hour(s) or 0.097106 minute(s) or 5.826376 second(s)
+  340     4 cells       6 cts       1 iterations  residual = 0.000000
+  340     4 cells       7 cts       0 iterations  residual = 0.000046
+     350           4 cells           7 contacts    0.001651 hour(s) or 0.099054 minute(s) or 5.943220 second(s)
+  350     4 cells       7 cts       0 iterations  residual = 0.000063
+     360           4 cells           6 contacts    0.001681 hour(s) or 0.100885 minute(s) or 6.053121 second(s)
+  360     4 cells       6 cts       0 iterations  residual = 0.000085
+     370           4 cells           7 contacts    0.001713 hour(s) or 0.102770 minute(s) or 6.166192 second(s)
+  370     4 cells       7 cts       0 iterations  residual = 0.000052
+     380           4 cells           5 contacts    0.001743 hour(s) or 0.104584 minute(s) or 6.275066 second(s)
+  380     4 cells       5 cts       0 iterations  residual = 0.000075
+     390           4 cells           6 contacts    0.001774 hour(s) or 0.106444 minute(s) or 6.386656 second(s)
+  390     4 cells       6 cts       1 iterations  residual = 0.000000
+     400           4 cells           6 contacts    0.001805 hour(s) or 0.108295 minute(s) or 6.497673 second(s)
+  400     4 cells       6 cts       0 iterations  residual = 0.000069
+     410           4 cells           6 contacts    0.001836 hour(s) or 0.110144 minute(s) or 6.608657 second(s)
+  410     4 cells       6 cts       0 iterations  residual = 0.000096
+     420           4 cells           7 contacts    0.001867 hour(s) or 0.112025 minute(s) or 6.721507 second(s)
+  420     4 cells       7 cts       0 iterations  residual = 0.000064
+     430           4 cells           7 contacts    0.001897 hour(s) or 0.113837 minute(s) or 6.830233 second(s)
+  430     4 cells       7 cts       0 iterations  residual = 0.000091
+     440           4 cells           7 contacts    0.001929 hour(s) or 0.115725 minute(s) or 6.943515 second(s)
+  440     4 cells       7 cts       0 iterations  residual = 0.000063
+     450           4 cells           6 contacts    0.001960 hour(s) or 0.117573 minute(s) or 7.054376 second(s)
+  450     4 cells       6 cts       0 iterations  residual = 0.000092
+     460           4 cells           6 contacts    0.001991 hour(s) or 0.119432 minute(s) or 7.165946 second(s)
+  460     4 cells       6 cts       0 iterations  residual = 0.000065
+     470           4 cells           6 contacts    0.002022 hour(s) or 0.121293 minute(s) or 7.277603 second(s)
+  470     4 cells       6 cts       0 iterations  residual = 0.000098
+     480           4 cells           7 contacts    0.002053 hour(s) or 0.123202 minute(s) or 7.392098 second(s)
+  480     4 cells       7 cts       0 iterations  residual = 0.000071
+     490           4 cells           7 contacts    0.002084 hour(s) or 0.125028 minute(s) or 7.501680 second(s)
+  490     4 cells       7 cts       1 iterations  residual = 0.000000
+     500           4 cells           6 contacts    0.002115 hour(s) or 0.126902 minute(s) or 7.614123 second(s)
+  500     4 cells       6 cts       0 iterations  residual = 0.000082
+     510           4 cells           6 contacts    0.002146 hour(s) or 0.128755 minute(s) or 7.725306 second(s)
+  510     4 cells       6 cts       0 iterations  residual = 0.000062
+     520           4 cells           7 contacts    0.002177 hour(s) or 0.130612 minute(s) or 7.836707 second(s)
+  520     4 cells       7 cts       1 iterations  residual = 0.000000
+     530           4 cells           6 contacts    0.002208 hour(s) or 0.132463 minute(s) or 7.947753 second(s)
+  530     4 cells       6 cts       0 iterations  residual = 0.000081
+     540           4 cells           6 contacts    0.002239 hour(s) or 0.134350 minute(s) or 8.060977 second(s)
+  540     4 cells       6 cts       0 iterations  residual = 0.000063
+     550           4 cells           6 contacts    0.002269 hour(s) or 0.136167 minute(s) or 8.170017 second(s)
+  550     4 cells       6 cts       1 iterations  residual = 0.000000
+  550     4 cells       7 cts       0 iterations  residual = 0.000048
+     560           4 cells           7 contacts    0.002301 hour(s) or 0.138043 minute(s) or 8.282555 second(s)
+  560     4 cells       7 cts       0 iterations  residual = 0.000085
+     570           4 cells           7 contacts    0.002331 hour(s) or 0.139883 minute(s) or 8.392965 second(s)
+  570     4 cells       7 cts       0 iterations  residual = 0.000068
+     580           4 cells           7 contacts    0.002362 hour(s) or 0.141717 minute(s) or 8.503036 second(s)
+  580     4 cells       6 cts       0 iterations  residual = 0.000054
+     590           4 cells           6 contacts    0.002392 hour(s) or 0.143530 minute(s) or 8.611819 second(s)
+  590     4 cells       6 cts       0 iterations  residual = 0.000097
+     600           4 cells           7 contacts    0.002424 hour(s) or 0.145412 minute(s) or 8.724743 second(s)
+  600     4 cells       7 cts       0 iterations  residual = 0.000083
+     610           4 cells           7 contacts    0.002454 hour(s) or 0.147254 minute(s) or 8.835236 second(s)
+  610     4 cells       7 cts       0 iterations  residual = 0.000070
+     620           4 cells           6 contacts    0.002485 hour(s) or 0.149109 minute(s) or 8.946515 second(s)
+  620     4 cells       6 cts       0 iterations  residual = 0.000059
+     630           4 cells           7 contacts    0.002516 hour(s) or 0.150976 minute(s) or 9.058550 second(s)
+  630     4 cells       7 cts       1 iterations  residual = 0.000000
+     640           4 cells           7 contacts    0.002547 hour(s) or 0.152819 minute(s) or 9.169155 second(s)
+  640     4 cells       7 cts       0 iterations  residual = 0.000099
+     650           4 cells           6 contacts    0.002578 hour(s) or 0.154654 minute(s) or 9.279255 second(s)
+  650     4 cells       6 cts       0 iterations  residual = 0.000089
+     660           4 cells           7 contacts    0.002609 hour(s) or 0.156540 minute(s) or 9.392422 second(s)
+  660     4 cells       7 cts       0 iterations  residual = 0.000082
+     670           4 cells           6 contacts    0.002640 hour(s) or 0.158412 minute(s) or 9.504710 second(s)
+  670     4 cells       6 cts       0 iterations  residual = 0.000077
+     680           4 cells           7 contacts    0.002671 hour(s) or 0.160258 minute(s) or 9.615458 second(s)
+  680     4 cells       7 cts       0 iterations  residual = 0.000072
+     690           4 cells           7 contacts    0.002702 hour(s) or 0.162105 minute(s) or 9.726313 second(s)
+  690     4 cells       7 cts       0 iterations  residual = 0.000068
+     700           4 cells           6 contacts    0.002733 hour(s) or 0.163955 minute(s) or 9.837281 second(s)
+  700     4 cells       6 cts       0 iterations  residual = 0.000067
+     710           4 cells           7 contacts    0.002764 hour(s) or 0.165841 minute(s) or 9.950460 second(s)
+  710     4 cells       7 cts       0 iterations  residual = 0.000067
+     720           4 cells           6 contacts    0.002795 hour(s) or 0.167679 minute(s) or 10.060741 second(s)
+  720     4 cells       6 cts       0 iterations  residual = 0.000068
+     730           4 cells           7 contacts    0.002825 hour(s) or 0.169522 minute(s) or 10.171328 second(s)
+  730     4 cells       7 cts       0 iterations  residual = 0.000069
+     740           4 cells           6 contacts    0.002856 hour(s) or 0.171372 minute(s) or 10.282300 second(s)
+  740     4 cells       6 cts       0 iterations  residual = 0.000071
+     750           4 cells           7 contacts    0.002887 hour(s) or 0.173222 minute(s) or 10.393327 second(s)
+  750     4 cells       7 cts       0 iterations  residual = 0.000073
+     760           4 cells           6 contacts    0.002918 hour(s) or 0.175075 minute(s) or 10.504524 second(s)
+  760     4 cells       7 cts       0 iterations  residual = 0.000075
+     770           4 cells           7 contacts    0.002949 hour(s) or 0.176925 minute(s) or 10.615510 second(s)
+  770     4 cells       7 cts       0 iterations  residual = 0.000082
+     780           4 cells           7 contacts    0.002980 hour(s) or 0.178809 minute(s) or 10.728525 second(s)
+  780     4 cells       7 cts       0 iterations  residual = 0.000087
+     790           4 cells           7 contacts    0.003011 hour(s) or 0.180655 minute(s) or 10.839296 second(s)
+  790     4 cells       7 cts       0 iterations  residual = 0.000097
+     800           4 cells           7 contacts    0.003042 hour(s) or 0.182542 minute(s) or 10.952529 second(s)
+  800     4 cells       7 cts       1 iterations  residual = 0.000000
+     810           4 cells           7 contacts    0.003074 hour(s) or 0.184452 minute(s) or 11.067137 second(s)
+  810     4 cells       7 cts       0 iterations  residual = 0.000058
+     820           4 cells           6 contacts    0.003105 hour(s) or 0.186296 minute(s) or 11.177732 second(s)
+  820     4 cells       6 cts       0 iterations  residual = 0.000069
+     830           4 cells           7 contacts    0.003136 hour(s) or 0.188175 minute(s) or 11.290480 second(s)
+  830     4 cells       7 cts       0 iterations  residual = 0.000082
+     840           4 cells           7 contacts    0.003168 hour(s) or 0.190084 minute(s) or 11.405041 second(s)
+  840     4 cells       7 cts       0 iterations  residual = 0.000097
+     850           4 cells           6 contacts    0.003199 hour(s) or 0.191929 minute(s) or 11.515768 second(s)
+  850     4 cells       7 cts       1 iterations  residual = 0.000000
+     860           4 cells           6 contacts    0.003230 hour(s) or 0.193800 minute(s) or 11.627972 second(s)
+  860     4 cells       6 cts       0 iterations  residual = 0.000069
+     870           4 cells           6 contacts    0.003261 hour(s) or 0.195675 minute(s) or 11.740475 second(s)
+  870     4 cells       6 cts       0 iterations  residual = 0.000085
+     880           4 cells           7 contacts    0.003293 hour(s) or 0.197560 minute(s) or 11.853608 second(s)
+  880     4 cells       7 cts       1 iterations  residual = 0.000000
+     890           4 cells           7 contacts    0.003324 hour(s) or 0.199435 minute(s) or 11.966088 second(s)
+  890     4 cells       6 cts       0 iterations  residual = 0.000065
+     900           4 cells           6 contacts    0.003355 hour(s) or 0.201322 minute(s) or 12.079301 second(s)
+  900     4 cells       6 cts       0 iterations  residual = 0.000086
+     910           4 cells           6 contacts    0.003387 hour(s) or 0.203198 minute(s) or 12.191854 second(s)
+  910     4 cells       6 cts       1 iterations  residual = 0.000000
+  910     4 cells       7 cts       0 iterations  residual = 0.000050
+     920           4 cells           7 contacts    0.003419 hour(s) or 0.205146 minute(s) or 12.308784 second(s)
+  920     4 cells       7 cts       0 iterations  residual = 0.000071
+     930           4 cells           7 contacts    0.003451 hour(s) or 0.207034 minute(s) or 12.422024 second(s)
+  930     4 cells       7 cts       0 iterations  residual = 0.000094
+     940           4 cells           7 contacts    0.003482 hour(s) or 0.208903 minute(s) or 12.534156 second(s)
+  940     4 cells       6 cts       0 iterations  residual = 0.000059
+     950           4 cells           6 contacts    0.003512 hour(s) or 0.210745 minute(s) or 12.644698 second(s)
+  950     4 cells       6 cts       0 iterations  residual = 0.000085
+     960           4 cells           7 contacts    0.003544 hour(s) or 0.212635 minute(s) or 12.758104 second(s)
+  960     4 cells       7 cts       1 iterations  residual = 0.000000
+     970           4 cells           7 contacts    0.003575 hour(s) or 0.214512 minute(s) or 12.870728 second(s)
+  970     4 cells       7 cts       0 iterations  residual = 0.000072
+     980           4 cells           7 contacts    0.003606 hour(s) or 0.216356 minute(s) or 12.981343 second(s)
+  980     4 cells       7 cts       1 iterations  residual = 0.000000
+     990           4 cells           7 contacts    0.003637 hour(s) or 0.218234 minute(s) or 13.094025 second(s)
+  990     4 cells       7 cts       0 iterations  residual = 0.000061
+    1000           4 cells           7 contacts    0.003668 hour(s) or 0.220077 minute(s) or 13.204648 second(s)
+ 1000     4 cells       7 cts       0 iterations  residual = 0.000085
+    1010           4 cells           7 contacts    0.003699 hour(s) or 0.221917 minute(s) or 13.315026 second(s)
+ 1010     4 cells       7 cts       1 iterations  residual = 0.000000
+    1020           4 cells           7 contacts    0.003730 hour(s) or 0.223801 minute(s) or 13.428035 second(s)
+ 1020     4 cells       7 cts       0 iterations  residual = 0.000066
+    1030           4 cells           7 contacts    0.003761 hour(s) or 0.225652 minute(s) or 13.539091 second(s)
+ 1030     4 cells       7 cts       0 iterations  residual = 0.000083
+    1040           4 cells           7 contacts    0.003792 hour(s) or 0.227498 minute(s) or 13.649897 second(s)
+ 1040     4 cells       7 cts       1 iterations  residual = 0.000001
+    1050           4 cells           7 contacts    0.003823 hour(s) or 0.229369 minute(s) or 13.762144 second(s)
+ 1050     4 cells       7 cts       0 iterations  residual = 0.000049
+    1060           4 cells           7 contacts    0.003854 hour(s) or 0.231214 minute(s) or 13.872857 second(s)
+ 1060     4 cells       7 cts       0 iterations  residual = 0.000054
+    1070           4 cells           7 contacts    0.003884 hour(s) or 0.233068 minute(s) or 13.984086 second(s)
+ 1070     4 cells       7 cts       0 iterations  residual = 0.000061
+    1080           4 cells           7 contacts    0.003915 hour(s) or 0.234916 minute(s) or 14.094954 second(s)
+ 1080     4 cells       7 cts       0 iterations  residual = 0.000061
+    1090           4 cells           7 contacts    0.003946 hour(s) or 0.236764 minute(s) or 14.205811 second(s)
+ 1090     4 cells       7 cts       0 iterations  residual = 0.000058
+    1100           4 cells           7 contacts    0.003977 hour(s) or 0.238611 minute(s) or 14.316639 second(s)
+ 1100     4 cells       7 cts       0 iterations  residual = 0.000053
+    1110           4 cells           7 contacts    0.004008 hour(s) or 0.240483 minute(s) or 14.428962 second(s)
+ 1110     4 cells       7 cts       0 iterations  residual = 0.000042
+    1120           4 cells           7 contacts    0.004038 hour(s) or 0.242306 minute(s) or 14.538361 second(s)
+ 1120     4 cells       7 cts       1 iterations  residual = 0.000001
+    1130           4 cells           7 contacts    0.004069 hour(s) or 0.244152 minute(s) or 14.649110 second(s)
+ 1130     4 cells       7 cts       0 iterations  residual = 0.000093
+    1140           4 cells           7 contacts    0.004100 hour(s) or 0.246001 minute(s) or 14.760079 second(s)
+ 1140     4 cells       7 cts       0 iterations  residual = 0.000061
+    1150           4 cells           7 contacts    0.004131 hour(s) or 0.247844 minute(s) or 14.870649 second(s)
+ 1150     4 cells       7 cts       0 iterations  residual = 0.000031
+    1160           4 cells           7 contacts    0.004161 hour(s) or 0.249665 minute(s) or 14.979891 second(s)
+ 1160     4 cells       7 cts       0 iterations  residual = 0.000089
+    1170           4 cells           7 contacts    0.004192 hour(s) or 0.251506 minute(s) or 15.090374 second(s)
+ 1170     4 cells       7 cts       0 iterations  residual = 0.000050
+    1180           4 cells           7 contacts    0.004222 hour(s) or 0.253321 minute(s) or 15.199281 second(s)
+ 1180     4 cells       7 cts       1 iterations  residual = 0.000001
+    1190           4 cells           7 contacts    0.004253 hour(s) or 0.255167 minute(s) or 15.310000 second(s)
+ 1190     4 cells       7 cts       0 iterations  residual = 0.000061
+    1200           4 cells           7 contacts    0.004284 hour(s) or 0.257014 minute(s) or 15.420843 second(s)
+ 1200     4 cells       7 cts       0 iterations  residual = 0.000019
+    1210           4 cells           7 contacts    0.004314 hour(s) or 0.258823 minute(s) or 15.529376 second(s)
+ 1210     4 cells       7 cts       0 iterations  residual = 0.000059
+    1220           4 cells           7 contacts    0.004344 hour(s) or 0.260631 minute(s) or 15.637872 second(s)
+ 1220     4 cells       7 cts       1 iterations  residual = 0.000001
+    1230           4 cells           7 contacts    0.004374 hour(s) or 0.262470 minute(s) or 15.748175 second(s)
+ 1230     4 cells       7 cts       0 iterations  residual = 0.000041
+    1240           4 cells           7 contacts    0.004405 hour(s) or 0.264276 minute(s) or 15.856559 second(s)
+ 1240     4 cells       7 cts       0 iterations  residual = 0.000089
+    1250           4 cells           7 contacts    0.004435 hour(s) or 0.266117 minute(s) or 15.967035 second(s)
+ 1250     4 cells       7 cts       0 iterations  residual = 0.000024
+    1260           4 cells           7 contacts    0.004465 hour(s) or 0.267930 minute(s) or 16.075775 second(s)
+ 1260     4 cells       7 cts       0 iterations  residual = 0.000064
+    1270           4 cells           7 contacts    0.004496 hour(s) or 0.269779 minute(s) or 16.186752 second(s)
+ 1270     4 cells       7 cts       0 iterations  residual = 0.000013
+    1280           4 cells           7 contacts    0.004527 hour(s) or 0.271594 minute(s) or 16.295612 second(s)
+ 1280     4 cells       7 cts       0 iterations  residual = 0.000035
+    1290           4 cells           7 contacts    0.004557 hour(s) or 0.273413 minute(s) or 16.404795 second(s)
+ 1290     4 cells       7 cts       0 iterations  residual = 0.000078
+    1300           4 cells           7 contacts    0.004588 hour(s) or 0.275255 minute(s) or 16.515308 second(s)
+ 1300     4 cells       7 cts       0 iterations  residual = 0.000011
+    1310           4 cells           7 contacts    0.004618 hour(s) or 0.277065 minute(s) or 16.623909 second(s)
+ 1310     4 cells       7 cts       0 iterations  residual = 0.000031
+    1320           4 cells           7 contacts    0.004648 hour(s) or 0.278872 minute(s) or 16.732306 second(s)
+ 1320     4 cells       7 cts       0 iterations  residual = 0.000060
+    1330           4 cells           7 contacts    0.004678 hour(s) or 0.280695 minute(s) or 16.841717 second(s)
+ 1330     4 cells       7 cts       0 iterations  residual = 0.000098
+    1340           4 cells           7 contacts    0.004709 hour(s) or 0.282558 minute(s) or 16.953468 second(s)
+ 1340     4 cells       6 cts       0 iterations  residual = 0.000011
+    1350           4 cells           7 contacts    0.004739 hour(s) or 0.284367 minute(s) or 17.061993 second(s)
+ 1350     4 cells       7 cts       0 iterations  residual = 0.000028
+    1360           4 cells           7 contacts    0.004770 hour(s) or 0.286173 minute(s) or 17.170357 second(s)
+ 1360     4 cells       7 cts       0 iterations  residual = 0.000055
+    1370           4 cells           7 contacts    0.004800 hour(s) or 0.287991 minute(s) or 17.279480 second(s)
+ 1370     4 cells       7 cts       0 iterations  residual = 0.000091
+    1380           4 cells           7 contacts    0.004831 hour(s) or 0.289849 minute(s) or 17.390938 second(s)
+ 1380     4 cells       6 cts       0 iterations  residual = 0.000010
+    1390           4 cells           6 contacts    0.004861 hour(s) or 0.291658 minute(s) or 17.499504 second(s)
+ 1390     4 cells       7 cts       0 iterations  residual = 0.000025
+    1400           4 cells           7 contacts    0.004891 hour(s) or 0.293461 minute(s) or 17.607681 second(s)
+ 1400     4 cells       7 cts       0 iterations  residual = 0.000050
+    1410           4 cells           7 contacts    0.004921 hour(s) or 0.295270 minute(s) or 17.716227 second(s)
+ 1410     4 cells       7 cts       0 iterations  residual = 0.000085
+    1420           4 cells           7 contacts    0.004952 hour(s) or 0.297123 minute(s) or 17.827370 second(s)
+ 1420     4 cells       6 cts       0 iterations  residual = 0.000009
+    1430           4 cells           6 contacts    0.004982 hour(s) or 0.298948 minute(s) or 17.936907 second(s)
+ 1430     4 cells       6 cts       0 iterations  residual = 0.000024
+    1440           4 cells           6 contacts    0.005013 hour(s) or 0.300762 minute(s) or 18.045717 second(s)
+ 1440     4 cells       7 cts       0 iterations  residual = 0.000047
+    1450           4 cells           7 contacts    0.005043 hour(s) or 0.302568 minute(s) or 18.154083 second(s)
+ 1450     4 cells       7 cts       0 iterations  residual = 0.000080
+    1460           4 cells           7 contacts    0.005073 hour(s) or 0.304379 minute(s) or 18.262770 second(s)
+ 1460     4 cells       7 cts       1 iterations  residual = 0.000007
+    1470           4 cells           6 contacts    0.005104 hour(s) or 0.306227 minute(s) or 18.373646 second(s)
+ 1470     4 cells       6 cts       0 iterations  residual = 0.000014
+    1480           4 cells           6 contacts    0.005134 hour(s) or 0.308045 minute(s) or 18.482719 second(s)
+ 1480     4 cells       6 cts       0 iterations  residual = 0.000025
+    1490           4 cells           6 contacts    0.005164 hour(s) or 0.309851 minute(s) or 18.591072 second(s)
+ 1490     4 cells       6 cts       0 iterations  residual = 0.000045
+    1500           4 cells           6 contacts    0.005194 hour(s) or 0.311658 minute(s) or 18.699461 second(s)
+ 1500     4 cells       6 cts       0 iterations  residual = 0.000062
+    1510           4 cells           6 contacts    0.005225 hour(s) or 0.313472 minute(s) or 18.808331 second(s)
+ 1510     4 cells       6 cts       0 iterations  residual = 0.000079
+    1520           4 cells           6 contacts    0.005255 hour(s) or 0.315293 minute(s) or 18.917606 second(s)
+ 1520     4 cells       6 cts       0 iterations  residual = 0.000097
+    1530           4 cells           6 contacts    0.005285 hour(s) or 0.317103 minute(s) or 19.026169 second(s)
+ 1530     4 cells       7 cts       1 iterations  residual = 0.000009
+    1540           4 cells           7 contacts    0.005316 hour(s) or 0.318942 minute(s) or 19.136503 second(s)
+ 1540     4 cells       6 cts       0 iterations  residual = 0.000008
+    1550           4 cells           6 contacts    0.005346 hour(s) or 0.320754 minute(s) or 19.245230 second(s)
+ 1550     4 cells       6 cts       0 iterations  residual = 0.000011
+    1560           4 cells           6 contacts    0.005376 hour(s) or 0.322585 minute(s) or 19.355076 second(s)
+ 1560     4 cells       6 cts       0 iterations  residual = 0.000017
+    1570           4 cells           6 contacts    0.005407 hour(s) or 0.324395 minute(s) or 19.463713 second(s)
+ 1570     4 cells       6 cts       0 iterations  residual = 0.000026
+    1580           4 cells           6 contacts    0.005437 hour(s) or 0.326210 minute(s) or 19.572573 second(s)
+ 1580     4 cells       6 cts       0 iterations  residual = 0.000027
+    1590           4 cells           6 contacts    0.005467 hour(s) or 0.328030 minute(s) or 19.681787 second(s)
+ 1590     4 cells       6 cts       0 iterations  residual = 0.000036
+    1600           4 cells           6 contacts    0.005497 hour(s) or 0.329840 minute(s) or 19.790390 second(s)
+ 1600     4 cells       6 cts       0 iterations  residual = 0.000038
+    1610           4 cells           6 contacts    0.005527 hour(s) or 0.331650 minute(s) or 19.898994 second(s)
+ 1610     4 cells       6 cts       0 iterations  residual = 0.000048
+    1620           4 cells           6 contacts    0.005558 hour(s) or 0.333478 minute(s) or 20.008657 second(s)
+ 1620     4 cells       6 cts       0 iterations  residual = 0.000049
+    1630           4 cells           6 contacts    0.005588 hour(s) or 0.335286 minute(s) or 20.117167 second(s)
+ 1630     4 cells       6 cts       0 iterations  residual = 0.000049
+    1640           4 cells           6 contacts    0.005618 hour(s) or 0.337093 minute(s) or 20.225588 second(s)
+ 1640     4 cells       6 cts       0 iterations  residual = 0.000048
+    1650           4 cells           6 contacts    0.005649 hour(s) or 0.338912 minute(s) or 20.334715 second(s)
+ 1650     4 cells       6 cts       0 iterations  residual = 0.000047
+    1660           4 cells           6 contacts    0.005679 hour(s) or 0.340728 minute(s) or 20.443672 second(s)
+ 1660     4 cells       6 cts       0 iterations  residual = 0.000046
+    1670           4 cells           6 contacts    0.005709 hour(s) or 0.342534 minute(s) or 20.552065 second(s)
+ 1670     4 cells       6 cts       0 iterations  residual = 0.000045
+    1680           4 cells           6 contacts    0.005739 hour(s) or 0.344353 minute(s) or 20.661194 second(s)
+ 1680     4 cells       6 cts       0 iterations  residual = 0.000044
+    1690           4 cells           6 contacts    0.005769 hour(s) or 0.346169 minute(s) or 20.770157 second(s)
+ 1690     4 cells       6 cts       0 iterations  residual = 0.000043
+    1700           4 cells           6 contacts    0.005800 hour(s) or 0.347976 minute(s) or 20.878540 second(s)
+ 1700     4 cells       6 cts       0 iterations  residual = 0.000042
+    1710           4 cells           6 contacts    0.005830 hour(s) or 0.349806 minute(s) or 20.988375 second(s)
+ 1710     4 cells       6 cts       0 iterations  residual = 0.000041
+    1720           4 cells           6 contacts    0.005860 hour(s) or 0.351622 minute(s) or 21.097336 second(s)
+ 1720     4 cells       6 cts       0 iterations  residual = 0.000030
+    1730           4 cells           6 contacts    0.005891 hour(s) or 0.353468 minute(s) or 21.208071 second(s)
+ 1730     4 cells       6 cts       0 iterations  residual = 0.000021
+    1740           4 cells           6 contacts    0.005922 hour(s) or 0.355299 minute(s) or 21.317919 second(s)
+ 1740     4 cells       6 cts       0 iterations  residual = 0.000013
+    1750           4 cells           6 contacts    0.005952 hour(s) or 0.357134 minute(s) or 21.428019 second(s)
+ 1750     4 cells       6 cts       0 iterations  residual = 0.000007
+    1760           4 cells           6 contacts    0.005983 hour(s) or 0.358986 minute(s) or 21.539181 second(s)
+ 1760     4 cells       6 cts       0 iterations  residual = 0.000003
+    1770           4 cells           6 contacts    0.006013 hour(s) or 0.360777 minute(s) or 21.646620 second(s)
+ 1770     4 cells       6 cts       1 iterations  residual = 0.000000
+    1780           4 cells           6 contacts    0.006043 hour(s) or 0.362589 minute(s) or 21.755367 second(s)
+ 1780     4 cells       6 cts       0 iterations  residual = 0.000084
+    1790           4 cells           6 contacts    0.006073 hour(s) or 0.364409 minute(s) or 21.864521 second(s)
+ 1790     4 cells       6 cts       0 iterations  residual = 0.000067
+    1800           4 cells           6 contacts    0.006104 hour(s) or 0.366225 minute(s) or 21.973494 second(s)
+ 1800     4 cells       6 cts       0 iterations  residual = 0.000042
+    1810           4 cells           6 contacts    0.006134 hour(s) or 0.368042 minute(s) or 22.082508 second(s)
+ 1810     4 cells       6 cts       0 iterations  residual = 0.000023
+    1820           4 cells           6 contacts    0.006164 hour(s) or 0.369859 minute(s) or 22.191561 second(s)
+ 1820     4 cells       6 cts       0 iterations  residual = 0.000010
+    1830           4 cells           6 contacts    0.006194 hour(s) or 0.371639 minute(s) or 22.298332 second(s)
+ 1830     4 cells       6 cts       1 iterations  residual = 0.000000
+    1840           4 cells           6 contacts    0.006224 hour(s) or 0.373458 minute(s) or 22.407452 second(s)
+ 1840     4 cells       6 cts       0 iterations  residual = 0.000069
+    1850           4 cells           6 contacts    0.006254 hour(s) or 0.375264 minute(s) or 22.515854 second(s)
+ 1850     4 cells       6 cts       0 iterations  residual = 0.000035
+    1860           4 cells           6 contacts    0.006285 hour(s) or 0.377084 minute(s) or 22.625031 second(s)
+ 1860     4 cells       6 cts       0 iterations  residual = 0.000013
+    1870           4 cells           6 contacts    0.006315 hour(s) or 0.378898 minute(s) or 22.733856 second(s)
+ 1870     4 cells       6 cts       0 iterations  residual = 0.000002
+    1880           4 cells           6 contacts    0.006345 hour(s) or 0.380681 minute(s) or 22.840868 second(s)
+ 1880     4 cells       6 cts       0 iterations  residual = 0.000072
+    1890           4 cells           6 contacts    0.006375 hour(s) or 0.382498 minute(s) or 22.949890 second(s)
+ 1890     4 cells       6 cts       0 iterations  residual = 0.000032
+    1900           4 cells           6 contacts    0.006405 hour(s) or 0.384318 minute(s) or 23.059052 second(s)
+ 1900     4 cells       6 cts       0 iterations  residual = 0.000008
+    1910           4 cells           6 contacts    0.006435 hour(s) or 0.386105 minute(s) or 23.166300 second(s)
+ 1910     4 cells       6 cts       0 iterations  residual = 0.000092
+    1920           4 cells           6 contacts    0.006466 hour(s) or 0.387931 minute(s) or 23.275846 second(s)
+ 1920     4 cells       6 cts       0 iterations  residual = 0.000047
+    1930           4 cells           6 contacts    0.006496 hour(s) or 0.389743 minute(s) or 23.384602 second(s)
+ 1930     4 cells       6 cts       0 iterations  residual = 0.000018
+    1940           4 cells           6 contacts    0.006526 hour(s) or 0.391558 minute(s) or 23.493494 second(s)
+ 1940     4 cells       6 cts       0 iterations  residual = 0.000003
+    1950           4 cells           6 contacts    0.006556 hour(s) or 0.393353 minute(s) or 23.601156 second(s)
+ 1950     4 cells       6 cts       0 iterations  residual = 0.000068
+    1960           4 cells           6 contacts    0.006586 hour(s) or 0.395175 minute(s) or 23.710529 second(s)
+ 1960     4 cells       6 cts       0 iterations  residual = 0.000031
+    1970           4 cells           6 contacts    0.006616 hour(s) or 0.396989 minute(s) or 23.819330 second(s)
+ 1970     4 cells       6 cts       0 iterations  residual = 0.000009
+    1980           4 cells           6 contacts    0.006646 hour(s) or 0.398776 minute(s) or 23.926571 second(s)
+ 1980     4 cells       6 cts       0 iterations  residual = 0.000092
+    1990           4 cells           6 contacts    0.006677 hour(s) or 0.400628 minute(s) or 24.037708 second(s)
+ 1990     4 cells       6 cts       0 iterations  residual = 0.000049
+    2000           4 cells           6 contacts    0.006709 hour(s) or 0.402519 minute(s) or 24.151140 second(s)
+ 2000     4 cells       6 cts       0 iterations  residual = 0.000019
+    2010           4 cells           6 contacts    0.006739 hour(s) or 0.404334 minute(s) or 24.260014 second(s)
+ 2010     4 cells       6 cts       0 iterations  residual = 0.000003
+    2020           4 cells           6 contacts    0.006769 hour(s) or 0.406130 minute(s) or 24.367777 second(s)
+ 2020     4 cells       6 cts       0 iterations  residual = 0.000070
+    2030           5 cells           6 contacts    0.006799 hour(s) or 0.407939 minute(s) or 24.476316 second(s)
+ 2030     5 cells       6 cts       0 iterations  residual = 0.000114
+    2040           5 cells           5 contacts    0.006830 hour(s) or 0.409788 minute(s) or 24.587255 second(s)
+ 2040     5 cells       5 cts       0 iterations  residual = 0.000033
+    2050           5 cells           7 contacts    0.006860 hour(s) or 0.411609 minute(s) or 24.696529 second(s)
+ 2050     5 cells       7 cts       0 iterations  residual = 0.000111
+    2060           5 cells           6 contacts    0.006893 hour(s) or 0.413575 minute(s) or 24.814526 second(s)
+ 2060     5 cells       6 cts       0 iterations  residual = 0.000042
+    2070           6 cells           7 contacts    0.006925 hour(s) or 0.415501 minute(s) or 24.930075 second(s)
+ 2070     6 cells       7 cts       0 iterations  residual = 0.000069
+    2080           6 cells           7 contacts    0.006957 hour(s) or 0.417448 minute(s) or 25.046888 second(s)
+ 2080     6 cells       7 cts       0 iterations  residual = 0.000014
+    2090           7 cells           9 contacts    0.006989 hour(s) or 0.419345 minute(s) or 25.160690 second(s)
+ 2090     7 cells       9 cts       0 iterations  residual = 0.000134
+    2100           7 cells           8 contacts    0.007021 hour(s) or 0.421289 minute(s) or 25.277359 second(s)
+ 2100     7 cells       8 cts       0 iterations  residual = 0.000036
+    2110           7 cells           9 contacts    0.007054 hour(s) or 0.423217 minute(s) or 25.393021 second(s)
+ 2110     7 cells       9 cts       0 iterations  residual = 0.000135
+    2120           7 cells           8 contacts    0.007085 hour(s) or 0.425123 minute(s) or 25.507408 second(s)
+ 2120     8 cells       9 cts       0 iterations  residual = 0.000039
+    2130           8 cells          10 contacts    0.007117 hour(s) or 0.427033 minute(s) or 25.621965 second(s)
+ 2130     8 cells      10 cts       0 iterations  residual = 0.000080
+    2140           8 cells          10 contacts    0.007149 hour(s) or 0.428945 minute(s) or 25.736683 second(s)
+ 2140     8 cells      10 cts       0 iterations  residual = 0.000153
+    2150           8 cells          10 contacts    0.007182 hour(s) or 0.430896 minute(s) or 25.853788 second(s)
+ 2150     8 cells      10 cts       0 iterations  residual = 0.000034
+    2160           8 cells          10 contacts    0.007213 hour(s) or 0.432798 minute(s) or 25.967884 second(s)
+ 2160     8 cells      10 cts       0 iterations  residual = 0.000095
+    2170           8 cells          10 contacts    0.007246 hour(s) or 0.434742 minute(s) or 26.084541 second(s)
+ 2170     8 cells      10 cts       0 iterations  residual = 0.000190
+    2180           8 cells          10 contacts    0.007279 hour(s) or 0.436743 minute(s) or 26.204605 second(s)
+ 2180     8 cells      10 cts       0 iterations  residual = 0.000058
+    2190           8 cells          10 contacts    0.007312 hour(s) or 0.438710 minute(s) or 26.322618 second(s)
+ 2190     8 cells      10 cts       0 iterations  residual = 0.000138
+    2200           8 cells          10 contacts    0.007345 hour(s) or 0.440685 minute(s) or 26.441074 second(s)
+ 2200     8 cells      10 cts       0 iterations  residual = 0.000032
+    2210           8 cells          10 contacts    0.007377 hour(s) or 0.442637 minute(s) or 26.558233 second(s)
+ 2210     8 cells      10 cts       0 iterations  residual = 0.000097
+    2220           8 cells          10 contacts    0.007410 hour(s) or 0.444595 minute(s) or 26.675697 second(s)
+ 2220     8 cells      10 cts       1 iterations  residual = 0.000001
+    2230           8 cells          10 contacts    0.007443 hour(s) or 0.446588 minute(s) or 26.795288 second(s)
+ 2230     8 cells      10 cts       0 iterations  residual = 0.000068
+    2240           8 cells          10 contacts    0.007476 hour(s) or 0.448567 minute(s) or 26.914043 second(s)
+ 2240     8 cells      10 cts       0 iterations  residual = 0.000159
+    2250           8 cells          10 contacts    0.007510 hour(s) or 0.450570 minute(s) or 27.034210 second(s)
+ 2250     8 cells      10 cts       0 iterations  residual = 0.000044
+    2260           8 cells          10 contacts    0.007542 hour(s) or 0.452496 minute(s) or 27.149786 second(s)
+ 2260     8 cells      10 cts       0 iterations  residual = 0.000124
+    2270           8 cells          10 contacts    0.007574 hour(s) or 0.454457 minute(s) or 27.267445 second(s)
+ 2270     8 cells      10 cts       0 iterations  residual = 0.000028
+    2280           8 cells          10 contacts    0.007607 hour(s) or 0.456420 minute(s) or 27.385180 second(s)
+ 2280     8 cells      10 cts       0 iterations  residual = 0.000098
+    2290           8 cells          10 contacts    0.007639 hour(s) or 0.458369 minute(s) or 27.502165 second(s)
+ 2290     8 cells      10 cts       1 iterations  residual = 0.000001
+    2300           8 cells          10 contacts    0.007673 hour(s) or 0.460358 minute(s) or 27.621490 second(s)
+ 2300     8 cells      10 cts       0 iterations  residual = 0.000076
+    2310           8 cells          11 contacts    0.007705 hour(s) or 0.462309 minute(s) or 27.738546 second(s)
+ 2310     8 cells      11 cts       0 iterations  residual = 0.000181
+    2320           8 cells          11 contacts    0.007738 hour(s) or 0.464297 minute(s) or 27.857845 second(s)
+ 2320     8 cells      11 cts       0 iterations  residual = 0.000061
+    2330           8 cells          11 contacts    0.007771 hour(s) or 0.466260 minute(s) or 27.975601 second(s)
+ 2330     8 cells      11 cts       0 iterations  residual = 0.000160
+    2340           8 cells          11 contacts    0.007804 hour(s) or 0.468257 minute(s) or 28.095442 second(s)
+ 2340     8 cells      11 cts       0 iterations  residual = 0.000049
+    2350           8 cells          11 contacts    0.007837 hour(s) or 0.470198 minute(s) or 28.211882 second(s)
+ 2350     8 cells      11 cts       0 iterations  residual = 0.000142
+    2360           8 cells          11 contacts    0.007871 hour(s) or 0.472251 minute(s) or 28.335052 second(s)
+ 2360     8 cells      11 cts       0 iterations  residual = 0.000042
+    2370           8 cells          11 contacts    0.007903 hour(s) or 0.474203 minute(s) or 28.452192 second(s)
+ 2370     8 cells      11 cts       0 iterations  residual = 0.000133
+    2380           8 cells          11 contacts    0.007937 hour(s) or 0.476208 minute(s) or 28.572453 second(s)
+ 2380     8 cells      11 cts       0 iterations  residual = 0.000037
+    2390           8 cells          11 contacts    0.007970 hour(s) or 0.478184 minute(s) or 28.691065 second(s)
+ 2390     8 cells      11 cts       0 iterations  residual = 0.000127
+    2400           8 cells          11 contacts    0.008003 hour(s) or 0.480189 minute(s) or 28.811312 second(s)
+ 2400     8 cells      11 cts       0 iterations  residual = 0.000037
+    2410           8 cells          11 contacts    0.008037 hour(s) or 0.482193 minute(s) or 28.931555 second(s)
+ 2410     8 cells      11 cts       0 iterations  residual = 0.000128
+    2420           8 cells          11 contacts    0.008070 hour(s) or 0.484197 minute(s) or 29.051821 second(s)
+ 2420     8 cells      11 cts       0 iterations  residual = 0.000038
+    2430           8 cells          11 contacts    0.008102 hour(s) or 0.486100 minute(s) or 29.165998 second(s)
+ 2430     8 cells      11 cts       0 iterations  residual = 0.000133
+    2440           8 cells          11 contacts    0.008134 hour(s) or 0.488023 minute(s) or 29.281366 second(s)
+ 2440     8 cells      11 cts       0 iterations  residual = 0.000044
+    2450           8 cells          11 contacts    0.008165 hour(s) or 0.489914 minute(s) or 29.394835 second(s)
+ 2450     8 cells      11 cts       0 iterations  residual = 0.000148
+    2460           8 cells          11 contacts    0.008197 hour(s) or 0.491842 minute(s) or 29.510548 second(s)
+ 2460     8 cells      11 cts       0 iterations  residual = 0.000053
+    2470           8 cells          11 contacts    0.008232 hour(s) or 0.493938 minute(s) or 29.636271 second(s)
+ 2470     8 cells      11 cts       0 iterations  residual = 0.000168
+    2480           8 cells          11 contacts    0.008270 hour(s) or 0.496177 minute(s) or 29.770618 second(s)
+ 2480     8 cells      11 cts       0 iterations  residual = 0.000064
+    2490           8 cells          11 contacts    0.008302 hour(s) or 0.498119 minute(s) or 29.887121 second(s)
+ 2490     8 cells      11 cts       0 iterations  residual = 0.000190
+    2500           8 cells          11 contacts    0.008335 hour(s) or 0.500073 minute(s) or 30.004402 second(s)
+ 2500     8 cells      11 cts       0 iterations  residual = 0.000084
+    2510           8 cells          11 contacts    0.008367 hour(s) or 0.502039 minute(s) or 30.122316 second(s)
+ 2510     8 cells      11 cts       0 iterations  residual = 0.000021
+    2520           8 cells          11 contacts    0.008399 hour(s) or 0.503967 minute(s) or 30.238039 second(s)
+ 2520     8 cells      11 cts       0 iterations  residual = 0.000110
+    2530           8 cells          11 contacts    0.008432 hour(s) or 0.505928 minute(s) or 30.355692 second(s)
+ 2530     8 cells      11 cts       0 iterations  residual = 0.000034
+    2540           8 cells          11 contacts    0.008464 hour(s) or 0.507859 minute(s) or 30.471561 second(s)
+ 2540     8 cells      11 cts       0 iterations  residual = 0.000142
+    2550           8 cells          11 contacts    0.008497 hour(s) or 0.509799 minute(s) or 30.587912 second(s)
+ 2550     8 cells      11 cts       0 iterations  residual = 0.000058
+    2560           8 cells          11 contacts    0.008528 hour(s) or 0.511690 minute(s) or 30.701393 second(s)
+ 2560     8 cells      11 cts       0 iterations  residual = 0.000191
+    2570           8 cells          11 contacts    0.008560 hour(s) or 0.513612 minute(s) or 30.816717 second(s)
+ 2570     8 cells      11 cts       0 iterations  residual = 0.000092
+    2580           8 cells          11 contacts    0.008593 hour(s) or 0.515567 minute(s) or 30.934004 second(s)
+ 2580     8 cells      11 cts       0 iterations  residual = 0.000028
+    2590           8 cells          11 contacts    0.008625 hour(s) or 0.517501 minute(s) or 31.050062 second(s)
+ 2590     8 cells      11 cts       0 iterations  residual = 0.000136
+    2600           8 cells          11 contacts    0.008658 hour(s) or 0.519486 minute(s) or 31.169136 second(s)
+ 2600     8 cells      11 cts       0 iterations  residual = 0.000060
+    2610           8 cells          11 contacts    0.008690 hour(s) or 0.521377 minute(s) or 31.282639 second(s)
+ 2610     8 cells      11 cts       1 iterations  residual = 0.000001
+    2620           8 cells          11 contacts    0.008722 hour(s) or 0.523325 minute(s) or 31.399502 second(s)
+ 2620     8 cells      11 cts       0 iterations  residual = 0.000110
+    2630           8 cells          11 contacts    0.008754 hour(s) or 0.525247 minute(s) or 31.514816 second(s)
+ 2630     8 cells      11 cts       0 iterations  residual = 0.000044
+    2640           8 cells          11 contacts    0.008786 hour(s) or 0.527139 minute(s) or 31.628361 second(s)
+ 2640     8 cells      11 cts       0 iterations  residual = 0.000179
+    2650           8 cells          11 contacts    0.008818 hour(s) or 0.529063 minute(s) or 31.743793 second(s)
+ 2650     8 cells      11 cts       0 iterations  residual = 0.000090
+    2660           8 cells          11 contacts    0.008850 hour(s) or 0.530999 minute(s) or 31.859915 second(s)
+ 2660     8 cells      11 cts       0 iterations  residual = 0.000036
+    2670           8 cells          11 contacts    0.008881 hour(s) or 0.532890 minute(s) or 31.973381 second(s)
+ 2670     8 cells      11 cts       0 iterations  residual = 0.000166
+    2680           8 cells          11 contacts    0.008914 hour(s) or 0.534840 minute(s) or 32.090424 second(s)
+ 2680     8 cells      11 cts       0 iterations  residual = 0.000090
+    2690           8 cells           9 contacts    0.008947 hour(s) or 0.536810 minute(s) or 32.208572 second(s)
+ 2690     8 cells      11 cts       0 iterations  residual = 0.000037
+    2700           8 cells          11 contacts    0.008979 hour(s) or 0.538756 minute(s) or 32.325359 second(s)
+ 2700     8 cells      11 cts       0 iterations  residual = 0.000175
+    2710           8 cells          11 contacts    0.009012 hour(s) or 0.540710 minute(s) or 32.442577 second(s)
+ 2710     8 cells      11 cts       0 iterations  residual = 0.000096
+    2720           8 cells           9 contacts    0.009044 hour(s) or 0.542653 minute(s) or 32.559166 second(s)
+ 2720     8 cells      11 cts       0 iterations  residual = 0.000046
+    2730           8 cells          11 contacts    0.009076 hour(s) or 0.544551 minute(s) or 32.673088 second(s)
+ 2730     8 cells      11 cts       1 iterations  residual = 0.000002
+    2740           8 cells          11 contacts    0.009108 hour(s) or 0.546488 minute(s) or 32.789303 second(s)
+ 2740     8 cells      11 cts       0 iterations  residual = 0.000127
+    2750           8 cells          11 contacts    0.009141 hour(s) or 0.548467 minute(s) or 32.908047 second(s)
+ 2750     8 cells      11 cts       0 iterations  residual = 0.000071
+    2760           8 cells           9 contacts    0.009174 hour(s) or 0.550448 minute(s) or 33.026852 second(s)
+ 2760     8 cells       9 cts       0 iterations  residual = 0.000031
+    2770           8 cells          11 contacts    0.009206 hour(s) or 0.552357 minute(s) or 33.141445 second(s)
+ 2770     8 cells      11 cts       0 iterations  residual = 0.000173
+    2780           8 cells          11 contacts    0.009238 hour(s) or 0.554287 minute(s) or 33.257198 second(s)
+ 2780     8 cells      11 cts       0 iterations  residual = 0.000104
+    2790           8 cells           9 contacts    0.009271 hour(s) or 0.556235 minute(s) or 33.374081 second(s)
+ 2790     8 cells       9 cts       0 iterations  residual = 0.000053
+    2800           8 cells          11 contacts    0.009303 hour(s) or 0.558158 minute(s) or 33.489460 second(s)
+ 2800     8 cells       9 cts       0 iterations  residual = 0.000023
+    2810           8 cells          11 contacts    0.009334 hour(s) or 0.560063 minute(s) or 33.603806 second(s)
+ 2810     8 cells      11 cts       0 iterations  residual = 0.000160
+    2820           8 cells          10 contacts    0.009366 hour(s) or 0.561988 minute(s) or 33.719269 second(s)
+ 2820     8 cells      11 cts       0 iterations  residual = 0.000106
+    2830           8 cells           9 contacts    0.009399 hour(s) or 0.563930 minute(s) or 33.835804 second(s)
+ 2830     8 cells       9 cts       0 iterations  residual = 0.000064
+    2840           8 cells           9 contacts    0.009431 hour(s) or 0.565851 minute(s) or 33.951031 second(s)
+ 2840     8 cells       9 cts       0 iterations  residual = 0.000032
+    2850           8 cells          11 contacts    0.009462 hour(s) or 0.567747 minute(s) or 34.064812 second(s)
+ 2850     8 cells      11 cts       0 iterations  residual = 0.000193
+    2860           8 cells           9 contacts    0.009494 hour(s) or 0.569666 minute(s) or 34.179974 second(s)
+ 2860     8 cells      10 cts       0 iterations  residual = 0.000134
+    2870           8 cells           9 contacts    0.009527 hour(s) or 0.571634 minute(s) or 34.298027 second(s)
+ 2870     8 cells       9 cts       0 iterations  residual = 0.000085
+    2880           8 cells           9 contacts    0.009559 hour(s) or 0.573561 minute(s) or 34.413681 second(s)
+ 2880     8 cells       9 cts       0 iterations  residual = 0.000054
+    2890           8 cells           9 contacts    0.009592 hour(s) or 0.575513 minute(s) or 34.530773 second(s)
+ 2890     8 cells       9 cts       0 iterations  residual = 0.000032
+    2900           8 cells          11 contacts    0.009624 hour(s) or 0.577469 minute(s) or 34.648151 second(s)
+ 2900     8 cells      11 cts       1 iterations  residual = 0.000004
+    2910           8 cells           9 contacts    0.009657 hour(s) or 0.579434 minute(s) or 34.766048 second(s)
+ 2910     8 cells      10 cts       0 iterations  residual = 0.000160
+    2920           8 cells           9 contacts    0.009690 hour(s) or 0.581407 minute(s) or 34.884403 second(s)
+ 2920     8 cells       9 cts       0 iterations  residual = 0.000122
+    2930           8 cells           9 contacts    0.009722 hour(s) or 0.583340 minute(s) or 35.000404 second(s)
+ 2930     8 cells       9 cts       0 iterations  residual = 0.000088
+    2940           8 cells           9 contacts    0.009754 hour(s) or 0.585270 minute(s) or 35.116188 second(s)
+ 2940     8 cells       9 cts       0 iterations  residual = 0.000059
+    2950           8 cells           9 contacts    0.009786 hour(s) or 0.587190 minute(s) or 35.231377 second(s)
+ 2950     8 cells       9 cts       0 iterations  residual = 0.000036
+    2960           8 cells           9 contacts    0.009818 hour(s) or 0.589083 minute(s) or 35.344963 second(s)
+ 2960     8 cells      10 cts       1 iterations  residual = 0.000003
+    2970           8 cells           9 contacts    0.009850 hour(s) or 0.591005 minute(s) or 35.460293 second(s)
+ 2970     8 cells       9 cts       0 iterations  residual = 0.000179
+    2980           8 cells           9 contacts    0.009882 hour(s) or 0.592924 minute(s) or 35.575466 second(s)
+ 2980     8 cells       9 cts       0 iterations  residual = 0.000149
+    2990           8 cells           9 contacts    0.009914 hour(s) or 0.594855 minute(s) or 35.691322 second(s)
+ 2990     8 cells       9 cts       0 iterations  residual = 0.000114
+    3000           8 cells           9 contacts    0.009947 hour(s) or 0.596808 minute(s) or 35.808510 second(s)
+ 3000     8 cells       9 cts       0 iterations  residual = 0.000092
+    3010           8 cells           9 contacts    0.009980 hour(s) or 0.598786 minute(s) or 35.927185 second(s)
+ 3010     8 cells       9 cts       0 iterations  residual = 0.000076
+    3020           8 cells           9 contacts    0.010012 hour(s) or 0.600746 minute(s) or 36.044777 second(s)
+ 3020     8 cells       9 cts       0 iterations  residual = 0.000061
+    3030           8 cells           9 contacts    0.010045 hour(s) or 0.602704 minute(s) or 36.162235 second(s)
+ 3030     8 cells       9 cts       0 iterations  residual = 0.000048
+    3040           8 cells          10 contacts    0.010078 hour(s) or 0.604673 minute(s) or 36.280369 second(s)
+ 3040     8 cells      10 cts       0 iterations  residual = 0.000043
+    3050           8 cells          10 contacts    0.010111 hour(s) or 0.606633 minute(s) or 36.397953 second(s)
+ 3050     8 cells      10 cts       0 iterations  residual = 0.000051
+    3060           8 cells          10 contacts    0.010143 hour(s) or 0.608581 minute(s) or 36.514839 second(s)
+ 3060     8 cells      10 cts       0 iterations  residual = 0.000064
+    3070           8 cells          10 contacts    0.010176 hour(s) or 0.610548 minute(s) or 36.632858 second(s)
+ 3070     8 cells      10 cts       0 iterations  residual = 0.000082
+    3080           8 cells          10 contacts    0.010208 hour(s) or 0.612485 minute(s) or 36.749088 second(s)
+ 3080     8 cells      10 cts       0 iterations  residual = 0.000102
+    3090           8 cells          10 contacts    0.010241 hour(s) or 0.614445 minute(s) or 36.866730 second(s)
+ 3090     8 cells      10 cts       0 iterations  residual = 0.000125
+    3100           8 cells          10 contacts    0.010273 hour(s) or 0.616396 minute(s) or 36.983753 second(s)
+ 3100     8 cells      10 cts       0 iterations  residual = 0.000152
+    3110           8 cells          10 contacts    0.010306 hour(s) or 0.618384 minute(s) or 37.103012 second(s)
+ 3110     8 cells      10 cts       0 iterations  residual = 0.000181
+    3120           8 cells          10 contacts    0.010339 hour(s) or 0.620325 minute(s) or 37.219517 second(s)
+ 3120     8 cells      10 cts       1 iterations  residual = 0.000004
+ 3120     8 cells      11 cts       0 iterations  residual = 0.000025
+    3130           8 cells          11 contacts    0.010372 hour(s) or 0.622347 minute(s) or 37.340836 second(s)
+ 3130     8 cells      11 cts       0 iterations  residual = 0.000036
+    3140           8 cells          11 contacts    0.010405 hour(s) or 0.624306 minute(s) or 37.458336 second(s)
+ 3140     8 cells      11 cts       0 iterations  residual = 0.000050
+    3150           8 cells          11 contacts    0.010438 hour(s) or 0.626258 minute(s) or 37.575455 second(s)
+ 3150     8 cells      11 cts       0 iterations  residual = 0.000067
+    3160           8 cells          11 contacts    0.010470 hour(s) or 0.628188 minute(s) or 37.691265 second(s)
+ 3160     8 cells      11 cts       0 iterations  residual = 0.000087
+    3170           8 cells          11 contacts    0.010503 hour(s) or 0.630151 minute(s) or 37.809040 second(s)
+ 3170     8 cells      11 cts       0 iterations  residual = 0.000110
+    3180           8 cells          11 contacts    0.010535 hour(s) or 0.632100 minute(s) or 37.926003 second(s)
+ 3180     8 cells      11 cts       0 iterations  residual = 0.000137
+    3190           8 cells          11 contacts    0.010567 hour(s) or 0.634037 minute(s) or 38.042194 second(s)
+ 3190     8 cells      11 cts       0 iterations  residual = 0.000167
+    3200           8 cells          11 contacts    0.010599 hour(s) or 0.635956 minute(s) or 38.157337 second(s)
+ 3200     8 cells      11 cts       1 iterations  residual = 0.000004
+    3210           8 cells          11 contacts    0.010632 hour(s) or 0.637937 minute(s) or 38.276222 second(s)
+ 3210     8 cells      11 cts       0 iterations  residual = 0.000032
+    3220           8 cells          11 contacts    0.010665 hour(s) or 0.639919 minute(s) or 38.395130 second(s)
+ 3220     8 cells      11 cts       0 iterations  residual = 0.000048
+    3230           8 cells          11 contacts    0.010698 hour(s) or 0.641876 minute(s) or 38.512573 second(s)
+ 3230     8 cells      11 cts       0 iterations  residual = 0.000079
+    3240           8 cells          11 contacts    0.010731 hour(s) or 0.643845 minute(s) or 38.630711 second(s)
+ 3240     8 cells      11 cts       0 iterations  residual = 0.000109
+    3250           8 cells          12 contacts    0.010764 hour(s) or 0.645831 minute(s) or 38.749863 second(s)
+ 3250     8 cells      12 cts       0 iterations  residual = 0.000159
+    3260           8 cells          12 contacts    0.010797 hour(s) or 0.647801 minute(s) or 38.868076 second(s)
+ 3260     8 cells      12 cts       1 iterations  residual = 0.000005
+    3270           8 cells          12 contacts    0.010830 hour(s) or 0.649787 minute(s) or 38.987206 second(s)
+ 3270     8 cells      11 cts       0 iterations  residual = 0.000031
+    3280           8 cells          12 contacts    0.010863 hour(s) or 0.651753 minute(s) or 39.105206 second(s)
+ 3280     8 cells      12 cts       0 iterations  residual = 0.000058
+    3290           8 cells          12 contacts    0.010895 hour(s) or 0.653725 minute(s) or 39.223488 second(s)
+ 3290     8 cells      12 cts       0 iterations  residual = 0.000086
+    3300           8 cells          12 contacts    0.010928 hour(s) or 0.655687 minute(s) or 39.341244 second(s)
+ 3300     8 cells      12 cts       0 iterations  residual = 0.000132
+    3310           8 cells          13 contacts    0.010962 hour(s) or 0.657738 minute(s) or 39.464291 second(s)
+ 3310     8 cells      13 cts       0 iterations  residual = 0.000191
+    3320           8 cells          11 contacts    0.010996 hour(s) or 0.659746 minute(s) or 39.584755 second(s)
+ 3320     8 cells      12 cts       0 iterations  residual = 0.000051
+    3330           8 cells          12 contacts    0.011029 hour(s) or 0.661712 minute(s) or 39.702705 second(s)
+ 3330     8 cells      13 cts       0 iterations  residual = 0.000108
+    3340           8 cells          13 contacts    0.011061 hour(s) or 0.663669 minute(s) or 39.820152 second(s)
+ 3340     8 cells      13 cts       1 iterations  residual = 0.000007
+    3350           8 cells          13 contacts    0.011095 hour(s) or 0.665678 minute(s) or 39.940655 second(s)
+ 3350     8 cells      13 cts       0 iterations  residual = 0.000071
+    3360           8 cells          14 contacts    0.011128 hour(s) or 0.667665 minute(s) or 40.059895 second(s)
+ 3360     8 cells      14 cts       0 iterations  residual = 0.000165
+    3370           8 cells          12 contacts    0.011160 hour(s) or 0.669621 minute(s) or 40.177258 second(s)
+ 3370     8 cells      12 cts       0 iterations  residual = 0.000051
+    3380           8 cells          13 contacts    0.011193 hour(s) or 0.671560 minute(s) or 40.293602 second(s)
+ 3380     8 cells      14 cts       0 iterations  residual = 0.000130
+    3390           8 cells          14 contacts    0.011227 hour(s) or 0.673598 minute(s) or 40.415897 second(s)
+ 3390     8 cells      12 cts       0 iterations  residual = 0.000032
+    3400           8 cells          13 contacts    0.011260 hour(s) or 0.675587 minute(s) or 40.535202 second(s)
+ 3400     8 cells      13 cts       0 iterations  residual = 0.000098
+    3410           8 cells          15 contacts    0.011293 hour(s) or 0.677592 minute(s) or 40.655514 second(s)
+ 3410     8 cells      15 cts       1 iterations  residual = 0.000014
+    3420           8 cells          14 contacts    0.011327 hour(s) or 0.679596 minute(s) or 40.775772 second(s)
+ 3420     8 cells      14 cts       0 iterations  residual = 0.000072
+    3430           8 cells          14 contacts    0.011359 hour(s) or 0.681563 minute(s) or 40.893764 second(s)
+ 3430     8 cells      15 cts       0 iterations  residual = 0.000163
+    3440           8 cells          14 contacts    0.011393 hour(s) or 0.683555 minute(s) or 41.013302 second(s)
+ 3440     8 cells      14 cts       0 iterations  residual = 0.000051
+    3450           8 cells          14 contacts    0.011426 hour(s) or 0.685557 minute(s) or 41.133392 second(s)
+ 3450     8 cells      15 cts       0 iterations  residual = 0.000126
+    3460           8 cells          15 contacts    0.011459 hour(s) or 0.687533 minute(s) or 41.252003 second(s)
+ 3460     8 cells      14 cts       0 iterations  residual = 0.000035
+    3470           8 cells          15 contacts    0.011492 hour(s) or 0.689547 minute(s) or 41.372826 second(s)
+ 3470     8 cells      15 cts       0 iterations  residual = 0.000081
+    3480           8 cells          16 contacts    0.011525 hour(s) or 0.691495 minute(s) or 41.489719 second(s)
+ 3480     8 cells      16 cts       0 iterations  residual = 0.000191
+    3490           8 cells          13 contacts    0.011559 hour(s) or 0.693514 minute(s) or 41.610836 second(s)
+ 3490     8 cells      14 cts       0 iterations  residual = 0.000079
+    3500           8 cells          17 contacts    0.011592 hour(s) or 0.695504 minute(s) or 41.730221 second(s)
+ 3500     8 cells      17 cts       0 iterations  residual = 0.000138
+    3510           8 cells          17 contacts    0.011625 hour(s) or 0.697473 minute(s) or 41.848389 second(s)
+ 3510     8 cells      17 cts       0 iterations  residual = 0.000036
+    3520           8 cells          17 contacts    0.011657 hour(s) or 0.699413 minute(s) or 41.964767 second(s)
+ 3520     8 cells      17 cts       0 iterations  residual = 0.000105
+    3530           8 cells          17 contacts    0.011689 hour(s) or 0.701342 minute(s) or 42.080532 second(s)
+ 3530     8 cells      17 cts       1 iterations  residual = 0.000024
+    3540           8 cells          18 contacts    0.011724 hour(s) or 0.703430 minute(s) or 42.205780 second(s)
+ 3540     8 cells      18 cts       0 iterations  residual = 0.000076
+    3550           8 cells          18 contacts    0.011757 hour(s) or 0.705419 minute(s) or 42.325153 second(s)
+ 3550     8 cells      18 cts       0 iterations  residual = 0.000178
+    3560           8 cells          18 contacts    0.011791 hour(s) or 0.707448 minute(s) or 42.446869 second(s)
+ 3560     8 cells      18 cts       0 iterations  residual = 0.000057
+    3570           8 cells          19 contacts    0.011824 hour(s) or 0.709433 minute(s) or 42.566002 second(s)
+ 3570     8 cells      19 cts       0 iterations  residual = 0.000138
+    3580           8 cells          19 contacts    0.011857 hour(s) or 0.711436 minute(s) or 42.686165 second(s)
+ 3580     8 cells      19 cts       0 iterations  residual = 0.000045
+    3590           8 cells          19 contacts    0.011890 hour(s) or 0.713373 minute(s) or 42.802380 second(s)
+ 3590     8 cells      19 cts       0 iterations  residual = 0.000121
+    3600           8 cells          19 contacts    0.011922 hour(s) or 0.715349 minute(s) or 42.920929 second(s)
+ 3600     8 cells      19 cts       1 iterations  residual = 0.000052
+    3610           8 cells          19 contacts    0.011956 hour(s) or 0.717339 minute(s) or 43.040321 second(s)
+ 3610     8 cells      19 cts       0 iterations  residual = 0.000121
+    3620           8 cells          19 contacts    0.011989 hour(s) or 0.719350 minute(s) or 43.161011 second(s)
+ 3620     8 cells      18 cts       0 iterations  residual = 0.000059
+    3630           8 cells          19 contacts    0.012022 hour(s) or 0.721326 minute(s) or 43.279579 second(s)
+ 3630     8 cells      19 cts       0 iterations  residual = 0.000174
+    3640           8 cells          19 contacts    0.012056 hour(s) or 0.723339 minute(s) or 43.400360 second(s)
+ 3640     8 cells      19 cts       0 iterations  residual = 0.000110
+    3650           8 cells          19 contacts    0.012088 hour(s) or 0.725307 minute(s) or 43.518402 second(s)
+ 3650     8 cells      18 cts       0 iterations  residual = 0.000067
+    3660           8 cells          19 contacts    0.012121 hour(s) or 0.727255 minute(s) or 43.635284 second(s)
+ 3660     8 cells      19 cts       0 iterations  residual = 0.000174
+    3670           8 cells          18 contacts    0.012155 hour(s) or 0.729271 minute(s) or 43.756260 second(s)
+ 3670     8 cells      19 cts       0 iterations  residual = 0.000107
+    3680           8 cells          19 contacts    0.012188 hour(s) or 0.731285 minute(s) or 43.877090 second(s)
+ 3680     8 cells      18 cts       0 iterations  residual = 0.000059
+    3690           8 cells          19 contacts    0.012221 hour(s) or 0.733271 minute(s) or 43.996243 second(s)
+ 3690     8 cells      19 cts       0 iterations  residual = 0.000181
+    3700           8 cells          18 contacts    0.012254 hour(s) or 0.735262 minute(s) or 44.115749 second(s)
+ 3700     8 cells      18 cts       0 iterations  residual = 0.000114
+    3710           8 cells          19 contacts    0.012288 hour(s) or 0.737263 minute(s) or 44.235809 second(s)
+ 3710     8 cells      18 cts       0 iterations  residual = 0.000067
+    3720           8 cells          19 contacts    0.012320 hour(s) or 0.739211 minute(s) or 44.352673 second(s)
+ 3720     8 cells      19 cts       0 iterations  residual = 0.000185
+    3730           8 cells          18 contacts    0.012353 hour(s) or 0.741184 minute(s) or 44.471043 second(s)
+ 3730     8 cells      18 cts       0 iterations  residual = 0.000114
+    3740           8 cells          20 contacts    0.012387 hour(s) or 0.743224 minute(s) or 44.593445 second(s)
+ 3740     8 cells      18 cts       0 iterations  residual = 0.000063
+    3750           8 cells          19 contacts    0.012421 hour(s) or 0.745231 minute(s) or 44.713840 second(s)
+ 3750     8 cells      20 cts       0 iterations  residual = 0.000194
+    3760           8 cells          19 contacts    0.012454 hour(s) or 0.747227 minute(s) or 44.833649 second(s)
+ 3760     8 cells      19 cts       0 iterations  residual = 0.000120
+    3770           8 cells          20 contacts    0.012487 hour(s) or 0.749197 minute(s) or 44.951797 second(s)
+ 3770     8 cells      19 cts       0 iterations  residual = 0.000071
+    3780           8 cells          19 contacts    0.012519 hour(s) or 0.751157 minute(s) or 45.069424 second(s)
+ 3780     8 cells      20 cts       1 iterations  residual = 0.000055
+    3790           8 cells          19 contacts    0.012553 hour(s) or 0.753183 minute(s) or 45.190994 second(s)
+ 3790     8 cells      19 cts       0 iterations  residual = 0.000150
+    3800           8 cells          19 contacts    0.012587 hour(s) or 0.755211 minute(s) or 45.312683 second(s)
+ 3800     8 cells      19 cts       0 iterations  residual = 0.000091
+    3810           8 cells          20 contacts    0.012621 hour(s) or 0.757280 minute(s) or 45.436829 second(s)
+ 3810     8 cells      19 cts       0 iterations  residual = 0.000054
+    3820           8 cells          19 contacts    0.012654 hour(s) or 0.759248 minute(s) or 45.554852 second(s)
+ 3820     8 cells      19 cts       0 iterations  residual = 0.000194
+    3830           8 cells          19 contacts    0.012687 hour(s) or 0.761242 minute(s) or 45.674492 second(s)
+ 3830     8 cells      19 cts       0 iterations  residual = 0.000123
+    3840           8 cells          19 contacts    0.012721 hour(s) or 0.763247 minute(s) or 45.794800 second(s)
+ 3840     8 cells      19 cts       0 iterations  residual = 0.000086
+    3850           8 cells          19 contacts    0.012754 hour(s) or 0.765233 minute(s) or 45.913971 second(s)
+ 3850     8 cells      20 cts       1 iterations  residual = 0.000054
+    3860           8 cells          19 contacts    0.012787 hour(s) or 0.767226 minute(s) or 46.033569 second(s)
+ 3860     8 cells      19 cts       0 iterations  residual = 0.000179
+    3870           8 cells          19 contacts    0.012821 hour(s) or 0.769252 minute(s) or 46.155109 second(s)
+ 3870     8 cells      19 cts       0 iterations  residual = 0.000119
+    3880           8 cells          19 contacts    0.012855 hour(s) or 0.771293 minute(s) or 46.277584 second(s)
+ 3880     8 cells      19 cts       0 iterations  residual = 0.000076
+    3890           8 cells          19 contacts    0.012887 hour(s) or 0.773240 minute(s) or 46.394390 second(s)
+ 3890     8 cells      19 cts       1 iterations  residual = 0.000045
+ 3890     8 cells      20 cts       0 iterations  residual = 0.000057
+    3900           8 cells          19 contacts    0.012921 hour(s) or 0.775278 minute(s) or 46.516693 second(s)
+ 3900     8 cells      19 cts       0 iterations  residual = 0.000158
+    3910           8 cells          19 contacts    0.012955 hour(s) or 0.777307 minute(s) or 46.638416 second(s)
+ 3910     8 cells      19 cts       0 iterations  residual = 0.000114
+    3920           8 cells          18 contacts    0.012989 hour(s) or 0.779313 minute(s) or 46.758797 second(s)
+ 3920     8 cells      18 cts       0 iterations  residual = 0.000074
+    3930           8 cells          19 contacts    0.013022 hour(s) or 0.781302 minute(s) or 46.878094 second(s)
+ 3930     8 cells      20 cts       1 iterations  residual = 0.000043
+    3940           8 cells          19 contacts    0.013056 hour(s) or 0.783358 minute(s) or 47.001472 second(s)
+ 3940     8 cells      19 cts       0 iterations  residual = 0.000160
+    3950           8 cells          19 contacts    0.013090 hour(s) or 0.785400 minute(s) or 47.124023 second(s)
+ 3950     8 cells      19 cts       0 iterations  residual = 0.000113
+    3960           8 cells          20 contacts    0.013125 hour(s) or 0.787476 minute(s) or 47.248547 second(s)
+ 3960     8 cells      19 cts       0 iterations  residual = 0.000068
+    3970           8 cells          19 contacts    0.013157 hour(s) or 0.789449 minute(s) or 47.366966 second(s)
+ 3970     8 cells      19 cts       1 iterations  residual = 0.000042
+ 3970     8 cells      20 cts       0 iterations  residual = 0.000050
+    3980           8 cells          18 contacts    0.013191 hour(s) or 0.791477 minute(s) or 47.488605 second(s)
+ 3980     8 cells      19 cts       0 iterations  residual = 0.000153
+    3990           8 cells          18 contacts    0.013225 hour(s) or 0.793494 minute(s) or 47.609612 second(s)
+ 3990     8 cells      18 cts       0 iterations  residual = 0.000102
+    4000           8 cells          20 contacts    0.013258 hour(s) or 0.795492 minute(s) or 47.729511 second(s)
+ 4000     8 cells      18 cts       0 iterations  residual = 0.000071
+    4010           8 cells          19 contacts    0.013291 hour(s) or 0.797463 minute(s) or 47.847809 second(s)
+ 4010     8 cells      20 cts       1 iterations  residual = 0.000041
+    4020           8 cells          19 contacts    0.013325 hour(s) or 0.799488 minute(s) or 47.969292 second(s)
+ 4020     8 cells      19 cts       0 iterations  residual = 0.000196
+    4030           8 cells          19 contacts    0.013394 hour(s) or 0.803670 minute(s) or 48.220173 second(s)
+ 4030     8 cells      19 cts       0 iterations  residual = 0.000157
+    4040           8 cells          19 contacts    0.013429 hour(s) or 0.805720 minute(s) or 48.343201 second(s)
+ 4040     8 cells      19 cts       0 iterations  residual = 0.000125
+    4050           8 cells          19 contacts    0.013463 hour(s) or 0.807797 minute(s) or 48.467827 second(s)
+ 4050     8 cells      19 cts       0 iterations  residual = 0.000095
+    4060           8 cells          20 contacts    0.013498 hour(s) or 0.809855 minute(s) or 48.591309 second(s)
+ 4060     8 cells      19 cts       0 iterations  residual = 0.000071
+    4070           8 cells          18 contacts    0.013531 hour(s) or 0.811889 minute(s) or 48.713364 second(s)
+ 4070     8 cells      20 cts       1 iterations  residual = 0.000050
+    4080           8 cells          18 contacts    0.013566 hour(s) or 0.813960 minute(s) or 48.837616 second(s)
+ 4080     8 cells      19 cts       0 iterations  residual = 0.000190
+    4090           8 cells          18 contacts    0.013601 hour(s) or 0.816032 minute(s) or 48.961914 second(s)
+ 4090     8 cells      19 cts       0 iterations  residual = 0.000151
+    4100           9 cells          19 contacts    0.013635 hour(s) or 0.818076 minute(s) or 49.084549 second(s)
+ 4100     9 cells      20 cts       0 iterations  residual = 0.000123
+    4110           9 cells          19 contacts    0.013669 hour(s) or 0.820134 minute(s) or 49.208065 second(s)
+ 4110     9 cells      20 cts       0 iterations  residual = 0.000102
+    4120           9 cells          20 contacts    0.013703 hour(s) or 0.822208 minute(s) or 49.332481 second(s)
+ 4120     9 cells      20 cts       0 iterations  residual = 0.000084
+    4130           9 cells          20 contacts    0.013739 hour(s) or 0.824319 minute(s) or 49.459156 second(s)
+ 4130     9 cells      19 cts       0 iterations  residual = 0.000085
+    4140           9 cells          20 contacts    0.013773 hour(s) or 0.826375 minute(s) or 49.582478 second(s)
+ 4140     9 cells      19 cts       0 iterations  residual = 0.000088
+    4150           9 cells          20 contacts    0.013807 hour(s) or 0.828439 minute(s) or 49.706326 second(s)
+ 4150     9 cells      19 cts       0 iterations  residual = 0.000089
+    4160           9 cells          20 contacts    0.013842 hour(s) or 0.830501 minute(s) or 49.830059 second(s)
+ 4160     9 cells      19 cts       0 iterations  residual = 0.000085
+    4170           9 cells          20 contacts    0.013876 hour(s) or 0.832570 minute(s) or 49.954174 second(s)
+ 4170     9 cells      19 cts       0 iterations  residual = 0.000083
+    4180           9 cells          20 contacts    0.013911 hour(s) or 0.834637 minute(s) or 50.078239 second(s)
+ 4180     9 cells      19 cts       0 iterations  residual = 0.000082
+    4190           9 cells          20 contacts    0.013945 hour(s) or 0.836696 minute(s) or 50.201771 second(s)
+ 4190     9 cells      19 cts       0 iterations  residual = 0.000082
+    4200           9 cells          20 contacts    0.013979 hour(s) or 0.838759 minute(s) or 50.325523 second(s)
+ 4200     9 cells      19 cts       0 iterations  residual = 0.000083
+    4210          10 cells          18 contacts    0.014013 hour(s) or 0.840785 minute(s) or 50.447071 second(s)
+ 4210    10 cells      18 cts       0 iterations  residual = 0.000208
+    4220          10 cells          16 contacts    0.014048 hour(s) or 0.842883 minute(s) or 50.572968 second(s)
+ 4220    10 cells      16 cts       0 iterations  residual = 0.000126
+    4230          10 cells          17 contacts    0.014082 hour(s) or 0.844908 minute(s) or 50.694462 second(s)
+ 4230    10 cells      17 cts       1 iterations  residual = 0.000064
+    4240          10 cells          16 contacts    0.014115 hour(s) or 0.846927 minute(s) or 50.815632 second(s)
+ 4240    10 cells      17 cts       0 iterations  residual = 0.000189
+    4250          10 cells          14 contacts    0.014149 hour(s) or 0.848947 minute(s) or 50.936829 second(s)
+ 4250    10 cells      16 cts       0 iterations  residual = 0.000128
+    4260          10 cells          17 contacts    0.014182 hour(s) or 0.850935 minute(s) or 51.056103 second(s)
+ 4260    10 cells      17 cts       1 iterations  residual = 0.000063
+    4270          10 cells          17 contacts    0.014216 hour(s) or 0.852987 minute(s) or 51.179211 second(s)
+ 4270    10 cells      17 cts       0 iterations  residual = 0.000222
+    4280          11 cells          18 contacts    0.014251 hour(s) or 0.855051 minute(s) or 51.303047 second(s)
+ 4280    11 cells      18 cts       0 iterations  residual = 0.000182
+    4290          11 cells          18 contacts    0.014285 hour(s) or 0.857102 minute(s) or 51.426144 second(s)
+ 4290    11 cells      16 cts       0 iterations  residual = 0.000141
+    4300          11 cells          17 contacts    0.014319 hour(s) or 0.859122 minute(s) or 51.547291 second(s)
+ 4300    11 cells      18 cts       0 iterations  residual = 0.000272
+    4310          11 cells          17 contacts    0.014353 hour(s) or 0.861173 minute(s) or 51.670376 second(s)
+ 4310    11 cells      17 cts       0 iterations  residual = 0.000185
+    4320          11 cells          18 contacts    0.014387 hour(s) or 0.863221 minute(s) or 51.793236 second(s)
+ 4320    11 cells      16 cts       0 iterations  residual = 0.000115
+    4330          11 cells          18 contacts    0.014421 hour(s) or 0.865243 minute(s) or 51.914574 second(s)
+ 4330    11 cells      18 cts       1 iterations  residual = 0.000059
+    4340          11 cells          17 contacts    0.014455 hour(s) or 0.867280 minute(s) or 52.036785 second(s)
+ 4340    11 cells      17 cts       0 iterations  residual = 0.000219
+    4350          11 cells          16 contacts    0.014489 hour(s) or 0.869361 minute(s) or 52.161690 second(s)
+ 4350    11 cells      18 cts       0 iterations  residual = 0.000163
+    4360          11 cells          18 contacts    0.014525 hour(s) or 0.871474 minute(s) or 52.288441 second(s)
+ 4360    11 cells      16 cts       0 iterations  residual = 0.000123
+    4370          11 cells          20 contacts    0.014558 hour(s) or 0.873508 minute(s) or 52.410458 second(s)
+ 4370    11 cells      20 cts       1 iterations  residual = 0.000068
+    4380          11 cells          19 contacts    0.014602 hour(s) or 0.876121 minute(s) or 52.567287 second(s)
+ 4380    11 cells      19 cts       0 iterations  residual = 0.000260
+    4390          12 cells          17 contacts    0.014638 hour(s) or 0.878274 minute(s) or 52.696419 second(s)
+ 4390    12 cells      17 cts       0 iterations  residual = 0.000227
+    4400          12 cells          19 contacts    0.014677 hour(s) or 0.880621 minute(s) or 52.837238 second(s)
+ 4400    12 cells      15 cts       0 iterations  residual = 0.000121
+    4410          12 cells          17 contacts    0.014712 hour(s) or 0.882749 minute(s) or 52.964912 second(s)
+ 4410    12 cells      18 cts       0 iterations  residual = 0.000244
+    4420          12 cells          14 contacts    0.014748 hour(s) or 0.884895 minute(s) or 53.093712 second(s)
+ 4420    12 cells      17 cts       0 iterations  residual = 0.000136
+    4430          12 cells          17 contacts    0.014806 hour(s) or 0.888365 minute(s) or 53.301922 second(s)
+ 4430    12 cells      17 cts       1 iterations  residual = 0.000026
+ 4430    12 cells      19 cts       0 iterations  residual = 0.000077
+    4440          12 cells          17 contacts    0.014864 hour(s) or 0.891822 minute(s) or 53.509296 second(s)
+ 4440    12 cells      17 cts       0 iterations  residual = 0.000195
+    4450          12 cells          18 contacts    0.014961 hour(s) or 0.897677 minute(s) or 53.860634 second(s)
+ 4450    12 cells      16 cts       0 iterations  residual = 0.000120
+    4460          12 cells          18 contacts    0.014997 hour(s) or 0.899793 minute(s) or 53.987598 second(s)
+ 4460    12 cells      18 cts       0 iterations  residual = 0.000251
+    4470          12 cells          16 contacts    0.015032 hour(s) or 0.901931 minute(s) or 54.115852 second(s)
+ 4470    12 cells      17 cts       0 iterations  residual = 0.000162
+    4480          12 cells          19 contacts    0.015067 hour(s) or 0.904021 minute(s) or 54.241241 second(s)
+ 4480    12 cells      19 cts       1 iterations  residual = 0.000030
+ 4480    12 cells      20 cts       0 iterations  residual = 0.000129
+    4490          12 cells          17 contacts    0.015102 hour(s) or 0.906136 minute(s) or 54.368141 second(s)
+ 4490    12 cells      18 cts       0 iterations  residual = 0.000221
+    4500          12 cells          16 contacts    0.015137 hour(s) or 0.908212 minute(s) or 54.492744 second(s)
+ 4500    12 cells      17 cts       0 iterations  residual = 0.000144
+    4510          12 cells          19 contacts    0.015171 hour(s) or 0.910256 minute(s) or 54.615368 second(s)
+ 4510    12 cells      19 cts       1 iterations  residual = 0.000070
+ 4510    12 cells      20 cts       0 iterations  residual = 0.000100
+    4520          12 cells          18 contacts    0.015207 hour(s) or 0.912416 minute(s) or 54.744965 second(s)
+ 4520    12 cells      20 cts       0 iterations  residual = 0.000207
+    4530          13 cells          15 contacts    0.015243 hour(s) or 0.914552 minute(s) or 54.873096 second(s)
+ 4530    13 cells      17 cts       0 iterations  residual = 0.000145
+    4540          13 cells          20 contacts    0.015277 hour(s) or 0.916631 minute(s) or 54.997852 second(s)
+ 4540    13 cells      20 cts       1 iterations  residual = 0.000015
+    4550          13 cells          21 contacts    0.015313 hour(s) or 0.918784 minute(s) or 55.127022 second(s)
+ 4550    13 cells      21 cts       0 iterations  residual = 0.000247
+    4560          13 cells          17 contacts    0.015348 hour(s) or 0.920890 minute(s) or 55.253407 second(s)
+ 4560    13 cells      18 cts       0 iterations  residual = 0.000158
+    4570          14 cells          20 contacts    0.015383 hour(s) or 0.922991 minute(s) or 55.379475 second(s)
+ 4570    14 cells      21 cts       0 iterations  residual = 0.000341
+    4580          14 cells          18 contacts    0.015419 hour(s) or 0.925165 minute(s) or 55.509922 second(s)
+ 4580    14 cells      18 cts       0 iterations  residual = 0.000189
+    4590          14 cells          22 contacts    0.015455 hour(s) or 0.927314 minute(s) or 55.638832 second(s)
+ 4590    14 cells      22 cts       1 iterations  residual = 0.000044
+    4600          14 cells          22 contacts    0.015491 hour(s) or 0.929452 minute(s) or 55.767120 second(s)
+ 4600    14 cells      22 cts       0 iterations  residual = 0.000243
+    4610          14 cells          22 contacts    0.015527 hour(s) or 0.931610 minute(s) or 55.896606 second(s)
+ 4610    14 cells      17 cts       0 iterations  residual = 0.000153
+    4620          14 cells          20 contacts    0.015562 hour(s) or 0.933721 minute(s) or 56.023285 second(s)
+ 4620    14 cells      21 cts       0 iterations  residual = 0.000308
+    4630          14 cells          18 contacts    0.015598 hour(s) or 0.935858 minute(s) or 56.151508 second(s)
+ 4630    14 cells      18 cts       0 iterations  residual = 0.000201
+    4640          14 cells          24 contacts    0.015635 hour(s) or 0.938073 minute(s) or 56.284374 second(s)
+ 4640    14 cells      17 cts       0 iterations  residual = 0.000129
+ 4640    14 cells      18 cts       0 iterations  residual = 0.000152
+    4650          14 cells          24 contacts    0.015676 hour(s) or 0.940575 minute(s) or 56.434494 second(s)
+ 4650    14 cells      23 cts       0 iterations  residual = 0.000319
+ 4650    14 cells      24 cts       0 iterations  residual = 0.000340
+    4660          14 cells          23 contacts    0.015718 hour(s) or 0.943105 minute(s) or 56.586311 second(s)
+ 4660    14 cells      23 cts       0 iterations  residual = 0.000224
+ 4660    14 cells      24 cts       0 iterations  residual = 0.000241
+    4670          14 cells          20 contacts    0.015762 hour(s) or 0.945709 minute(s) or 56.742512 second(s)
+ 4670    14 cells      21 cts       0 iterations  residual = 0.000170
+ 4670    14 cells      22 cts       0 iterations  residual = 0.000168
+    4680          14 cells          23 contacts    0.015803 hour(s) or 0.948208 minute(s) or 56.892452 second(s)
+ 4680    14 cells      23 cts       1 iterations  residual = 0.000064
+ 4680    14 cells      24 cts       0 iterations  residual = 0.000126
+    4690          14 cells          22 contacts    0.015846 hour(s) or 0.950732 minute(s) or 57.043930 second(s)
+ 4690    14 cells      21 cts       0 iterations  residual = 0.000296
+ 4690    14 cells      22 cts       0 iterations  residual = 0.000300
+    4700          14 cells          21 contacts    0.015888 hour(s) or 0.953261 minute(s) or 57.195633 second(s)
+ 4700    14 cells      21 cts       0 iterations  residual = 0.000244
+ 4700    14 cells      22 cts       0 iterations  residual = 0.000248
+    4710          14 cells          18 contacts    0.015930 hour(s) or 0.955797 minute(s) or 57.347824 second(s)
+ 4710    15 cells      21 cts       0 iterations  residual = 0.000244
+ 4710    15 cells      22 cts       0 iterations  residual = 0.000248
+    4720          15 cells          25 contacts    0.015972 hour(s) or 0.958322 minute(s) or 57.499344 second(s)
+ 4720    15 cells      24 cts       0 iterations  residual = 0.000301
+ 4720    15 cells      25 cts       0 iterations  residual = 0.000305
+    4730          16 cells          23 contacts    0.016012 hour(s) or 0.960715 minute(s) or 57.642895 second(s)
+ 4730    16 cells      23 cts       0 iterations  residual = 0.000381
+    4740          16 cells          23 contacts    0.016048 hour(s) or 0.962878 minute(s) or 57.772678 second(s)
+ 4740    16 cells      23 cts       0 iterations  residual = 0.000365
+    4750          16 cells          23 contacts    0.016084 hour(s) or 0.965038 minute(s) or 57.902283 second(s)
+ 4750    16 cells      24 cts       0 iterations  residual = 0.000367
+    4760          16 cells          25 contacts    0.016121 hour(s) or 0.967245 minute(s) or 58.034695 second(s)
+ 4760    16 cells      25 cts       0 iterations  residual = 0.000389
+    4770          16 cells          25 contacts    0.016157 hour(s) or 0.969421 minute(s) or 58.165253 second(s)
+ 4770    16 cells      25 cts       1 iterations  residual = 0.000036
+    4780          16 cells          25 contacts    0.016193 hour(s) or 0.971588 minute(s) or 58.295284 second(s)
+ 4780    16 cells      25 cts       1 iterations  residual = 0.000026
+    4790          16 cells          25 contacts    0.016230 hour(s) or 0.973781 minute(s) or 58.426872 second(s)
+ 4790    16 cells      21 cts       0 iterations  residual = 0.000146
+    4800          16 cells          21 contacts    0.016266 hour(s) or 0.975940 minute(s) or 58.556427 second(s)
+ 4800    16 cells      22 cts       0 iterations  residual = 0.000161
+    4810          16 cells          21 contacts    0.016302 hour(s) or 0.978135 minute(s) or 58.688118 second(s)
+ 4810    16 cells      22 cts       0 iterations  residual = 0.000170
+    4820          16 cells          22 contacts    0.016338 hour(s) or 0.980306 minute(s) or 58.818340 second(s)
+ 4820    16 cells      23 cts       0 iterations  residual = 0.000186
+    4830          16 cells          23 contacts    0.016375 hour(s) or 0.982477 minute(s) or 58.948605 second(s)
+ 4830    16 cells      23 cts       0 iterations  residual = 0.000209
+    4840          16 cells          23 contacts    0.016411 hour(s) or 0.984645 minute(s) or 59.078724 second(s)
+ 4840    16 cells      23 cts       0 iterations  residual = 0.000221
+    4850          16 cells          23 contacts    0.016447 hour(s) or 0.986811 minute(s) or 59.208637 second(s)
+ 4850    16 cells      24 cts       0 iterations  residual = 0.000243
+    4860          16 cells          23 contacts    0.016483 hour(s) or 0.989003 minute(s) or 59.340172 second(s)
+ 4860    16 cells      23 cts       0 iterations  residual = 0.000272
+    4870          16 cells          23 contacts    0.016519 hour(s) or 0.991166 minute(s) or 59.469967 second(s)
+ 4870    16 cells      23 cts       0 iterations  residual = 0.000289
+    4880          16 cells          24 contacts    0.016556 hour(s) or 0.993377 minute(s) or 59.602634 second(s)
+ 4880    16 cells      25 cts       0 iterations  residual = 0.000313
+    4890          16 cells          25 contacts    0.016593 hour(s) or 0.995574 minute(s) or 59.734455 second(s)
+ 4890    16 cells      26 cts       0 iterations  residual = 0.000358
+    4900          16 cells          26 contacts    0.016629 hour(s) or 0.997746 minute(s) or 59.864735 second(s)
+ 4900    16 cells      27 cts       1 iterations  residual = 0.000036
+    4910          16 cells          26 contacts    0.016666 hour(s) or 0.999943 minute(s) or 59.996571 second(s)
+ 4910    16 cells      24 cts       0 iterations  residual = 0.000140
+    4920          16 cells          25 contacts    0.016702 hour(s) or 1.002147 minute(s) or 60.128792 second(s)
+ 4920    16 cells      26 cts       0 iterations  residual = 0.000169
+    4930          16 cells          26 contacts    0.016739 hour(s) or 1.004314 minute(s) or 60.258812 second(s)
+ 4930    16 cells      26 cts       0 iterations  residual = 0.000201
+    4940          16 cells          26 contacts    0.016775 hour(s) or 1.006479 minute(s) or 60.388760 second(s)
+ 4940    16 cells      26 cts       0 iterations  residual = 0.000238
+    4950          16 cells          26 contacts    0.016811 hour(s) or 1.008652 minute(s) or 60.519135 second(s)
+ 4950    16 cells      26 cts       0 iterations  residual = 0.000295
+    4960          16 cells          26 contacts    0.016847 hour(s) or 1.010820 minute(s) or 60.649223 second(s)
+ 4960    16 cells      26 cts       0 iterations  residual = 0.000353
+    4970          16 cells          26 contacts    0.016883 hour(s) or 1.012993 minute(s) or 60.779610 second(s)
+ 4970    16 cells      26 cts       1 iterations  residual = 0.000039
+    4980          16 cells          26 contacts    0.016920 hour(s) or 1.015204 minute(s) or 60.912270 second(s)
+ 4980    16 cells      25 cts       0 iterations  residual = 0.000141
+    4990          16 cells          25 contacts    0.016956 hour(s) or 1.017377 minute(s) or 61.042641 second(s)
+ 4990    16 cells      26 cts       0 iterations  residual = 0.000175
+    5000          16 cells          26 contacts    0.016993 hour(s) or 1.019552 minute(s) or 61.173111 second(s)
+ 5000    16 cells      26 cts       0 iterations  residual = 0.000219
+    5010          16 cells          26 contacts    0.017029 hour(s) or 1.021723 minute(s) or 61.303364 second(s)
+ 5010    16 cells      26 cts       0 iterations  residual = 0.000273
+    5020          16 cells          26 contacts    0.017065 hour(s) or 1.023912 minute(s) or 61.434731 second(s)
+ 5020    16 cells      26 cts       0 iterations  residual = 0.000343
+    5030          16 cells          26 contacts    0.017101 hour(s) or 1.026086 minute(s) or 61.565147 second(s)
+ 5030    16 cells      26 cts       1 iterations  residual = 0.000028
+    5040          16 cells          26 contacts    0.017138 hour(s) or 1.028290 minute(s) or 61.697422 second(s)
+ 5040    16 cells      25 cts       0 iterations  residual = 0.000153
+    5050          16 cells          25 contacts    0.017174 hour(s) or 1.030462 minute(s) or 61.827698 second(s)
+ 5050    16 cells      26 cts       0 iterations  residual = 0.000191
+    5060          16 cells          26 contacts    0.017210 hour(s) or 1.032628 minute(s) or 61.957703 second(s)
+ 5060    16 cells      26 cts       0 iterations  residual = 0.000267
+    5070          16 cells          26 contacts    0.017247 hour(s) or 1.034804 minute(s) or 62.088238 second(s)
+ 5070    16 cells      26 cts       0 iterations  residual = 0.000349
+    5080          16 cells          25 contacts    0.017283 hour(s) or 1.037007 minute(s) or 62.220406 second(s)
+ 5080    16 cells      24 cts       0 iterations  residual = 0.000124
+    5090          16 cells          23 contacts    0.017320 hour(s) or 1.039179 minute(s) or 62.350739 second(s)
+ 5090    16 cells      24 cts       0 iterations  residual = 0.000170
+    5100          16 cells          25 contacts    0.017366 hour(s) or 1.041945 minute(s) or 62.516693 second(s)
+ 5100    16 cells      26 cts       0 iterations  residual = 0.000221
+    5110          16 cells          26 contacts    0.017402 hour(s) or 1.044115 minute(s) or 62.646881 second(s)
+ 5110    16 cells      26 cts       0 iterations  residual = 0.000307
+    5120          16 cells          26 contacts    0.017439 hour(s) or 1.046313 minute(s) or 62.778793 second(s)
+ 5120    16 cells      26 cts       1 iterations  residual = 0.000070
+ 5120    16 cells      27 cts       0 iterations  residual = 0.000110
+    5130          16 cells          25 contacts    0.017476 hour(s) or 1.048566 minute(s) or 62.913956 second(s)
+ 5130    16 cells      25 cts       0 iterations  residual = 0.000171
+    5140          16 cells          25 contacts    0.017513 hour(s) or 1.050751 minute(s) or 63.045078 second(s)
+ 5140    16 cells      26 cts       0 iterations  residual = 0.000266
+    5150          16 cells          26 contacts    0.017549 hour(s) or 1.052943 minute(s) or 63.176571 second(s)
+ 5150    16 cells      26 cts       1 iterations  residual = 0.000111
+    5160          16 cells          22 contacts    0.017586 hour(s) or 1.055177 minute(s) or 63.310596 second(s)
+ 5160    16 cells      24 cts       0 iterations  residual = 0.000243
+    5170          16 cells          25 contacts    0.017623 hour(s) or 1.057386 minute(s) or 63.443157 second(s)
+ 5170    16 cells      25 cts       0 iterations  residual = 0.000385
+    5180          16 cells          23 contacts    0.017660 hour(s) or 1.059591 minute(s) or 63.575466 second(s)
+ 5180    16 cells      25 cts       0 iterations  residual = 0.000230

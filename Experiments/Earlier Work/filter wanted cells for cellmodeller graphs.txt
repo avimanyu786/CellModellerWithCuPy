@@ -1,0 +1,3 @@
+Select entire column that has residual
+Data>AutoFilter>Yes
+Uncheck residual
