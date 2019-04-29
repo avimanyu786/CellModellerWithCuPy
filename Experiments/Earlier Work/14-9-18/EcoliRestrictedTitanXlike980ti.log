@@ -1,0 +1,729 @@
+iborg@iborg-desktop:~/PycharmProjects/CellModeller$ cmgui Ecoli.py
+Set up OpenCL context:
+  Platform: NVIDIA CUDA
+  Device: GeForce GTX TITAN X
+Importing model Ecoli
+    0     1 cells       2 cts       1 iterations  residual = 0.000000
+      10           6 cells          13 contacts    0.004275 hour(s) or 0.256505 minute(s) or 15.390329 second(s)
+   10     8 cells      12 cts       6 iterations  residual = 0.000031
+   10     8 cells      14 cts       3 iterations  residual = 0.000089
+      20          27 cells          68 contacts    0.004404 hour(s) or 0.264222 minute(s) or 15.853344 second(s)
+   20    32 cells      69 cts      10 iterations  residual = 0.000719
+   20    32 cells      79 cts       7 iterations  residual = 0.000675
+   20    32 cells      81 cts       3 iterations  residual = 0.000617
+      30         107 cells         340 contacts    0.004643 hour(s) or 0.278605 minute(s) or 16.716270 second(s)
+   30   120 cells     341 cts      18 iterations  residual = 0.002227
+   30   120 cells     388 cts      11 iterations  residual = 0.002467
+   30   120 cells     396 cts       8 iterations  residual = 0.002134
+   30   120 cells     398 cts       3 iterations  residual = 0.002797
+   30   120 cells     400 cts       2 iterations  residual = 0.001980
+   30   120 cells     401 cts       2 iterations  residual = 0.001761
+      40         358 cells        1376 contacts    0.005199 hour(s) or 0.311950 minute(s) or 18.717012 second(s)
+   40   397 cells    1370 cts      21 iterations  residual = 0.008542
+   40   397 cells    1514 cts      17 iterations  residual = 0.007875
+   40   397 cells    1546 cts      12 iterations  residual = 0.007932
+   40   397 cells    1563 cts       9 iterations  residual = 0.007180
+   40   397 cells    1571 cts       7 iterations  residual = 0.009822
+   40   397 cells    1575 cts       5 iterations  residual = 0.009349
+   40   397 cells    1578 cts       3 iterations  residual = 0.007206
+      50         980 cells        4368 contacts    0.006214 hour(s) or 0.372821 minute(s) or 22.369257 second(s)
+   50  1077 cells    4316 cts      26 iterations  residual = 0.022500
+   50  1077 cells    4703 cts      20 iterations  residual = 0.020339
+   50  1077 cells    4764 cts      15 iterations  residual = 0.019348
+   50  1077 cells    4787 cts      12 iterations  residual = 0.020025
+   50  1077 cells    4804 cts      10 iterations  residual = 0.023634
+   50  1077 cells    4813 cts       7 iterations  residual = 0.025391
+   50  1077 cells    4819 cts       5 iterations  residual = 0.026430
+      60        2294 cells       11163 contacts    0.008010 hour(s) or 0.480597 minute(s) or 28.835794 second(s)
+   60  2463 cells   10984 cts      27 iterations  residual = 0.052243
+   60  2463 cells   11803 cts      22 iterations  residual = 0.045582
+   60  2463 cells   11954 cts      17 iterations  residual = 0.048017
+   60  2463 cells   12035 cts      14 iterations  residual = 0.050416
+   60  2463 cells   12060 cts      12 iterations  residual = 0.061113
+   60  2463 cells   12079 cts      12 iterations  residual = 0.044335
+   60  2463 cells   12090 cts       9 iterations  residual = 0.060415
+      70        4602 cells       23896 contacts    0.011056 hour(s) or 0.663385 minute(s) or 39.803078 second(s)
+   70  4921 cells   23539 cts      31 iterations  residual = 0.103864
+   70  4921 cells   25077 cts      24 iterations  residual = 0.102399
+   70  4921 cells   25386 cts      19 iterations  residual = 0.099755
+   70  4921 cells   25513 cts      17 iterations  residual = 0.092029
+   70  4921 cells   25586 cts      15 iterations  residual = 0.110512
+   70  4921 cells   25636 cts      14 iterations  residual = 0.114791
+   70  4921 cells   25666 cts      12 iterations  residual = 0.115814
+      80        7992 cells       43765 contacts    0.016177 hour(s) or 0.970597 minute(s) or 58.235806 second(s)
+   80  8435 cells   42861 cts      30 iterations  residual = 0.167926
+   80  8435 cells   45252 cts      24 iterations  residual = 0.181070
+   80  8435 cells   45724 cts      19 iterations  residual = 0.183156
+   80  8435 cells   45900 cts      17 iterations  residual = 0.186709
+   80  8435 cells   46007 cts      15 iterations  residual = 0.200670
+   80  8435 cells   46077 cts      14 iterations  residual = 0.207976
+   80  8435 cells   46136 cts      14 iterations  residual = 0.187494
+      90       12305 cells       70389 contacts    0.023777 hour(s) or 1.426615 minute(s) or 85.596886 second(s)
+   90 12731 cells   68599 cts      32 iterations  residual = 0.299911
+   90 12731 cells   71805 cts      25 iterations  residual = 0.315324
+   90 12731 cells   72419 cts      20 iterations  residual = 0.274626
+   90 12731 cells   72665 cts      18 iterations  residual = 0.269072
+   90 12731 cells   72796 cts      17 iterations  residual = 0.294869
+   90 12731 cells   72874 cts      16 iterations  residual = 0.302844
+   90 12731 cells   72945 cts      16 iterations  residual = 0.285539
+     100       16641 cells       98702 contacts    0.033675 hour(s) or 2.020504 minute(s) or 121.230225 second(s)
+  100 17052 cells   96187 cts      33 iterations  residual = 0.398578
+  100 17052 cells   100120 cts      25 iterations  residual = 0.400973
+  100 17052 cells   100845 cts      21 iterations  residual = 0.391344
+  100 17052 cells   101193 cts      20 iterations  residual = 0.341316
+  100 17052 cells   101371 cts      18 iterations  residual = 0.394527
+  100 17052 cells   101489 cts      18 iterations  residual = 0.381940
+  100 17052 cells   101568 cts      17 iterations  residual = 0.396286
+     110       20746 cells      125863 contacts    0.046683 hour(s) or 2.800975 minute(s) or 168.058472 second(s)
+  110 21144 cells   122194 cts      33 iterations  residual = 0.469394
+  110 21144 cells   126757 cts      26 iterations  residual = 0.510631
+  110 21144 cells   127665 cts      21 iterations  residual = 0.483154
+  110 21144 cells   128057 cts      19 iterations  residual = 0.506289
+  110 21144 cells   128244 cts      19 iterations  residual = 0.421133
+  110 21144 cells   128383 cts      18 iterations  residual = 0.469177
+  110 21144 cells   128471 cts      17 iterations  residual = 0.521549
+     120       24694 cells      152139 contacts    0.062707 hour(s) or 3.762394 minute(s) or 225.743668 second(s)
+  120 25085 cells   147685 cts      32 iterations  residual = 0.611032
+  120 25085 cells   152834 cts      25 iterations  residual = 0.618256
+  120 25085 cells   153846 cts      21 iterations  residual = 0.594638
+  120 25085 cells   154250 cts      19 iterations  residual = 0.616084
+  120 25085 cells   154458 cts      19 iterations  residual = 0.500809
+  120 25085 cells   154611 cts      18 iterations  residual = 0.562544
+  120 25085 cells   154707 cts      18 iterations  residual = 0.584401
+     130       28611 cells      178111 contacts    0.082601 hour(s) or 4.956038 minute(s) or 297.362274 second(s)
+  130 28987 cells   172519 cts      32 iterations  residual = 0.695913
+  130 28987 cells   178264 cts      26 iterations  residual = 0.637848
+  130 28987 cells   179360 cts      21 iterations  residual = 0.716480
+  130 28987 cells   179889 cts      20 iterations  residual = 0.625774
+  130 28987 cells   180122 cts      19 iterations  residual = 0.631022
+  130 28987 cells   180278 cts      19 iterations  residual = 0.571864
+  130 28987 cells   180400 cts      18 iterations  residual = 0.676903
+     140       32519 cells      203946 contacts    0.105032 hour(s) or 6.301943 minute(s) or 378.116608 second(s)
+  140 32894 cells   197526 cts      32 iterations  residual = 0.743078
+  140 32894 cells   203907 cts      26 iterations  residual = 0.748936
+  140 32894 cells   205200 cts      22 iterations  residual = 0.691655
+  140 32894 cells   205739 cts      20 iterations  residual = 0.699289
+  140 32894 cells   206024 cts      19 iterations  residual = 0.817375
+  140 32894 cells   206197 cts      19 iterations  residual = 0.710431
+  140 32894 cells   206303 cts      19 iterations  residual = 0.685293
+     150       36408 cells      229435 contacts    0.133259 hour(s) or 7.995522 minute(s) or 479.731323 second(s)
+  150 36817 cells   222040 cts      33 iterations  residual = 0.818065
+  150 36817 cells   229019 cts      26 iterations  residual = 0.823062
+  150 36817 cells   230495 cts      22 iterations  residual = 0.753919
+  150 36817 cells   231145 cts      20 iterations  residual = 0.777270
+  150 36817 cells   231457 cts      19 iterations  residual = 0.876067
+  150 36817 cells   231692 cts      19 iterations  residual = 0.802901
+  150 36817 cells   231859 cts      19 iterations  residual = 0.792750
+     160       40282 cells      255036 contacts    0.162804 hour(s) or 9.768252 minute(s) or 586.095093 second(s)
+  160 40686 cells   246453 cts      33 iterations  residual = 0.809118
+  160 40686 cells   254247 cts      27 iterations  residual = 0.888266
+  160 40686 cells   255899 cts      22 iterations  residual = 1.005112
+  160 40686 cells   256657 cts      20 iterations  residual = 0.985464
+  160 40686 cells   257000 cts      20 iterations  residual = 0.974712
+  160 40686 cells   257244 cts      19 iterations  residual = 1.007686
+  160 40686 cells   257395 cts      20 iterations  residual = 0.851569
+     170       44209 cells      280822 contacts    0.197460 hour(s) or 11.847630 minute(s) or 710.857788 second(s)
+  170 44599 cells   271189 cts      32 iterations  residual = 1.027621
+  170 44599 cells   279738 cts      26 iterations  residual = 0.957551
+  170 44599 cells   281558 cts      21 iterations  residual = 0.994102
+  170 44599 cells   282343 cts      20 iterations  residual = 0.926438
+  170 44599 cells   282716 cts      19 iterations  residual = 1.008844
+  170 44599 cells   282987 cts      18 iterations  residual = 1.110909
+  170 44599 cells   283155 cts      19 iterations  residual = 0.950772
+     180       48054 cells      306468 contacts    0.238233 hour(s) or 14.293981 minute(s) or 857.638855 second(s)
+  180 48437 cells   296013 cts      32 iterations  residual = 1.148244
+  180 48437 cells   305057 cts      26 iterations  residual = 1.134699
+  180 48437 cells   307117 cts      22 iterations  residual = 1.037102
+  180 48437 cells   307938 cts      20 iterations  residual = 1.155667
+  180 48437 cells   308350 cts      20 iterations  residual = 1.017140
+  180 48437 cells   308625 cts      20 iterations  residual = 1.008980
+  180 48437 cells   308803 cts      19 iterations  residual = 1.138634
+     190       52022 cells      332623 contacts    0.276808 hour(s) or 16.608489 minute(s) or 996.509338 second(s)
+  190 52416 cells   321140 cts      33 iterations  residual = 1.092679
+  190 52416 cells   330827 cts      26 iterations  residual = 1.248713
+  190 52416 cells   333016 cts      22 iterations  residual = 1.183889
+  190 52416 cells   333991 cts      20 iterations  residual = 1.280068
+  190 52416 cells   334435 cts      20 iterations  residual = 1.143925
+  190 52416 cells   334762 cts      20 iterations  residual = 1.138954
+  190 52416 cells   334960 cts      19 iterations  residual = 1.135614
+     200       55870 cells      358218 contacts    0.321650 hour(s) or 19.299028 minute(s) or 1157.941650 second(s)
+  200 56257 cells   345890 cts      32 iterations  residual = 1.292957
+  200 56257 cells   356213 cts      26 iterations  residual = 1.369339
+  200 56257 cells   358478 cts      22 iterations  residual = 1.234539
+  200 56257 cells   359441 cts      21 iterations  residual = 1.197483
+  200 56257 cells   359890 cts      20 iterations  residual = 1.402985
+  200 56257 cells   360247 cts      20 iterations  residual = 1.194420
+  200 56257 cells   360497 cts      20 iterations  residual = 1.151837
+     210       59760 cells      383710 contacts    0.374669 hour(s) or 22.480155 minute(s) or 1348.809326 second(s)
+  210 60123 cells   370470 cts      32 iterations  residual = 1.343490
+  210 60123 cells   381442 cts      27 iterations  residual = 1.276328
+  210 60123 cells   383845 cts      22 iterations  residual = 1.407876
+  210 60123 cells   384923 cts      21 iterations  residual = 1.307235
+  210 60123 cells   385424 cts      20 iterations  residual = 1.312303
+  210 60123 cells   385772 cts      20 iterations  residual = 1.305214
+  210 60123 cells   385992 cts      19 iterations  residual = 1.366062
+     220       63637 cells      409282 contacts    0.432683 hour(s) or 25.960990 minute(s) or 1557.659424 second(s)
+  220 64050 cells   395093 cts      32 iterations  residual = 1.599470
+  220 64050 cells   406907 cts      26 iterations  residual = 1.537631
+  220 64050 cells   409553 cts      22 iterations  residual = 1.597521
+  220 64050 cells   410668 cts      21 iterations  residual = 1.434348
+  220 64050 cells   411198 cts      20 iterations  residual = 1.497905
+  220 64050 cells   411576 cts      20 iterations  residual = 1.305084
+  220 64050 cells   411820 cts      20 iterations  residual = 1.318363
+     230       67512 cells      434912 contacts    0.486602 hour(s) or 29.196139 minute(s) or 1751.768311 second(s)
+  230 67931 cells   419574 cts      33 iterations  residual = 1.459357
+  230 67931 cells   432053 cts      27 iterations  residual = 1.429414
+  230 67931 cells   434847 cts      22 iterations  residual = 1.673824
+  230 67931 cells   436054 cts      21 iterations  residual = 1.532058
+  230 67931 cells   436633 cts      20 iterations  residual = 1.518757
+  230 67931 cells   437047 cts      20 iterations  residual = 1.489909
+  230 67931 cells   437296 cts      20 iterations  residual = 1.471840
+     240       71497 cells      461451 contacts    0.555334 hour(s) or 33.320036 minute(s) or 1999.202148 second(s)
+  240 71864 cells   445041 cts      33 iterations  residual = 1.515811
+  240 71864 cells   457978 cts      27 iterations  residual = 1.516947
+  240 71864 cells   460969 cts      23 iterations  residual = 1.513844
+  240 71864 cells   462187 cts      21 iterations  residual = 1.750389
+  240 71864 cells   462787 cts      21 iterations  residual = 1.472519
+  240 71864 cells   463220 cts      20 iterations  residual = 1.705804
+  240 71864 cells   463551 cts      20 iterations  residual = 1.528882
+     250       75378 cells      487047 contacts    0.616179 hour(s) or 36.970715 minute(s) or 2218.242920 second(s)
+  250 75764 cells   469760 cts      33 iterations  residual = 1.548216
+  250 75764 cells   483384 cts      27 iterations  residual = 1.632564
+  250 75764 cells   486555 cts      23 iterations  residual = 1.646137
+  250 75764 cells   487942 cts      21 iterations  residual = 1.853333
+  250 75764 cells   488528 cts      21 iterations  residual = 1.677583
+  250 75764 cells   488984 cts      21 iterations  residual = 1.481953
+  250 75764 cells   489293 cts      21 iterations  residual = 1.542935
+     260       79321 cells      512953 contacts    0.684620 hour(s) or 41.077230 minute(s) or 2464.633789 second(s)
+  260 79708 cells   494549 cts      33 iterations  residual = 1.625997
+  260 79708 cells   508998 cts      27 iterations  residual = 1.770911
+  260 79708 cells   512342 cts      23 iterations  residual = 1.776367
+  260 79708 cells   513772 cts      21 iterations  residual = 1.882698
+  260 79708 cells   514456 cts      21 iterations  residual = 1.776109
+  260 79708 cells   514936 cts      20 iterations  residual = 1.959284
+  260 79708 cells   515260 cts      20 iterations  residual = 1.757176
+     270       83199 cells      538469 contacts    0.764552 hour(s) or 45.873145 minute(s) or 2752.388672 second(s)
+  270 83594 cells   519187 cts      33 iterations  residual = 1.746251
+  270 83594 cells   534156 cts      27 iterations  residual = 1.863192
+  270 83594 cells   537592 cts      23 iterations  residual = 1.757556
+  270 83594 cells   539172 cts      21 iterations  residual = 1.966807
+  270 83594 cells   539843 cts      20 iterations  residual = 2.082188
+  270 83594 cells   540377 cts      20 iterations  residual = 1.955145
+  270 83594 cells   540712 cts      20 iterations  residual = 1.948876
+     280       87068 cells      564035 contacts    0.852159 hour(s) or 51.129557 minute(s) or 3067.773438 second(s)
+  280 87420 cells   543860 cts      33 iterations  residual = 1.888415
+  280 87420 cells   559429 cts      27 iterations  residual = 1.900144
+  280 87420 cells   563009 cts      23 iterations  residual = 1.751538
+  280 87420 cells   564594 cts      21 iterations  residual = 2.126594
+  280 87420 cells   565311 cts      20 iterations  residual = 1.988762
+  280 87420 cells   565825 cts      20 iterations  residual = 2.031400
+  280 87420 cells   566172 cts      20 iterations  residual = 1.928725
+     290       90985 cells      589785 contacts    0.946024 hour(s) or 56.761430 minute(s) or 3405.685791 second(s)
+  290 91384 cells   568719 cts      33 iterations  residual = 1.843529
+  290 91384 cells   585066 cts      27 iterations  residual = 1.994258
+  290 91384 cells   588847 cts      23 iterations  residual = 1.904110
+  290 91384 cells   590478 cts      21 iterations  residual = 2.082115
+  290 91384 cells   591256 cts      20 iterations  residual = 2.134951
+  290 91384 cells   591817 cts      20 iterations  residual = 2.178406
+  290 91384 cells   592189 cts      20 iterations  residual = 1.905735
+     300       94901 cells      615765 contacts    1.024855 hour(s) or 61.491292 minute(s) or 3689.477539 second(s)
+  300 95290 cells   593837 cts      33 iterations  residual = 2.171173
+  300 95290 cells   610614 cts      27 iterations  residual = 2.127284
+  300 95290 cells   614596 cts      23 iterations  residual = 1.951370
+  300 95290 cells   616266 cts      21 iterations  residual = 2.274373
+  300 95290 cells   617051 cts      21 iterations  residual = 1.976996
+  300 95290 cells   617610 cts      20 iterations  residual = 2.257152
+  300 95290 cells   617980 cts      20 iterations  residual = 2.183860
+     310       98821 cells      641491 contacts    1.110012 hour(s) or 66.600692 minute(s) or 3996.041504 second(s)
+  310 99227 cells   618661 cts      33 iterations  residual = 2.287192
+  310 99227 cells   636184 cts      27 iterations  residual = 2.252032
+  310 99227 cells   640192 cts      23 iterations  residual = 2.003373
+  310 99227 cells   641962 cts      21 iterations  residual = 2.368321
+  310 99227 cells   642785 cts      21 iterations  residual = 2.107134
+  310 99227 cells   643387 cts      20 iterations  residual = 2.211811
+  310 99227 cells   643766 cts      20 iterations  residual = 2.253847
+     320      102681 cells      666909 contacts    1.209423 hour(s) or 72.565405 minute(s) or 4353.924316 second(s)
+  320 103074 cells   643182 cts      33 iterations  residual = 2.232455
+  320 103074 cells   661270 cts      27 iterations  residual = 2.256167
+  320 103074 cells   665492 cts      23 iterations  residual = 2.248142
+  320 103074 cells   667377 cts      22 iterations  residual = 2.013855
+  320 103074 cells   668196 cts      21 iterations  residual = 2.115313
+  320 103074 cells   668862 cts      20 iterations  residual = 2.471017
+  320 103074 cells   669265 cts      20 iterations  residual = 2.359649
+     330      106565 cells      692621 contacts    1.313739 hour(s) or 78.824316 minute(s) or 4729.458984 second(s)
+  330 106971 cells   667863 cts      33 iterations  residual = 2.219501
+  330 106971 cells   686662 cts      27 iterations  residual = 2.307895
+  330 106971 cells   691045 cts      23 iterations  residual = 2.285446
+  330 106971 cells   692964 cts      21 iterations  residual = 2.660094
+  330 106971 cells   693859 cts      20 iterations  residual = 2.583459
+  330 106971 cells   694465 cts      20 iterations  residual = 2.621129
+  330 106971 cells   694848 cts      20 iterations  residual = 2.353640
+     340      110549 cells      718871 contacts    1.436913 hour(s) or 86.214787 minute(s) or 5172.887207 second(s)
+  340 110955 cells   692943 cts      33 iterations  residual = 2.632380
+  340 110955 cells   712404 cts      27 iterations  residual = 2.468043
+  340 110955 cells   717020 cts      23 iterations  residual = 2.390464
+  340 110955 cells   718981 cts      22 iterations  residual = 2.418063
+  340 110955 cells   719932 cts      21 iterations  residual = 2.450171
+  340 110955 cells   720621 cts      21 iterations  residual = 2.220454
+  340 110955 cells   721030 cts      20 iterations  residual = 2.627284
+     350      114470 cells      744859 contacts    1.594284 hour(s) or 95.657056 minute(s) or 5739.423340 second(s)
+  350 114864 cells   717843 cts      33 iterations  residual = 2.665048
+  350 114864 cells   738042 cts      27 iterations  residual = 2.531534
+  350 114864 cells   742725 cts      23 iterations  residual = 2.663491
+  350 114864 cells   744774 cts      22 iterations  residual = 2.390058
+  350 114864 cells   745700 cts      21 iterations  residual = 2.558503
+  350 114864 cells   746375 cts      20 iterations  residual = 2.761398
+  350 114864 cells   746816 cts      20 iterations  residual = 2.774007
+     360      118387 cells      770393 contacts    1.729516 hour(s) or 103.770964 minute(s) or 6226.257812 second(s)
+  360 118788 cells   742789 cts      33 iterations  residual = 2.421834
+  360 118788 cells   763463 cts      27 iterations  residual = 2.745124
+  360 118788 cells   768280 cts      23 iterations  residual = 2.652544
+  360 118788 cells   770394 cts      21 iterations  residual = 2.841500
+  360 118788 cells   771348 cts      21 iterations  residual = 2.404705
+  360 118788 cells   772060 cts      21 iterations  residual = 2.349108
+  360 118788 cells   772529 cts      20 iterations  residual = 2.752058
+     370      122272 cells      796379 contacts    1.879301 hour(s) or 112.758081 minute(s) or 6765.484863 second(s)
+  370 122646 cells   768119 cts      33 iterations  residual = 2.886879
+  370 122646 cells   789294 cts      27 iterations  residual = 2.718101
+  370 122646 cells   794286 cts      23 iterations  residual = 2.712109
+  370 122646 cells   796442 cts      21 iterations  residual = 2.983910
+  370 122646 cells   797405 cts      21 iterations  residual = 2.693487
+  370 122646 cells   798145 cts      21 iterations  residual = 2.650305
+  370 122646 cells   798620 cts      21 iterations  residual = 2.392721
+     380      126156 cells      821973 contacts    2.032857 hour(s) or 121.971419 minute(s) or 7318.285156 second(s)
+  380 126558 cells   792934 cts      33 iterations  residual = 2.903142
+  380 126558 cells   814623 cts      27 iterations  residual = 2.630672
+  380 126558 cells   819767 cts      23 iterations  residual = 2.679205
+  380 126558 cells   821980 cts      22 iterations  residual = 2.689487
+  380 126558 cells   823025 cts      21 iterations  residual = 2.648922
+  380 126558 cells   823780 cts      21 iterations  residual = 2.572519
+  380 126558 cells   824271 cts      20 iterations  residual = 2.946775
+     390      130116 cells      848172 contacts    2.202860 hour(s) or 132.171615 minute(s) or 7930.296875 second(s)
+  390 130490 cells   818018 cts      34 iterations  residual = 2.916789
+  390 130490 cells   840360 cts      27 iterations  residual = 3.178954
+  390 130490 cells   845575 cts      23 iterations  residual = 2.908726
+  390 130490 cells   847856 cts      21 iterations  residual = 3.261849
+  390 130490 cells   848903 cts      21 iterations  residual = 2.770942
+  390 130490 cells   849702 cts      20 iterations  residual = 3.218503
+  390 130490 cells   850206 cts      20 iterations  residual = 3.089444
+     400      134008 cells      874013 contacts    2.332841 hour(s) or 139.970492 minute(s) or 8398.229492 second(s)
+  400 134371 cells   842910 cts      33 iterations  residual = 3.233260
+  400 134371 cells   865892 cts      27 iterations  residual = 3.118376
+  400 134371 cells   871212 cts      23 iterations  residual = 2.985887
+  400 134371 cells   873594 cts      21 iterations  residual = 3.299634
+  400 134371 cells   874703 cts      21 iterations  residual = 2.685682
+  400 134371 cells   875508 cts      20 iterations  residual = 3.012197
+  400 134371 cells   876015 cts      20 iterations  residual = 2.972385
+     410      137997 cells      900373 contacts    2.519515 hour(s) or 151.170882 minute(s) or 9070.252930 second(s)
+  410 138407 cells   868222 cts      33 iterations  residual = 3.438892
+  410 138407 cells   892060 cts      27 iterations  residual = 3.205780
+  410 138407 cells   897585 cts      23 iterations  residual = 3.338571
+  410 138407 cells   900041 cts      21 iterations  residual = 3.439021
+  410 138407 cells   901208 cts      21 iterations  residual = 3.027110
+  410 138407 cells   902061 cts      20 iterations  residual = 3.363817
+  410 138407 cells   902605 cts      20 iterations  residual = 3.298346
+     420      141965 cells      926470 contacts    2.706520 hour(s) or 162.391195 minute(s) or 9743.471680 second(s)
+  420 142335 cells   893109 cts      33 iterations  residual = 3.429882
+  420 142335 cells   917623 cts      27 iterations  residual = 3.008549
+  420 142335 cells   923472 cts      23 iterations  residual = 3.115462
+  420 142335 cells   925980 cts      21 iterations  residual = 3.362272
+  420 142335 cells   927132 cts      21 iterations  residual = 2.917916
+  420 142335 cells   928042 cts      20 iterations  residual = 3.250694
+  420 142335 cells   928569 cts      20 iterations  residual = 3.090739
+     430      145864 cells      952276 contacts    2.868777 hour(s) or 172.126644 minute(s) or 10327.598633 second(s)
+  430 146246 cells   918006 cts      33 iterations  residual = 3.422111
+  430 146246 cells   943245 cts      27 iterations  residual = 3.158582
+  430 146246 cells   949163 cts      23 iterations  residual = 3.626214
+  430 146246 cells   951764 cts      22 iterations  residual = 2.928797
+  430 146246 cells   952982 cts      21 iterations  residual = 3.097493
+  430 146246 cells   953902 cts      21 iterations  residual = 3.014858
+  430 146246 cells   954468 cts      20 iterations  residual = 3.413886
+     440      149841 cells      978608 contacts    3.028305 hour(s) or 181.698291 minute(s) or 10901.897461 second(s)
+  440 150235 cells   943615 cts      33 iterations  residual = 3.733894
+  440 150235 cells   969255 cts      27 iterations  residual = 3.463319
+  440 150235 cells   975213 cts      23 iterations  residual = 3.462370
+  440 150235 cells   977907 cts      22 iterations  residual = 3.030463
+  440 150235 cells   979109 cts      21 iterations  residual = 3.097713
+  440 150235 cells   980025 cts      21 iterations  residual = 3.057941
+  440 150235 cells   980619 cts      21 iterations  residual = 3.170071
+     450      153836 cells     1004969 contacts    3.213741 hour(s) or 192.824463 minute(s) or 11569.467773 second(s)
+  450 154247 cells   969179 cts      33 iterations  residual = 3.768430
+  450 154247 cells   995577 cts      27 iterations  residual = 3.624033
+  450 154247 cells   1001647 cts      23 iterations  residual = 3.725717
+  450 154247 cells   1004462 cts      22 iterations  residual = 3.503772
+  450 154247 cells   1005745 cts      21 iterations  residual = 3.460664
+  450 154247 cells   1006702 cts      21 iterations  residual = 3.378981
+  450 154247 cells   1007273 cts      20 iterations  residual = 3.633578
+     460      157752 cells     1031025 contacts    3.431690 hour(s) or 205.901383 minute(s) or 12354.083008 second(s)
+  460 158130 cells   994065 cts      33 iterations  residual = 3.828672
+  460 158130 cells   1021124 cts      27 iterations  residual = 3.660043
+  460 158130 cells   1027387 cts      23 iterations  residual = 3.454885
+  460 158130 cells   1030213 cts      22 iterations  residual = 3.198965
+  460 158130 cells   1031519 cts      21 iterations  residual = 3.463816
+  460 158130 cells   1032454 cts      20 iterations  residual = 3.795922
+  460 158130 cells   1032998 cts      20 iterations  residual = 3.626953
+     470      161658 cells     1057074 contacts    3.679601 hour(s) or 220.776058 minute(s) or 13246.563477 second(s)
+  470 162067 cells   1019021 cts      33 iterations  residual = 3.701623
+  470 162067 cells   1046775 cts      27 iterations  residual = 3.670770
+  470 162067 cells   1053221 cts      23 iterations  residual = 3.933872
+  470 162067 cells   1056155 cts      21 iterations  residual = 3.762507
+  470 162067 cells   1057456 cts      21 iterations  residual = 3.811296
+  470 162067 cells   1058469 cts      20 iterations  residual = 4.039210
+  470 162067 cells   1059072 cts      20 iterations  residual = 3.900704
+     480      165565 cells     1082647 contacts    3.949385 hour(s) or 236.963086 minute(s) or 14217.785156 second(s)
+  480 165970 cells   1043997 cts      33 iterations  residual = 3.934447
+  480 165970 cells   1072388 cts      27 iterations  residual = 3.992429
+  480 165970 cells   1078874 cts      23 iterations  residual = 4.127994
+  480 165970 cells   1081858 cts      22 iterations  residual = 3.788906
+  480 165970 cells   1083227 cts      21 iterations  residual = 3.634104
+  480 165970 cells   1084180 cts      21 iterations  residual = 3.398282
+  480 165970 cells   1084770 cts      20 iterations  residual = 4.014657
+     490      169467 cells     1108626 contacts    4.207278 hour(s) or 252.436702 minute(s) or 15146.202148 second(s)
+  490 169869 cells   1068792 cts      33 iterations  residual = 4.027499
+  490 169869 cells   1097631 cts      27 iterations  residual = 4.109159
+  490 169869 cells   1104418 cts      23 iterations  residual = 3.849538
+  490 169869 cells   1107436 cts      22 iterations  residual = 3.689397
+  490 169869 cells   1108825 cts      21 iterations  residual = 3.891179
+  490 169869 cells   1109801 cts      20 iterations  residual = 4.224768
+  490 169869 cells   1110423 cts      20 iterations  residual = 4.058246
+     500      173401 cells     1134294 contacts    4.427529 hour(s) or 265.651774 minute(s) or 15939.106445 second(s)
+  500 173774 cells   1093569 cts      33 iterations  residual = 4.323431
+  500 173774 cells   1123293 cts      27 iterations  residual = 3.805941
+  500 173774 cells   1130155 cts      23 iterations  residual = 3.954154
+  500 173774 cells   1133214 cts      21 iterations  residual = 4.332934
+  500 173774 cells   1134597 cts      21 iterations  residual = 3.781608
+  500 173774 cells   1135623 cts      21 iterations  residual = 3.575153
+  500 173774 cells   1136242 cts      21 iterations  residual = 3.538604
+     510      177324 cells     1160356 contacts    4.667032 hour(s) or 280.021908 minute(s) or 16801.314453 second(s)
+  510 177661 cells   1118391 cts      34 iterations  residual = 3.558878
+  510 177661 cells   1148925 cts      27 iterations  residual = 4.204933
+  510 177661 cells   1155839 cts      24 iterations  residual = 3.799919
+  510 177661 cells   1158898 cts      22 iterations  residual = 3.694599
+  510 177661 cells   1160375 cts      21 iterations  residual = 3.999194
+  510 177661 cells   1161430 cts      21 iterations  residual = 3.650573
+  510 177661 cells   1162086 cts      20 iterations  residual = 4.393189
+     520      181178 cells     1185946 contacts    4.918992 hour(s) or 295.139518 minute(s) or 17708.371094 second(s)
+  520 181541 cells   1143181 cts      33 iterations  residual = 4.414343
+  520 181541 cells   1174380 cts      27 iterations  residual = 4.346390
+  520 181541 cells   1181564 cts      23 iterations  residual = 4.145062
+  520 181541 cells   1184725 cts      22 iterations  residual = 3.961667
+  520 181541 cells   1186220 cts      21 iterations  residual = 4.268677
+  520 181541 cells   1187337 cts      21 iterations  residual = 3.771302
+  520 181541 cells   1188016 cts      21 iterations  residual = 3.901206
+     530      185145 cells     1212132 contacts    5.213411 hour(s) or 312.804655 minute(s) or 18768.279297 second(s)
+  530 185521 cells   1168667 cts      33 iterations  residual = 4.180978
+  530 185521 cells   1200067 cts      27 iterations  residual = 4.273787
+  530 185521 cells   1207587 cts      23 iterations  residual = 4.505155
+  530 185521 cells   1210915 cts      21 iterations  residual = 4.410954
+  530 185521 cells   1212393 cts      21 iterations  residual = 4.125357
+  530 185521 cells   1213480 cts      21 iterations  residual = 3.832262
+  530 185521 cells   1214125 cts      20 iterations  residual = 4.590185
+     540      189071 cells     1238113 contacts    5.465936 hour(s) or 327.956152 minute(s) or 19677.369141 second(s)
+  540 189478 cells   1193784 cts      33 iterations  residual = 4.620072
+  540 189478 cells   1225780 cts      28 iterations  residual = 4.012305
+  540 189478 cells   1233379 cts      24 iterations  residual = 4.300406
+  540 189478 cells   1236735 cts      22 iterations  residual = 4.039400
+  540 189478 cells   1238293 cts      21 iterations  residual = 4.713032
+  540 189478 cells   1239414 cts      21 iterations  residual = 4.172326
+  540 189478 cells   1240053 cts      20 iterations  residual = 4.734869
+     550      193061 cells     1264031 contacts    5.813096 hour(s) or 348.785742 minute(s) or 20927.144531 second(s)
+  550 193436 cells   1218563 cts      34 iterations  residual = 4.078274
+  550 193436 cells   1251499 cts      27 iterations  residual = 4.708133
+  550 193436 cells   1259099 cts      23 iterations  residual = 4.686028
+  550 193436 cells   1262505 cts      22 iterations  residual = 4.109076
+  550 193436 cells   1264134 cts      21 iterations  residual = 4.697794
+  550 193436 cells   1265250 cts      20 iterations  residual = 4.663855
+  550 193436 cells   1265952 cts      20 iterations  residual = 4.774702
+     560      197000 cells     1290472 contacts    6.111013 hour(s) or 366.660807 minute(s) or 21999.648438 second(s)
+  560 197399 cells   1244105 cts      33 iterations  residual = 4.855230
+  560 197399 cells   1277526 cts      27 iterations  residual = 4.768806
+  560 197399 cells   1285355 cts      23 iterations  residual = 4.658761
+  560 197399 cells   1288821 cts      22 iterations  residual = 4.153619
+  560 197399 cells   1290350 cts      21 iterations  residual = 4.498523
+  560 197399 cells   1291566 cts      21 iterations  residual = 4.383977
+  560 197399 cells   1292265 cts      21 iterations  residual = 4.170919
+     570      200995 cells     1316604 contacts    6.485742 hour(s) or 389.144531 minute(s) or 23348.671875 second(s)
+  570 201355 cells   1269337 cts      33 iterations  residual = 4.776149
+  570 201355 cells   1303448 cts      28 iterations  residual = 4.106585
+  570 201355 cells   1311419 cts      23 iterations  residual = 4.916152
+  570 201355 cells   1314987 cts      21 iterations  residual = 4.944482
+  570 201355 cells   1316576 cts      21 iterations  residual = 4.281725
+  570 201355 cells   1317775 cts      21 iterations  residual = 4.216516
+  570 201355 cells   1318525 cts      20 iterations  residual = 4.848567
+     580      204912 cells     1342445 contacts    6.900811 hour(s) or 414.048633 minute(s) or 24842.917969 second(s)
+  580 205290 cells   1294385 cts      33 iterations  residual = 5.089478
+  580 205290 cells   1329226 cts      27 iterations  residual = 4.668112
+  580 205290 cells   1337240 cts      23 iterations  residual = 4.489804
+  580 205290 cells   1340954 cts      22 iterations  residual = 4.175261
+  580 205290 cells   1342585 cts      21 iterations  residual = 4.412621
+  580 205290 cells   1343787 cts      20 iterations  residual = 5.012549
+  580 205290 cells   1344490 cts      21 iterations  residual = 4.279708
+     590      208845 cells     1368629 contacts    7.167676 hour(s) or 430.060579 minute(s) or 25803.634766 second(s)
+  590 209253 cells   1319635 cts      34 iterations  residual = 4.933750
+  590 209253 cells   1354915 cts      27 iterations  residual = 4.626577
+  590 209253 cells   1363152 cts      23 iterations  residual = 4.975920
+  590 209253 cells   1366937 cts      22 iterations  residual = 4.441318
+  590 209253 cells   1368529 cts      21 iterations  residual = 4.767596
+  590 209253 cells   1369782 cts      21 iterations  residual = 4.247563
+  590 209253 cells   1370507 cts      20 iterations  residual = 5.155990
+     600      212845 cells     1395161 contacts    7.518639 hour(s) or 451.118327 minute(s) or 27067.099609 second(s)
+  600 213244 cells   1345014 cts      34 iterations  residual = 4.327803
+  600 213244 cells   1380878 cts      27 iterations  residual = 5.064190
+  600 213244 cells   1389362 cts      23 iterations  residual = 4.731270
+  600 213244 cells   1393152 cts      22 iterations  residual = 4.336391
+  600 213244 cells   1394775 cts      21 iterations  residual = 4.645664
+  600 213244 cells   1396048 cts      20 iterations  residual = 5.327360
+  600 213244 cells   1396858 cts      21 iterations  residual = 4.439734
+     610      216843 cells     1421311 contacts    7.815805 hour(s) or 468.948307 minute(s) or 28136.898438 second(s)
+  610 217217 cells   1370441 cts      33 iterations  residual = 5.330685
+  610 217217 cells   1407097 cts      27 iterations  residual = 5.292843
+  610 217217 cells   1415577 cts      23 iterations  residual = 4.905165
+  610 217217 cells   1419490 cts      22 iterations  residual = 4.606079
+  610 217217 cells   1421248 cts      21 iterations  residual = 4.759892
+  610 217217 cells   1422545 cts      21 iterations  residual = 4.777081
+  610 217217 cells   1423353 cts      20 iterations  residual = 5.407283
+     620      220785 cells     1447593 contacts    8.106716 hour(s) or 486.402962 minute(s) or 29184.177734 second(s)
+  620 221208 cells   1395849 cts      33 iterations  residual = 4.861938
+  620 221208 cells   1433058 cts      27 iterations  residual = 5.499607
+  620 221208 cells   1441791 cts      23 iterations  residual = 5.204815
+  620 221208 cells   1445751 cts      22 iterations  residual = 4.808300
+  620 221208 cells   1447485 cts      22 iterations  residual = 4.485807
+  620 221208 cells   1448802 cts      21 iterations  residual = 4.853219
+  620 221208 cells   1449599 cts      20 iterations  residual = 5.519970
+     630      224734 cells     1473564 contacts    8.429074 hour(s) or 505.744401 minute(s) or 30344.664062 second(s)
+  630 225120 cells   1420766 cts      34 iterations  residual = 4.654754
+  630 225120 cells   1458892 cts      27 iterations  residual = 5.256862
+  630 225120 cells   1467711 cts      23 iterations  residual = 5.384592
+  630 225120 cells   1471649 cts      22 iterations  residual = 4.723599
+  630 225120 cells   1473363 cts      21 iterations  residual = 5.093970
+  630 225120 cells   1474640 cts      21 iterations  residual = 4.761871
+  630 225120 cells   1475394 cts      21 iterations  residual = 4.743926
+     640      228625 cells     1499585 contacts    8.757757 hour(s) or 525.465365 minute(s) or 31527.921875 second(s)
+  640 229026 cells   1446063 cts      34 iterations  residual = 5.212897
+  640 229026 cells   1484722 cts      27 iterations  residual = 5.537988
+  640 229026 cells   1493601 cts      23 iterations  residual = 5.380089
+  640 229026 cells   1497606 cts      22 iterations  residual = 5.331733
+  640 229026 cells   1499372 cts      21 iterations  residual = 5.717030
+  640 229026 cells   1500724 cts      21 iterations  residual = 5.231128
+  640 229026 cells   1501574 cts      20 iterations  residual = 5.709565
+     650      232622 cells     1526011 contacts    9.315077 hour(s) or 558.904622 minute(s) or 33534.277344 second(s)
+  650 233043 cells   1471328 cts      34 iterations  residual = 4.789638
+  650 233043 cells   1510634 cts      27 iterations  residual = 5.782192
+  650 233043 cells   1519749 cts      23 iterations  residual = 5.426690
+  650 233043 cells   1523861 cts      22 iterations  residual = 4.856882
+  650 233043 cells   1525684 cts      21 iterations  residual = 5.327231
+  650 233043 cells   1527116 cts      20 iterations  residual = 5.801023
+  650 233043 cells   1527979 cts      20 iterations  residual = 5.577368
+     660      236588 cells     1552161 contacts    9.714114 hour(s) or 582.846875 minute(s) or 34970.812500 second(s)
+  660 236998 cells   1496239 cts      33 iterations  residual = 5.597428
+  660 236998 cells   1536428 cts      27 iterations  residual = 5.704979
+  660 236998 cells   1545812 cts      23 iterations  residual = 5.285225
+  660 236998 cells   1550074 cts      22 iterations  residual = 5.734252
+  660 236998 cells   1552009 cts      21 iterations  residual = 5.138173
+  660 236998 cells   1553392 cts      21 iterations  residual = 5.021222
+  660 236998 cells   1554228 cts      21 iterations  residual = 4.924833
+     670      240532 cells     1578094 contacts    10.188634 hour(s) or 611.318034 minute(s) or 36679.082031 second(s)
+  670 240902 cells   1521215 cts      34 iterations  residual = 5.662680
+  670 240902 cells   1562056 cts      27 iterations  residual = 5.514964
+  670 240902 cells   1571581 cts      23 iterations  residual = 5.498349
+  670 240902 cells   1575964 cts      22 iterations  residual = 5.052500
+  670 240902 cells   1577833 cts      21 iterations  residual = 5.237171
+  670 240902 cells   1579259 cts      21 iterations  residual = 4.864279
+  670 240902 cells   1580128 cts      21 iterations  residual = 4.902352
+     680      244486 cells     1604501 contacts    10.522545 hour(s) or 631.352734 minute(s) or 37881.164062 second(s)
+  680 244889 cells   1546545 cts      34 iterations  residual = 5.752700
+  680 244889 cells   1587949 cts      27 iterations  residual = 6.082099
+  680 244889 cells   1597704 cts      23 iterations  residual = 5.631566
+  680 244889 cells   1602092 cts      22 iterations  residual = 5.447009
+  680 244889 cells   1604081 cts      21 iterations  residual = 5.488775
+  680 244889 cells   1605472 cts      21 iterations  residual = 5.143618
+  680 244889 cells   1606359 cts      20 iterations  residual = 5.816092
+     690      248465 cells     1630570 contacts    11.064476 hour(s) or 663.868555 minute(s) or 39832.113281 second(s)
+  690 248870 cells   1572126 cts      34 iterations  residual = 5.352535
+  690 248870 cells   1614020 cts      27 iterations  residual = 5.783969
+  690 248870 cells   1623901 cts      23 iterations  residual = 6.108433
+  690 248870 cells   1628334 cts      22 iterations  residual = 5.619252
+  690 248870 cells   1630299 cts      21 iterations  residual = 5.765008
+  690 248870 cells   1631783 cts      21 iterations  residual = 5.277986
+  690 248870 cells   1632681 cts      21 iterations  residual = 5.388570
+     700      252490 cells     1656942 contacts    11.541351 hour(s) or 692.481055 minute(s) or 41548.863281 second(s)
+  700 252885 cells   1597692 cts      34 iterations  residual = 5.250555
+  700 252885 cells   1640214 cts      27 iterations  residual = 5.997481
+  700 252885 cells   1650238 cts      23 iterations  residual = 6.232285
+  700 252885 cells   1654786 cts      22 iterations  residual = 5.353028
+  700 252885 cells   1656730 cts      21 iterations  residual = 5.599756
+  700 252885 cells   1658231 cts      21 iterations  residual = 5.339901
+  700 252885 cells   1659103 cts      21 iterations  residual = 5.175776
+     710      256501 cells     1683448 contacts    11.950756 hour(s) or 717.045378 minute(s) or 43022.722656 second(s)
+  710 256869 cells   1622901 cts      34 iterations  residual = 5.948500
+  710 256869 cells   1665976 cts      27 iterations  residual = 6.286880
+  710 256869 cells   1676139 cts      24 iterations  residual = 5.160917
+  710 256869 cells   1680584 cts      22 iterations  residual = 5.720850
+  710 256869 cells   1682623 cts      22 iterations  residual = 5.167672
+  710 256869 cells   1684123 cts      20 iterations  residual = 6.408411
+  710 256869 cells   1684987 cts      21 iterations  residual = 5.829645
+     720      260406 cells     1709371 contacts    12.444285 hour(s) or 746.657096 minute(s) or 44799.425781 second(s)
+  720 260787 cells   1648055 cts      34 iterations  residual = 5.605881
+  720 260787 cells   1691564 cts      27 iterations  residual = 5.834418
+  720 260787 cells   1701847 cts      23 iterations  residual = 5.857362
+  720 260787 cells   1706447 cts      22 iterations  residual = 5.597419
+  720 260787 cells   1708494 cts      21 iterations  residual = 5.757056
+  720 260787 cells   1709974 cts      20 iterations  residual = 6.454203
+  720 260787 cells   1710914 cts      20 iterations  residual = 6.397349
+     730      264378 cells     1735611 contacts    13.066423 hour(s) or 783.985352 minute(s) or 47039.121094 second(s)
+  730 264782 cells   1673534 cts      33 iterations  residual = 5.839670
+  730 264782 cells   1717809 cts      27 iterations  residual = 5.987634
+  730 264782 cells   1728123 cts      23 iterations  residual = 6.025427
+  730 264782 cells   1732859 cts      21 iterations  residual = 6.604295
+  730 264782 cells   1734927 cts      21 iterations  residual = 6.085108
+  730 264782 cells   1736503 cts      20 iterations  residual = 6.251658
+  730 264782 cells   1737452 cts      21 iterations  residual = 5.606758
+     740      268378 cells     1761882 contacts    13.525109 hour(s) or 811.506510 minute(s) or 48690.390625 second(s)
+  740 268757 cells   1698708 cts      34 iterations  residual = 5.361185
+  740 268757 cells   1743822 cts      27 iterations  residual = 6.002047
+  740 268757 cells   1754420 cts      23 iterations  residual = 6.004473
+  740 268757 cells   1759169 cts      22 iterations  residual = 5.880535
+  740 268757 cells   1761252 cts      21 iterations  residual = 6.041370
+  740 268757 cells   1762886 cts      21 iterations  residual = 5.655347
+  740 268757 cells   1763877 cts      21 iterations  residual = 5.797816
+     750      272332 cells     1788223 contacts    14.093414 hour(s) or 845.604883 minute(s) or 50736.292969 second(s)
+  750 272740 cells   1724156 cts      34 iterations  residual = 6.015258
+  750 272740 cells   1769783 cts      27 iterations  residual = 6.017638
+  750 272740 cells   1780443 cts      23 iterations  residual = 6.580559
+  750 272740 cells   1785231 cts      22 iterations  residual = 5.796525
+  750 272740 cells   1787399 cts      21 iterations  residual = 6.181577
+  750 272740 cells   1789026 cts      21 iterations  residual = 6.158515
+  750 272740 cells   1789993 cts      21 iterations  residual = 5.947758
+     760      276295 cells     1814334 contacts    14.570572 hour(s) or 874.234310 minute(s) or 52454.058594 second(s)
+  760 276675 cells   1749143 cts      34 iterations  residual = 6.742308
+  760 276675 cells   1795345 cts      27 iterations  residual = 6.753921
+  760 276675 cells   1806302 cts      23 iterations  residual = 6.499352
+  760 276675 cells   1811256 cts      22 iterations  residual = 6.098221
+  760 276675 cells   1813501 cts      21 iterations  residual = 6.537446
+  760 276675 cells   1815035 cts      21 iterations  residual = 5.949946
+  760 276675 cells   1816047 cts      21 iterations  residual = 5.797731
+     770      280283 cells     1840796 contacts    15.064562 hour(s) or 903.873698 minute(s) or 54232.421875 second(s)
+  770 280706 cells   1774948 cts      35 iterations  residual = 5.650602
+  770 280706 cells   1821642 cts      27 iterations  residual = 6.609785
+  770 280706 cells   1832616 cts      23 iterations  residual = 6.744956
+  770 280706 cells   1837572 cts      22 iterations  residual = 5.780616
+  770 280706 cells   1839816 cts      21 iterations  residual = 6.918691
+  770 280706 cells   1841441 cts      21 iterations  residual = 6.413347
+  770 280706 cells   1842477 cts      21 iterations  residual = 6.409617
+     780      284361 cells     1867568 contacts    15.717087 hour(s) or 943.025195 minute(s) or 56581.511719 second(s)
+  780 284751 cells   1800571 cts      34 iterations  residual = 5.980690
+  780 284751 cells   1848091 cts      27 iterations  residual = 6.631311
+  780 284751 cells   1859144 cts      24 iterations  residual = 6.067664
+  780 284751 cells   1864273 cts      22 iterations  residual = 6.556163
+  780 284751 cells   1866564 cts      22 iterations  residual = 6.068201
+  780 284751 cells   1868336 cts      21 iterations  residual = 5.846800
+  780 284751 cells   1869388 cts      20 iterations  residual = 7.051786
+     790      288327 cells     1894242 contacts    16.370470 hour(s) or 982.228190 minute(s) or 58933.691406 second(s)
+  790 288732 cells   1826124 cts      34 iterations  residual = 6.695839
+  790 288732 cells   1874455 cts      27 iterations  residual = 6.349824
+  790 288732 cells   1885884 cts      23 iterations  residual = 6.314528
+  790 288732 cells   1891030 cts      22 iterations  residual = 6.622107
+  790 288732 cells   1893281 cts      21 iterations  residual = 7.013741
+  790 288732 cells   1894980 cts      21 iterations  residual = 6.261312
+  790 288732 cells   1896060 cts      20 iterations  residual = 7.099963
+     800      292312 cells     1920761 contacts    16.970633 hour(s) or 1018.237956 minute(s) or 61094.277344 second(s)
+  800 292719 cells   1851600 cts      34 iterations  residual = 6.274215
+  800 292719 cells   1900570 cts      27 iterations  residual = 6.339123
+  800 292719 cells   1912046 cts      23 iterations  residual = 6.803201
+  800 292719 cells   1917263 cts      22 iterations  residual = 6.720953
+  800 292719 cells   1919586 cts      21 iterations  residual = 6.511244
+  800 292719 cells   1921344 cts      21 iterations  residual = 6.452343
+  800 292719 cells   1922412 cts      20 iterations  residual = 6.780644
+     810      296399 cells     1947360 contacts    17.480198 hour(s) or 1048.811914 minute(s) or 62928.714844 second(s)
+  810 296823 cells   1877385 cts      35 iterations  residual = 5.835769
+  810 296823 cells   1927075 cts      27 iterations  residual = 6.965425
+  810 296823 cells   1938806 cts      23 iterations  residual = 7.029033
+  810 296823 cells   1944105 cts      22 iterations  residual = 6.633631
+  810 296823 cells   1946406 cts      21 iterations  residual = 6.507205
+  810 296823 cells   1948222 cts      21 iterations  residual = 6.283073
+  810 296823 cells   1949320 cts      21 iterations  residual = 6.511623
+     820      300430 cells     1974227 contacts    18.076713 hour(s) or 1084.602799 minute(s) or 65076.167969 second(s)
+  820 300836 cells   1903418 cts      34 iterations  residual = 6.104490
+  820 300836 cells   1953395 cts      27 iterations  residual = 6.966573
+  820 300836 cells   1965178 cts      23 iterations  residual = 7.287915
+  820 300836 cells   1970596 cts      22 iterations  residual = 7.076581
+  820 300836 cells   1973046 cts      21 iterations  residual = 6.772737
+  820 300836 cells   1974872 cts      21 iterations  residual = 6.692697
+  820 300836 cells   1975963 cts      21 iterations  residual = 6.822859
+     830      304432 cells     2000650 contacts    18.702094 hour(s) or 1122.125651 minute(s) or 67327.539062 second(s)
+  830 304816 cells   1928520 cts      34 iterations  residual = 6.050828
+  830 304816 cells   1979390 cts      27 iterations  residual = 6.953963
+  830 304816 cells   1991373 cts      23 iterations  residual = 7.336283
+  830 304816 cells   1996913 cts      22 iterations  residual = 6.630517
+  830 304816 cells   1999408 cts      21 iterations  residual = 7.212138
+  830 304816 cells   2001241 cts      21 iterations  residual = 6.466640
+  830 304816 cells   2002393 cts      21 iterations  residual = 6.486880
+     840      308391 cells     2027065 contacts    19.459444 hour(s) or 1167.566667 minute(s) or 70054.000000 second(s)
+  840 308823 cells   1954206 cts      34 iterations  residual = 6.863502
+  840 308823 cells   2005793 cts      27 iterations  residual = 7.578549
+  840 308823 cells   2017879 cts      23 iterations  residual = 7.330009
+  840 308823 cells   2023330 cts      22 iterations  residual = 6.530528
+  840 308823 cells   2025756 cts      21 iterations  residual = 6.895468
+  840 308823 cells   2027624 cts      21 iterations  residual = 6.855436
+  840 308823 cells   2028798 cts      21 iterations  residual = 6.791044
+     850      312410 cells     2054060 contacts    20.206529 hour(s) or 1212.391667 minute(s) or 72743.500000 second(s)
+  850 312804 cells   1979983 cts      34 iterations  residual = 6.899733
+  850 312804 cells   2032249 cts      27 iterations  residual = 7.500216
+  850 312804 cells   2044448 cts      24 iterations  residual = 6.604109
+  850 312804 cells   2050061 cts      22 iterations  residual = 6.564424
+  850 312804 cells   2052497 cts      21 iterations  residual = 7.004354
+  850 312804 cells   2054331 cts      21 iterations  residual = 6.853992
+  850 312804 cells   2055508 cts      21 iterations  residual = 6.608945
+     860      316381 cells     2080347 contacts    20.785883 hour(s) or 1247.152995 minute(s) or 74829.179688 second(s)
+  860 316773 cells   2005418 cts      34 iterations  residual = 7.197808
+  860 316773 cells   2058224 cts      27 iterations  residual = 7.730421
+  860 316773 cells   2070674 cts      23 iterations  residual = 7.892425
+  860 316773 cells   2076339 cts      22 iterations  residual = 6.828757
+  860 316773 cells   2078836 cts      21 iterations  residual = 7.518543
+  860 316773 cells   2080700 cts      21 iterations  residual = 6.718265
+  860 316773 cells   2081873 cts      21 iterations  residual = 6.833468
+     870      320366 cells     2106460 contacts    21.629266 hour(s) or 1297.755990 minute(s) or 77865.359375 second(s)
+  870 320772 cells   2030547 cts      34 iterations  residual = 6.534829
+  870 320772 cells   2084064 cts      27 iterations  residual = 7.601643
+  870 320772 cells   2096674 cts      23 iterations  residual = 7.581098
+  870 320772 cells   2102331 cts      22 iterations  residual = 6.922002
+  870 320772 cells   2104825 cts      22 iterations  residual = 6.597090
+  870 320772 cells   2106800 cts      21 iterations  residual = 6.855329
+  870 320772 cells   2107958 cts      21 iterations  residual = 7.080911
+     880      324307 cells     2132615 contacts    22.191425 hour(s) or 1331.485417 minute(s) or 79889.125000 second(s)
+  880 324702 cells   2055928 cts      34 iterations  residual = 7.620507
+  880 324702 cells   2109837 cts      27 iterations  residual = 7.402122
+  880 324702 cells   2122712 cts      23 iterations  residual = 7.621506
+  880 324702 cells   2128447 cts      22 iterations  residual = 7.007367
+  880 324702 cells   2130952 cts      21 iterations  residual = 8.045395
+  880 324702 cells   2132864 cts      21 iterations  residual = 6.917889
+  880 324702 cells   2134059 cts      21 iterations  residual = 7.370568
+     890      328352 cells     2159247 contacts    23.276355 hour(s) or 1396.581250 minute(s) or 83794.875000 second(s)
+  890 328769 cells   2081499 cts      34 iterations  residual = 7.204065
+  890 328769 cells   2136357 cts      27 iterations  residual = 7.920576
+  890 328769 cells   2149308 cts      23 iterations  residual = 7.681042
+  890 328769 cells   2155124 cts      22 iterations  residual = 7.194032
+  890 328769 cells   2157741 cts      21 iterations  residual = 7.903415
+  890 328769 cells   2159725 cts      21 iterations  residual = 7.551287
+  890 328769 cells   2160919 cts      21 iterations  residual = 6.877388
+     900      332264 cells     2185381 contacts    24.189539 hour(s) or 1451.372266 minute(s) or 87082.335938 second(s)
+  900 332687 cells   2106986 cts      34 iterations  residual = 7.685338
+  900 332687 cells   2161932 cts      27 iterations  residual = 7.974926
+  900 332687 cells   2174983 cts      23 iterations  residual = 7.823557
+  900 332687 cells   2180938 cts      22 iterations  residual = 7.560451
+  900 332687 cells   2183617 cts      22 iterations  residual = 7.274924
+  900 332687 cells   2185591 cts      21 iterations  residual = 7.456915
+  900 332687 cells   2186802 cts      21 iterations  residual = 7.407000
+     910      336312 cells     2211620 contacts    25.447520 hour(s) or 1526.851172 minute(s) or 91611.070312 second(s)
+  910 336701 cells   2132297 cts      34 iterations  residual = 6.948270
+  910 336701 cells   2188128 cts      27 iterations  residual = 7.471961
+  910 336701 cells   2201396 cts      23 iterations  residual = 8.120829
+  910 336701 cells   2207384 cts      21 iterations  residual = 8.292529
+  910 336701 cells   2210032 cts      21 iterations  residual = 7.834291
+  910 336701 cells   2212089 cts      21 iterations  residual = 7.320618
+  910 336701 cells   2213354 cts      21 iterations  residual = 7.449849
+/home/iborg/cellmodeller/bin/cmgui: line 4:  9731 Segmentation fault      (core dumped) python $CMPATH/Scripts/CellModellerGUI.py $1
+iborg@iborg-desktop:~/PycharmProjects/CellModeller$ 
+
+
+
