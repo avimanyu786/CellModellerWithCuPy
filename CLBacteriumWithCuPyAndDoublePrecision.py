@@ -157,7 +157,7 @@ class CLBacteriumWithCuPy:
     def init_kernels(self):
         """Set up the OpenCL kernels."""
         from pkg_resources import resource_string
-        kernel_src = resource_string(__name__, 'CLBacteriumWithCuPy.cl')
+        kernel_src = resource_string(__name__, 'CLBacteriumWithDoublePrecision.cl')
 
         self.program = cl.Program(self.context, kernel_src).build(cache_dir=False)
         # Some kernels that seem like they should be built into pyopencl...
