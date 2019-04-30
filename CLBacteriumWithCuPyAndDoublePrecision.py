@@ -28,11 +28,7 @@ class CLBacteriumWithCuPy:
                  max_sqs=192 ** 2,
                  grid_spacing=5.0,
                  muA=1.0,
-                 rho=1.094,
-                 u=0.03,
-                 gammacoeff=0.59,
-                 refarea=10000,
-                 gamma=0,
+                 gamma=10,
                  dt=None,
                  cgs_tol=5e-3,
                  reg_param=0.1,
@@ -61,7 +57,7 @@ class CLBacteriumWithCuPy:
         self.u = u
         self.gammacoeff = gammacoeff
         self.refarea = refarea
-        self.gamma = cupy.double((rho * u * u * gammacoeff * refarea) / 2)
+        self.gamma = gamma
         self.dt = dt
         self.cgs_tol = cgs_tol
         self.reg_param = cupy.double(reg_param)
