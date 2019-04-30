@@ -15,9 +15,8 @@ ct_map = {}
 
 class CLBacteriumWithCuPy:
     """A rigid body model of bacterial growth implemented using
-    OpenCL and CuPy. Here, gamma, the frictional drag has been broken down
-    into mass density, relative flow velocity, frictional drag coefficient
-    and reference area.
+    OpenCL and CuPy. Here, single precision has been revised to 
+    double precision.
     """
 
     def __init__(self, simulator,
