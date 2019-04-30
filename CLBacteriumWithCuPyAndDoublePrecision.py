@@ -53,10 +53,6 @@ class CLBacteriumWithCuPy:
         self.max_sqs = max_sqs
         self.grid_spacing = grid_spacing
         self.muA = muA
-        self.rho = rho
-        self.u = u
-        self.gammacoeff = gammacoeff
-        self.refarea = refarea
         self.gamma = gamma
         self.dt = dt
         self.cgs_tol = cgs_tol
