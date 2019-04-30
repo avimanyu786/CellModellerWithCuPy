@@ -15,7 +15,7 @@ ct_map = {}
 
 class CLBacteriumWithCuPy:
    """A rigid body model of bacterial growth implemented using
-   OpenCL.
+   OpenCL and CuPy.
    """
 
    def __init__(self, simulator,
