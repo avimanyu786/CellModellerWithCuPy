@@ -15,8 +15,8 @@ import cupy
 cell_cols = {0: [1.0, 0.7, 1.0]}
 #cell_lens = {0: 0.8}
 #Staphylococcus Aureus cell sizes range from 0.8 to 1.0 micrometer
-cell_lens = {0: cupy.random.uniform(0.8,1.0)}
-#cell_growr = {0: 12.0}
+#cell_lens = {0: cupy.random.uniform(0.8,1.0)}
+#Maximum growth rate
 cell_growr = {0: 12.0}
 
 
@@ -63,7 +63,8 @@ def init(cell):
     # Specify mean and distribution of initial cell size
     #cellVol = cell_lens[cell.cellType]
     #cellVol= ((cell_lens[cell.cellType]**3)*3.14) / 6
-    cellVol = cupy.divide ( cupy.multiply ( cupy.power ( cell_lens[cell.cellType] , 3 ) , cupy.pi ) , 6 )
+    cell_lens = {0: cupy.random.uniform(0.8, 1.0)}
+    cellVol = cupy.divide ( cupy.multiply ( cupy.power ( cell_lens[cell.cellType] , 3 ) , cupy.pi ) , 6.0 )
 
     cell.targetVol = cupy.add ( cellVol , cupy.random.uniform (0.0, 1.5) )
     #cell.targetVol = cellVol + cupy.random.uniform (0.0, 1.5)
@@ -91,7 +92,8 @@ def divide(parent, d1, d2):
     # Specify target cell size that triggers cell division
     #d1.targetVol = (((cell_lens[parent.cellType]**3)*3.14) / 6) + cupy.random.uniform(0.0,1.5)
     #d2.targetVol = (((cell_lens[parent.cellType]**3)*3.14) / 6) + cupy.random.uniform(0.0,1.5)
-
-    d1.targetVol = cupy.add ( cupy.divide ( cupy.multiply ( cupy.power ( cell_lens[parent.cellType] , 3 ) , cupy.pi ) , 6 ) , cupy.random.uniform (0.0 , 1.5) )
-    d2.targetVol = cupy.add ( cupy.divide ( cupy.multiply ( cupy.power ( cell_lens[parent.cellType] , 3 ) , cupy.pi ) , 6 ) , cupy.random.uniform (0.0 , 1.5) )
+    cell_lens = {0: cupy.random.uniform(0.8, 1.0)}
+    d1.targetVol = cupy.add ( cupy.divide ( cupy.multiply ( cupy.power ( cell_lens[parent.cellType] , 3 ) , cupy.pi ) , 6.0 ) , cupy.random.uniform (0.0 , 1.5) )
+    cell_lens = {0: cupy.random.uniform(0.8, 1.0)}
+    d2.targetVol = cupy.add ( cupy.divide ( cupy.multiply ( cupy.power ( cell_lens[parent.cellType] , 3 ) , cupy.pi ) , 6.0 ) , cupy.random.uniform (0.0 , 1.5) )
 
