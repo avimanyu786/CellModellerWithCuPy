@@ -1,11 +1,11 @@
-import cupy
 from CellModeller.Regulation.ModuleRegulator import ModuleRegulator
 #from CellModeller.Biophysics.BacterialModels.CLBacterium import CLBacterium
 #from CellModeller.Biophysics.BacterialModels.CLBacteriumWithCuPy import CLBacteriumWithCuPy
 from CellModeller.Biophysics.BacterialModels.CLBacteriumWithGammaCuPyDoublePrecision import CLBacteriumWithGammaCuPyDoublePrecision
 from CellModeller.GUI import Renderers
-import numpy
-import math
+#import numpy
+#import math
+import cupy
 
 # cell_cols = {0:[0,1.0,0], 1:[1.0,0,0], 2:[0,0,1.0]} #RGB cell colours
 # cell_lens = {0:1.0, 1:2.0, 2:3.5} #target cell lengths
