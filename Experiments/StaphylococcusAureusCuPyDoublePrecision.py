@@ -1,6 +1,6 @@
 import cupy
 from CellModeller.Regulation.ModuleRegulator import ModuleRegulator
-# from CellModeller.Biophysics.BacterialModels.CLBacterium import CLBacterium
+#from CellModeller.Biophysics.BacterialModels.CLBacterium import CLBacterium
 #from CellModeller.Biophysics.BacterialModels.CLBacteriumWithCuPy import CLBacteriumWithCuPy
 from CellModeller.Biophysics.BacterialModels.CLBacteriumWithGammaCuPyDoublePrecision import CLBacteriumWithGammaCuPyDoublePrecision
 from CellModeller.GUI import Renderers
@@ -13,15 +13,18 @@ import math
 # 30-8-18
 
 cell_cols = {0: [1.0, 1.0, 1.0]}
-cell_lens = {0: 0.8}
-cell_growr = {0: 1.0}
+#cell_lens = {0: 0.8}
+cell_lens = {0: cupy.random.uniform(0.8,1.0)}
+#cell_growr = {0: 12.0}
+cell_growr = {0: 12.0}
+
 
 
 def setup(sim):
     # Set biophysics, signalling, and regulation models
-    # biophys = CLBacterium(sim, jitter_z=True, gamma=20, max_planes=1, max_cells=100000)
-    #biophys = CLBacteriumWithGammaCuPyDoublePrecision(sim, jitter_z=True, rho=1.0039, u=0.02, gammacoeff=0.47, max_planes=5, max_cells=67081)
-    biophys = CLBacteriumWithGammaCuPyDoublePrecision(sim, jitter_z=True, gamma=10, max_planes=5, max_cells=67081)
+    biophys = CLBacteriumWithGammaCuPyDoublePrecision(sim, jitter_z=True, rho=1.0039, u=0.02, gammacoeff=0.47, max_planes=1, max_cells=670812)
+    #biophys = CLBacterium(sim, jitter_z=True, gamma=20, max_planes=1, max_cells=100000)
+    #biophys = CLBacteriumWithGammaCuPyDoublePrecision(sim, jitter_z=True, gamma=10, max_planes=5, max_cells=670812)
     biophys.addPlane((0, 0, 0), (0, 0, 1), 1.0)  # Base plane
     # biophys.addPlane((20, 0, 0), (-1, 0, 0), 1.0)
     # biophys.addPlane((-20, 0, 0), (1, 0, 0), 1.0)
@@ -60,7 +63,7 @@ def init(cell):
     #cellVol = cell_lens[cell.cellType]
     cellVol= (((cell_lens[cell.cellType]**3)*3.14) / 6)
 
-    cell.targetVol = cellVol + cupy.random.uniform(0.0,3.5)
+    cell.targetVol = cellVol + cupy.random.uniform(0.0,1.5)
     # Specify growth rate and color of cells
     cell.growthRate = cell_growr[cell.cellType]
     cell.color = cell_cols[cell.cellType]
@@ -75,6 +78,5 @@ def update(cells):
 
 def divide(parent, d1, d2):
     # Specify target cell size that triggers cell division
-    d1.targetVol = (((cell_lens[parent.cellType]**3)*3.14) / 6) + cupy.random.uniform(0.0,3.5)
-    d2.targetVol = (((cell_lens[parent.cellType]**3)*3.14) / 6) + cupy.random.uniform(0.0,3.5)
-
+    d1.targetVol = (((cell_lens[parent.cellType]**3)*3.14) / 6) + cupy.random.uniform(0.0,1.5)
+    d2.targetVol = (((cell_lens[parent.cellType]**3)*3.14) / 6) + cupy.random.uniform(0.0,1.5)
