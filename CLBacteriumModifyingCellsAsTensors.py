@@ -18,7 +18,7 @@ class CLBacteriumModifyingCellsAsTensors:
     OpenCL and CuPy. Here, gamma, the frictional drag has been
     broken down into mass density, flow velocity, frictional drag
     coefficient and reference area. Tensors have been created from
-    existing arrays regarding cell modification.
+    existing arrays when moving cells.
     """
 
     def __init__(self, simulator,
