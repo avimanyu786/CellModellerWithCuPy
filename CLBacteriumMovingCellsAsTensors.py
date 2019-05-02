@@ -13,7 +13,7 @@ import time
 ct_map = {}
 
 
-class CLBacteriumMovingCellsAsTensors.py:
+class CLBacteriumMovingCellsAsTensors:
     """A rigid body model of bacterial growth implemented using
     OpenCL and CuPy. Here, gamma, the frictional drag has been
     broken down into mass density, flow velocity, frictional drag
