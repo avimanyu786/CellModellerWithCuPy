@@ -15,9 +15,9 @@ ct_map = {}
 
 class CLBacteriumModifyingCellsAsTensors:
     """A rigid body model of bacterial growth implemented using
-    OpenCL and CuPy. Here, gamma, the frictional drag has been 
-    broken down into mass density, flow velocity, frictional drag 
-    coefficient and reference area. Tensors have been created from 
+    OpenCL and CuPy. Here, gamma, the frictional drag has been
+    broken down into mass density, flow velocity, frictional drag
+    coefficient and reference area. Tensors have been created from
     existing arrays regarding cell modification.
     """
 
@@ -40,7 +40,7 @@ class CLBacteriumModifyingCellsAsTensors:
                  jitter_z=True,
                  alternate_divisions=False,
                  printing=True,
-                 compNeighbours=False):
+                 compNeighbours=True):
 
         # Should we compute neighbours? (bit slow)
         self.computeNeighbours = compNeighbours
@@ -103,11 +103,11 @@ class CLBacteriumModifyingCellsAsTensors:
         self.regulator = regulator
         self.init_kernels()
 
-    def addCell(self, cellState, pos_tensor=(0, 0, 0), dir=(1, 0, 0), rad=0.5, **kwargs):
+    def addCell(self, cellState, pos=(0,0,0), dir=(1, 0, 0), rad=0.5, **kwargs):
         i = cellState.idx
         self.n_cells += 1
         cid = cellState.id
-        self.cell_centers[i] = tuple(pos_tensor + (0,))
+        self.cell_centers[i] = tuple(pos + (0,))
         self.cell_dirs[i] = tuple(dir + (0,))
         self.cell_lens[i] = cellState.length
         self.cell_rads[i] = rad
@@ -302,7 +302,7 @@ class CLBacteriumModifyingCellsAsTensors:
     def load_from_cellstates(self, cell_states):
         for (cid, cs) in cell_states.items():
             i = cs.idx
-            self.cell_centers[i] = tuple(cs.pos_tensor) + (0,)
+            self.cell_centers[i] = tuple(cs.pos) + (0,)
             self.cell_dirs[i] = tuple(cs.dir) + (0,)
             self.cell_rads[i] = cs.radius
             self.cell_lens[i] = cs.length
@@ -314,7 +314,7 @@ class CLBacteriumModifyingCellsAsTensors:
 
     def load_test_data(self):
         import CellModeller.Biophysics.BacterialModels.CLData as data
-        self.cell_centers.put(range(len(data.pos_tensor)), data.pos_tensor)
+        self.cell_centers.put(range(len(data.pos)), data.pos)
         self.cell_dirs.put(range(len(data.dirs)), data.dirs)
         self.cell_lens.put(range(len(data.lens)), data.lens)
         self.cell_rads.put(range(len(data.rads)), data.rads)
@@ -608,7 +608,7 @@ class CLBacteriumModifyingCellsAsTensors:
     def initCellState(self, state):
         cid = state.id
         i = state.idx
-        state.pos_tensor = [self.cell_centers[i][j] for j in range(3)]
+        state.pos = [self.cell_centers[i][j] for j in range(3)]
         state.dir = [self.cell_dirs[i][j] for j in range(3)]
         state.radius = self.cell_rads[i]
         state.length = self.cell_lens[i]
@@ -620,7 +620,7 @@ class CLBacteriumModifyingCellsAsTensors:
         #state.volume = state.length  # TO DO: do something better here
 
 
-        pa = cupy.asnumpy(state.pos_tensor)
+        pa = cupy.asnumpy(state.pos)
         da = cupy.asnumpy(state.dir)
         state.ends = (pa - da * state.length * 0.5, pa + da * state.length * 0.5)
         state.strainRate = 0.0
@@ -630,7 +630,7 @@ class CLBacteriumModifyingCellsAsTensors:
     def updateCellNeighbours(self, idx2Id):
         ct_tos = self.ct_tos_dev[0:self.n_cells, :].get()
         cell_to_cts = self.cell_n_cts_dev[0:self.n_cells].get()
-        cell_cts = cupy.zeros(self.n_cells, cupy.int32)
+        cell_cts = cupy.zeros(self.n_cells, cupy.int64)
         for i in range(self.n_cells):
             for j in range(cell_to_cts[i]):
                 if ct_tos[i, j] > 0:  # not a plane contact
@@ -644,8 +644,8 @@ class CLBacteriumModifyingCellsAsTensors:
         cid = state.id
         i = state.idx
 
-        state.vel = [self.cell_centers[i][j] - state.pos_tensor[j] for j in range(3)]
-        state.pos_tensor = [self.cell_centers[i][j] for j in range(3)]
+        state.vel = [self.cell_centers[i][j] - state.pos[j] for j in range(3)]
+        state.pos = [self.cell_centers[i][j] for j in range(3)]
         state.dir = [self.cell_dirs[i][j] for j in range(3)]
         state.radius = self.cell_rads[i]
         state.length = self.cell_lens[i]
@@ -665,7 +665,7 @@ class CLBacteriumModifyingCellsAsTensors:
         state.cts = len(state.neighbours)
 
         state.volume = state.length  # TO DO: do something better here
-        pa = cupy.asnumpy(state.pos_tensor)
+        pa = cupy.asnumpy(state.pos)
         da = cupy.asnumpy(state.dir)
         state.ends = (pa - da * state.length * 0.5, pa + da * state.length * 0.5)
         # Length vel is linearisation of exponential growth
