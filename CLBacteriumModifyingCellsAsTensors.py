@@ -13,11 +13,12 @@ import time
 ct_map = {}
 
 
-class CLBacteriumWithGammaCuPyDoublePrecision:
+class CLBacteriumModifyingCellsAsTensors:
     """A rigid body model of bacterial growth implemented using
-    OpenCL and CuPy. Here, gamma, the frictional drag has been broken down
-    into mass density, flow velocity, frictional drag coefficient
-    and reference area.
+    OpenCL and CuPy. Here, gamma, the frictional drag has been 
+    broken down into mass density, flow velocity, frictional drag 
+    coefficient and reference area. Tensors have been created from 
+    existing arrays regarding cell modification.
     """
 
     def __init__(self, simulator,
@@ -102,11 +103,11 @@ class CLBacteriumWithGammaCuPyDoublePrecision:
         self.regulator = regulator
         self.init_kernels()
 
-    def addCell(self, cellState, pos=(0, 0, 0), dir=(1, 0, 0), rad=0.5, **kwargs):
+    def addCell(self, cellState, pos_tensor=(0, 0, 0), dir=(1, 0, 0), rad=0.5, **kwargs):
         i = cellState.idx
         self.n_cells += 1
         cid = cellState.id
-        self.cell_centers[i] = tuple(pos + (0,))
+        self.cell_centers[i] = tuple(pos_tensor + (0,))
         self.cell_dirs[i] = tuple(dir + (0,))
         self.cell_lens[i] = cellState.length
         self.cell_rads[i] = rad
@@ -301,7 +302,7 @@ class CLBacteriumWithGammaCuPyDoublePrecision:
     def load_from_cellstates(self, cell_states):
         for (cid, cs) in cell_states.items():
             i = cs.idx
-            self.cell_centers[i] = tuple(cs.pos) + (0,)
+            self.cell_centers[i] = tuple(cs.pos_tensor) + (0,)
             self.cell_dirs[i] = tuple(cs.dir) + (0,)
             self.cell_rads[i] = cs.radius
             self.cell_lens[i] = cs.length
@@ -313,7 +314,7 @@ class CLBacteriumWithGammaCuPyDoublePrecision:
 
     def load_test_data(self):
         import CellModeller.Biophysics.BacterialModels.CLData as data
-        self.cell_centers.put(range(len(data.pos)), data.pos)
+        self.cell_centers.put(range(len(data.pos_tensor)), data.pos_tensor)
         self.cell_dirs.put(range(len(data.dirs)), data.dirs)
         self.cell_lens.put(range(len(data.lens)), data.lens)
         self.cell_rads.put(range(len(data.rads)), data.rads)
@@ -607,7 +608,7 @@ class CLBacteriumWithGammaCuPyDoublePrecision:
     def initCellState(self, state):
         cid = state.id
         i = state.idx
-        state.pos = [self.cell_centers[i][j] for j in range(3)]
+        state.pos_tensor = [self.cell_centers[i][j] for j in range(3)]
         state.dir = [self.cell_dirs[i][j] for j in range(3)]
         state.radius = self.cell_rads[i]
         state.length = self.cell_lens[i]
@@ -619,7 +620,7 @@ class CLBacteriumWithGammaCuPyDoublePrecision:
         #state.volume = state.length  # TO DO: do something better here
 
 
-        pa = cupy.asnumpy(state.pos)
+        pa = cupy.asnumpy(state.pos_tensor)
         da = cupy.asnumpy(state.dir)
         state.ends = (pa - da * state.length * 0.5, pa + da * state.length * 0.5)
         state.strainRate = 0.0
@@ -643,8 +644,8 @@ class CLBacteriumWithGammaCuPyDoublePrecision:
         cid = state.id
         i = state.idx
 
-        state.vel = [self.cell_centers[i][j] - state.pos[j] for j in range(3)]
-        state.pos = [self.cell_centers[i][j] for j in range(3)]
+        state.vel = [self.cell_centers[i][j] - state.pos_tensor[j] for j in range(3)]
+        state.pos_tensor = [self.cell_centers[i][j] for j in range(3)]
         state.dir = [self.cell_dirs[i][j] for j in range(3)]
         state.radius = self.cell_rads[i]
         state.length = self.cell_lens[i]
@@ -664,7 +665,7 @@ class CLBacteriumWithGammaCuPyDoublePrecision:
         state.cts = len(state.neighbours)
 
         state.volume = state.length  # TO DO: do something better here
-        pa = cupy.asnumpy(state.pos)
+        pa = cupy.asnumpy(state.pos_tensor)
         da = cupy.asnumpy(state.dir)
         state.ends = (pa - da * state.length * 0.5, pa + da * state.length * 0.5)
         # Length vel is linearisation of exponential growth
