@@ -128,11 +128,14 @@ class CLBacteriumMovingCellsAsTensors:
         print "delta_pos"
         print delta_pos
         pos = cupy.array(tuple(self.cell_centers[i]))
+        #Converting pos (CuPy array) into a DLPack Tensor
         pos_tensor = pos.toDlpack()
-        #pos[0:3] += cupy.array(tuple(delta_pos))
+        #Converting delta_pos (tuple) into a CuPy array
         delta_pos_array = cupy.array(tuple(delta_pos))
+        #Converting delta_pos (CuPy array) into a DLPack Tensor
         delta_pos_tensor = delta_pos_array.toDlpack()
 
+        #pos[0:3] += cupy.array(tuple(delta_pos))
         pos_tensor[0:3] += delta_pos_tensor
 
         #self.cell_centers[i] = pos
