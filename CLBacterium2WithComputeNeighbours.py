@@ -518,7 +518,7 @@ class CLBacterium2WithComputeNeighbours:
         if self.simulator:
             self.get_cells()
             # TJR: added incremental construction of this dict to same places as idToIdx - not fully tested
-            # idxToId = {idx: id for id, idx in self.simulator.idToIdx.iteritems()}
+            idxToId = {idx: id for id, idx in self.simulator.idToIdx.iteritems()}
             # TJR: add flag for this cos a bit time consuming
             if self.computeNeighbours:
                 self.updateCellNeighbours(self.simulator.idxToId)
