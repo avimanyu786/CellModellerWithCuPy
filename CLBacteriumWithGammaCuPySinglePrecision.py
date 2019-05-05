@@ -1079,26 +1079,26 @@ class CLBacteriumWithGammaCuPySinglePrecision:
         self.cell_centers[b] = tuple([(parent_center[k] + center_offset[k]) for k in range(4)])
 
         if not self.alternate_divisions:
-            cdir = numpy.array(parent_dir)
-            jitter = numpy.random.uniform(-0.001, 0.001, 3)
+            cdir = cupy.fromDlpack(cupy.ndarray.toDlpack(cupy.array(parent_dir)))
+            jitter = cupy.random.uniform(-0.001, 0.001, 3)
             if not self.jitter_z: jitter[2] = 0.0
             cdir[0:3] += jitter
-            cdir /= numpy.linalg.norm(cdir)
-            self.cell_dirs[a] = cdir
+            cdir /= cupy.linalg.norm(cdir)
+            self.cell_dirs[a] = cupy.asnumpy(cdir)
 
-            cdir = numpy.array(parent_dir)
-            jitter = numpy.random.uniform(-0.001, 0.001, 3)
+            cdir = cupy.fromDlpack(cupy.ndarray.toDlpack(cupy.array(parent_dir)))
+            jitter = cupy.random.uniform(-0.001, 0.001, 3)
             if not self.jitter_z: jitter[2] = 0.0
             cdir[0:3] += jitter
-            cdir /= numpy.linalg.norm(cdir)
-            self.cell_dirs[b] = cdir
+            cdir /= cupy.linalg.norm(cdir)
+            self.cell_dirs[b] = cupy.asnumpy(cdir)
         else:
-            cdir = numpy.array(parent_dir)
+            cdir = cupy.fromDlpack(cupy.ndarray.toDlpack(cupy.array(parent_dir)))
             tmp = cdir[0]
             cdir[0] = -cdir[1]
             cdir[1] = tmp
-            self.cell_dirs[a] = cdir
-            self.cell_dirs[b] = cdir
+            self.cell_dirs[a] = cupy.asnumpy(cdir)
+            self.cell_dirs[b] = cupy.asnumpy(cdir)
 
         self.cell_lens[a] = daughter_len
         self.cell_lens[b] = daughter_len
@@ -1125,6 +1125,7 @@ class CLBacteriumWithGammaCuPySinglePrecision:
 
         # return indices of daughter cells
         return (a, b)
+    
 
     def calc_cell_geom(self):
         """Calculate cell geometry using lens/rads on card."""
