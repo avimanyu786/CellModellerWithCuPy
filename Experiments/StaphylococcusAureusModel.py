@@ -118,11 +118,14 @@ def update(cells):
         #Trying to check random growth rate...this one will rotate around b&w shades:
         #cell.color = [cupy.double(cell.growthRate)/12.0, cupy.double(cell.growthRate)/12.0, cupy.double(cell.growthRate)/12.0]
 
+        #Checking again:
+        #cell.color = [cupy.double(cell.growthRate)/12.0, cupy.double(cell.growthRate)/12.0, 0.0]
 
-        cell.color = [cupy.double(cell.growthRate)/12.0, cupy.double(cell.growthRate)/12.0, 0.0]
+        #Checking with fixed color:
+        #cell.color = [0.5, 0.5, 0.0]
 
 
-        #cell.color = [1.0, cupy.random.uniform(0.5, 0.7) , 1.0]
+        cell.color = [1.0, cupy.random.uniform(0.5, 0.7) , 1.0]
         #cell.color = [1.0, 0.7, 1.0]
 
         if cell.volume > cell.targetVol:
