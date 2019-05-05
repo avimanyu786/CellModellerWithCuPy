@@ -118,4 +118,80 @@
                 self.updateCellNeighbours(self.simulator.idxToId)
 
             for state in self.simulator.cellStates.values():
-                self.updateCellState(state)              
+                self.updateCellState(state)     
+                
+def divide_cell(self, i, d1i, d2i):
+        """Divide a cell into two equal sized daughter cells.
+
+        Fails silently if we're out of cells.
+
+        Assumes our local copy of cells is current.
+
+        Calculates new cell_centers, cell_dirs, cell_lens, and cell_rads.
+        """
+        if self.n_cells >= self.max_cells:
+            return
+        # idxs of the two new cells
+        a = d1i
+        b = d2i
+
+        # seems to be making shallow copies without the tuple calls
+        parent_center = tuple(self.cell_centers[i])
+        parent_dir = tuple(self.cell_dirs[i])
+        parent_rad = self.cell_rads[i]
+        parent_len = self.cell_lens[i]
+
+        daughter_len = parent_len / 2.0 - parent_rad  # - 0.025
+        daughter_offset = daughter_len / 2.0 + parent_rad
+        center_offset = tuple([parent_dir[k] * daughter_offset for k in range(4)])
+
+        self.cell_centers[a] = tuple([(parent_center[k] - center_offset[k]) for k in range(4)])
+        self.cell_centers[b] = tuple([(parent_center[k] + center_offset[k]) for k in range(4)])
+
+        if not self.alternate_divisions:
+            cdir = numpy.array(parent_dir)
+            jitter = numpy.random.uniform(-0.001, 0.001, 3)
+            if not self.jitter_z: jitter[2] = 0.0
+            cdir[0:3] += jitter
+            cdir /= numpy.linalg.norm(cdir)
+            self.cell_dirs[a] = cdir
+
+            cdir = numpy.array(parent_dir)
+            jitter = numpy.random.uniform(-0.001, 0.001, 3)
+            if not self.jitter_z: jitter[2] = 0.0
+            cdir[0:3] += jitter
+            cdir /= numpy.linalg.norm(cdir)
+            self.cell_dirs[b] = cdir
+        else:
+            cdir = numpy.array(parent_dir)
+            tmp = cdir[0]
+            cdir[0] = -cdir[1]
+            cdir[1] = tmp
+            self.cell_dirs[a] = cdir
+            self.cell_dirs[b] = cdir
+
+        self.cell_lens[a] = daughter_len
+        self.cell_lens[b] = daughter_len
+        self.cell_rads[a] = parent_rad
+        self.cell_rads[b] = parent_rad
+
+        self.n_cells += 1
+
+        self.parents[b] = a
+
+        vols = self.cell_vols_dev[0:self.n_cells].get()
+        daughter_vol = vols[i] / 2.0
+        vols[a] = daughter_vol
+        vols[b] = daughter_vol
+        self.cell_vols_dev[0:self.n_cells].set(vols)
+
+        # Inherit velocities from parent (conserve momentum)
+        parent_dlin = self.cell_dcenters[i]
+        self.cell_dcenters[a] = parent_dlin
+        self.cell_dcenters[b] = parent_dlin
+        parent_dang = self.cell_dangs[i]
+        self.cell_dangs[a] = parent_dang
+        self.cell_dangs[b] = parent_dang
+
+        # return indices of daughter cells
+        return (a, b)                
