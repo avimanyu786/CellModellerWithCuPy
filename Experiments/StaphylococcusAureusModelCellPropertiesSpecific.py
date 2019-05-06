@@ -57,7 +57,7 @@ def setup(sim):
     # biophys = CLBacteriumMovingAndDividingCellsAsTensors(sim, jitter_z=True, rho=1.0039, u=0.02, gammacoeff=0.47, max_planes=1, max_cells=10000)
     # biophys = CLBacteriumMovingAndDividingCellsAsTensors(sim, jitter_z=True)
 
-    sig = GridDiffusion(sim, n_signals, grid_dim, grid_size, grid_orig, [1.0, 1.0])
+    sig = GridDiffusion(sim, n_signals, grid_dim, grid_size, grid_orig, [10.0, 10.0])
     # integ = CLCrankNicIntegratorCuPySinglePrecision(sim, n_signals, n_species, maximum_cells, sig)
     integ = CLCrankNicIntegrator(sim, n_signals, n_species, maximum_cells, sig)
 
