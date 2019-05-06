@@ -18,7 +18,7 @@ class CLBacteriumWithGammaCuPySinglePrecision:
     OpenCL and CuPy. Here, gamma, the frictional drag has been
     broken down into mass density, flow velocity, frictional drag
     coefficient and reference area. Tensors have been created from
-    existing arrays when moving cells.
+    existing arrays when moving and dividing cells.
     """
 
     def __init__(self, simulator,
@@ -533,7 +533,7 @@ class CLBacteriumWithGammaCuPySinglePrecision:
         if self.simulator:
             self.get_cells()
             # TJR: added incremental construction of this dict to same places as idToIdx - not fully tested
-            # idxToId = {idx: id for id, idx in self.simulator.idToIdx.iteritems()}
+            idxToId = {idx: id for id, idx in self.simulator.idToIdx.iteritems()}
             # TJR: add flag for this cos a bit time consuming
             if self.computeNeighbours:
                 self.updateCellNeighbours(self.simulator.idxToId)
@@ -626,7 +626,6 @@ class CLBacteriumWithGammaCuPySinglePrecision:
 
         #state.volume = state.length  # TO DO: do something better here
 
-
         pa = cupy.asnumpy(state.pos)
         da = cupy.asnumpy(state.dir)
         state.ends = (pa - da * state.length * 0.5, pa + da * state.length * 0.5)
@@ -637,10 +636,10 @@ class CLBacteriumWithGammaCuPySinglePrecision:
     def updateCellNeighbours(self, idx2Id):
         ct_tos = self.ct_tos_dev[0:self.n_cells, :].get()
         cell_to_cts = self.cell_n_cts_dev[0:self.n_cells].get()
-        #cell_cts = numpy.zeros(self.n_cells, numpy.int64)
-        cell_cts = cupy.zeros(self.n_cells, cupy.int64)
-        for i in range(self.n_cells):
-            for j in range(cell_to_cts[i]):
+        #cell_cts = numpy.zeros(self.n_cells, numpy.int32)
+        cell_cts = cupy.fromDlpack(cupy.ndarray.toDlpack(cupy.zeros(self.n_cells, cupy.int32)))
+        for i in range(0,self.n_cells):
+            for j in range(0,cell_to_cts[i]):
                 if ct_tos[i, j] > 0:  # not a plane contact
                     self.neighbours[i, cell_cts[i]] = idx2Id[ct_tos[i, j]]
                     cell_cts[i] += 1
@@ -1125,7 +1124,6 @@ class CLBacteriumWithGammaCuPySinglePrecision:
 
         # return indices of daughter cells
         return (a, b)
-    
 
     def calc_cell_geom(self):
         """Calculate cell geometry using lens/rads on card."""
