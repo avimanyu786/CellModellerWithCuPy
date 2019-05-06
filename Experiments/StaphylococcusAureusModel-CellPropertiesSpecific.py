@@ -3,7 +3,7 @@ from CellModeller.Signalling.GridDiffusion import GridDiffusion
 from CellModeller.Integration.CLCrankNicIntegrator import CLCrankNicIntegrator
 
 #from CellModeller.Biophysics.BacterialModels.CLBacterium import CLBacterium
-from CellModeller.Biophysics.BacterialModels.CLBacterium2 import CLBacterium2
+from CellModeller.Biophysics.BacterialModels.CLBacterium2WithComputeNeighbours import CLBacterium2WithComputeNeighbours
 
 # from CellModeller.Biophysics.BacterialModels.CLBacteriumWithCuPy import CLBacteriumWithCuPy
 # from CellModeller.Biophysics.BacterialModels.CLBacteriumWithGammaCuPyDoublePrecision import CLBacteriumWithGammaCuPyDoublePrecision
@@ -42,7 +42,7 @@ n_species = 1
 def setup(sim):
     # Set biophysics, signalling, and regulation models
     # biophys = CLBacterium(sim, jitter_z=True, gamma=20, max_planes=1, max_cells=100000)
-    biophys = CLBacterium2(sim, jitter_z=True)
+    biophys = CLBacterium2WithComputeNeighbours(sim, jitter_z=True)
 
     #biophys = CLBacteriumWithGammaCuPyDoublePrecision(sim, jitter_z=True, rho=1.0039, u=0.02, gammacoeff=0.47, max_planes=1, max_cells=6708)
     #biophys = CLBacteriumMovingCellsAsTensors(sim, jitter_z=True, rho=1.0039, u=0.02, gammacoeff=0.47, max_planes=1, max_cells=670812)
@@ -66,8 +66,6 @@ def setup(sim):
 
     # use this file for reg too
     regul = ModuleRegulator(sim, sim.moduleName)
-
-
 
 
 
