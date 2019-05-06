@@ -148,7 +148,9 @@ def update(cells):
         #else:
             #cell.color = [0.8, 1.0, 0.7]
 
-        #If cell growth rate is very high then add cells??
+        # If cell growth rate is very high, medium or low then add cells/conditions??
+        #
+        # Start with more cells?
 
 
 def divide(parent, d1, d2):
