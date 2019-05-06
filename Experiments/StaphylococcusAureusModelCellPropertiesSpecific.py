@@ -179,6 +179,7 @@ def update(cells):
 
         #cell.growthRate = cell.species[0] / (1 + cell.species[0])
         if cell.cellType == 0:
+            #cell.color = [0.1 + cell.species[0] / 3.0, 0.1 + cell.species[0] / 3.0, 0.1]
             cell.growthRate = 0.1 + v_max * cell.species[0] / (Km + cell.species[0])
 
         #Fixed growth rate
