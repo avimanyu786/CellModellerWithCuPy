@@ -46,9 +46,12 @@ n_species = 1
 def setup(sim):
     # Set biophysics, signalling, and regulation models
     # biophys = CLBacterium(sim, jitter_z=True, gamma=20, max_planes=1, max_cells=100000)
-    #biophys = CLBacterium(sim, jitter_z=True)
+    #biophys = CLBacterium(sim, jitter_z=True, gamma=2.933775, max_planes=1, max_cells=10000)
 
-    #biophys = CLBacterium2WithComputeNeighbours(sim, jitter_z=True)
+    #biophys = CLBacterium(sim, jitter_z=True, rho=1.105, u=0.03, gammacoeff=0.59, max_planes=1, max_cells=10000)
+
+
+    #biophys = CLBacterium2WithComputeNeighbours(sim, jitter_z=True, rho=1.105, u=0.03, gammacoeff=0.59, max_planes=1, max_cells=10000)
     # biophys = CLBacteriumWithDoublePrecision(sim, jitter_z=True) <- fails
     #biophys = CLBacteriumWithGammaCuPySinglePrecision(sim, jitter_z=True) #<- works
 
@@ -60,7 +63,8 @@ def setup(sim):
     # biophys = CLBacteriumMovingAndDividingCellsAsTensors(sim, jitter_z=True, rho=1.0039, u=0.02, gammacoeff=0.47, max_planes=1, max_cells=10000)
     # biophys = CLBacteriumMovingAndDividingCellsAsTensors(sim, jitter_z=True)
 
-    sig = GridDiffusion(sim, n_signals, grid_dim, grid_size, grid_orig, [1.0,1.0])
+    #Setting this as [1.0, 1.0] gives an index out of bound error for updateCellNeighbours in CLBacterium when using CellType 0. CellType 1 runs fine.
+    sig = GridDiffusion(sim, n_signals, grid_dim, grid_size, grid_orig, [10.0,10.0])
     # integ = CLCrankNicIntegratorCuPySinglePrecision(sim, n_signals, n_species, maximum_cells, sig)
     integ = CLCrankNicIntegrator(sim, n_signals, n_species, maximum_cells, sig)
 
@@ -244,3 +248,4 @@ def divide(parent, d1, d2):
     ecoli_diameter = cupy.random.uniform(0.25, 1.0)
     cell_lens = {1: cupy.random.uniform(1.5, 3.5)}
     d2.targetVol = cupy.add(cupy.add ( cupy.divide(cupy.multiply(cupy.pi, cupy.multiply(cupy.square(ecoli_diameter), cell_lens[parent.cellType])), 4.0), cupy.divide(cupy.multiply(cupy.pi, cupy.power(ecoli_diameter, 3)), 6.0)), cupy.random.uniform(0.0, 1.5))
+
