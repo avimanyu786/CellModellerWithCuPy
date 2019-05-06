@@ -27,7 +27,7 @@ class CLBacteriumMovingAndDividingCellsAsTensors:
                  max_contacts=32,
                  max_planes=4,
                  max_sqs=192 ** 2,
-                 grid_spacing=5.0,
+                 grid_spacing=50.0,
                  muA=1.0,
                  rho=1.094,
                  u=0.03,
