@@ -150,6 +150,8 @@ def update(cells):
         # If cell growth rate is very high, medium or low then add cells/conditions??
         #
         # Start with more cells?
+        #
+        # Put darker shades as cells age?
 
 
 def divide(parent, d1, d2):
