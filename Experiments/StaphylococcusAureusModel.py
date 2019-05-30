@@ -16,7 +16,7 @@ import cupy
 # cell_growr = {0:2.0x4, 1:1.1x4, 2:0.8x4} #growth rates
 # 30-8-18
 
-cell_cols = {0: [1.0, 0.7, 1.0]}
+cell_cols = {0: [0.0, 1.0, 1.0]}
 #cell_lens = {0: 0.8}
 #Staphylococcus Aureus cell sizes range from 0.8 to 1.0 micrometer
 #cell_lens = {0: cupy.random.uniform(0.8,1.0)}
@@ -124,7 +124,7 @@ def update(cells):
         #cell.color = [0.5, 0.5, 0.0]
 
 
-        cell.color = [1.0, cupy.random.uniform(0.5, 0.7) , 1.0]
+        cell.color = [0.0 , cupy.random.uniform(0.8, 1.0), 1.0]
         #cell.color = [1.0, 0.7, 1.0]
 
         if cell.volume > cell.targetVol:
@@ -139,7 +139,7 @@ def update(cells):
         # Make cell division more noticeable with a saturated color of the cell:
         if cell.divideFlag == True:
             cell.growthRate = 0.0
-            cell.color = [1.0, 0.0, 1.0]
+            cell.color = [0.0, 0.4, 1.0]
             #cell.color = [cupy.random.uniform(0.0, 1.0), cupy.random.uniform(0.0, 1.0), cupy.random.uniform(0.0, 1.0)]
 
         #if cell.growthRate == cupy.random.uniform(1.0,12.0):
@@ -152,8 +152,7 @@ def update(cells):
         # Start with more cells?
         #
         # Put darker shades as cells age?
-
-
+        
 def divide(parent, d1, d2):
     # Specify target cell size that triggers cell division
     #d1.targetVol = (((cell_lens[parent.cellType]**3)*3.14) / 6) + cupy.random.uniform(0.0,1.5)
