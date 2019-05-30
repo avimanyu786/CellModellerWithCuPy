@@ -650,7 +650,7 @@ class CLBacteriumMovingAndDividingCellsAsTensors:
         ct_tos = self.ct_tos_dev[0:self.n_cells, :].get()
         cell_to_cts = self.cell_n_cts_dev[0:self.n_cells].get()
         #cell_cts = numpy.zeros(self.n_cells, numpy.int64)
-        cell_cts = tensorflow.zeros(int(self.n_cells)) #<-Fix needed for error:
+        #cell_cts = tensorflow.zeros(int(self.n_cells)) #<-Fix needed for error:
         # "IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices"
         cell_cts = cupy.fromDlpack(cupy.ndarray.toDlpack(cupy.zeros(self.n_cells, cupy.int64)))
         for i in range(self.n_cells):
