@@ -13,7 +13,8 @@ import cupy
 # cell_lens = {0:1.0, 1:2.0, 2:3.5} #target cell lengths
 # cell_growr = {0:2.0x4, 1:1.1x4, 2:0.8x4} #growth rates
 
-cell_cols = {1: [0.0, 1.0, 1.0]}
+cell_cols = {1: [1.0, 0.7, 1.0]}
+
 #ecoli_diameter=cupy.random.uniform(0.25,1.0)
 #cell_lens = {1: cupy.random.uniform(1.5,3.5)}
 cell_growr = {1: 12.0}
@@ -22,7 +23,7 @@ def setup(sim):
     # Set biophysics, signalling, and regulation models
     # biophys = CLBacterium(sim, jitter_z=True, gamma=20, max_planes=1, max_cells=100000)
     # biophys = CLBacteriumWithGammaCuPyDoublePrecision(sim, jitter_z=True, rho=1.105, u=0.03, gammacoeff=0.59, max_planes=1, max_cells=67081)
-    biophys = CLBacteriumMovingAndDividingCellsAsTensors(sim, jitter_z=True, rho=1.105, u=0.03, gammacoeff=0.59, max_planes=1, max_cells=670812)
+    biophys = CLBacteriumMovingAndDividingCellsAsTensors(sim, jitter_z=True, rho=1.105, u=0.03, gammacoeff=0.59, max_planes=1, max_cells=10000)
 
     biophys.addPlane((0, 0, 0), (0, 0, 1), 1.0)  # Base plane
     # biophys.addPlane((20, 0, 0), (-1, 0, 0), 1.0)
@@ -81,7 +82,7 @@ def update(cells):
         # Variable growth rates from 1.0 to 12.0
         cell.growthRate = cupy.random.uniform(0.0, cell_growr[cell.cellType])
 
-        cell.color = [0.0 , cupy.random.uniform(0.8, 1.0), 1.0]
+        cell.color = [1.0, cupy.random.uniform(0.5, 0.7) , 1.0]
 
 
         if cell.volume > cell.targetVol:
@@ -89,7 +90,7 @@ def update(cells):
 
         if cell.divideFlag == True:
             cell.growthRate = 0.0
-            cell.color = [0.0, 0.4, 1.0]
+            cell.color = [1.0, 0.0, 1.0]
 
 
 def divide(parent, d1, d2):
