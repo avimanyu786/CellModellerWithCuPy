@@ -9,6 +9,7 @@ from pyopencl.elementwise import ElementwiseKernel
 from pyopencl.reduction import ReductionKernel
 #import random
 import time
+import tensorflow
 
 ct_map = {}
 
@@ -27,7 +28,7 @@ class CLBacteriumMovingAndDividingCellsAsTensors:
                  max_contacts=32,
                  max_planes=4,
                  max_sqs=192 ** 2,
-                 grid_spacing=50.0,
+                 grid_spacing=5.0,
                  muA=1.0,
                  rho=1.094,
                  u=0.03,
@@ -131,13 +132,21 @@ class CLBacteriumMovingAndDividingCellsAsTensors:
         print delta_pos
         #Converting self.cell_centers[i] (tuple) into a CuPy array
         pos = cupy.array(tuple(self.cell_centers[i]))
+
         #Converting pos (CuPy array) into a DLPack Tensor
-        pos_tensor = cupy.fromDlpack(pos.toDlpack())
+        #pos_tensor = cupy.fromDlpack(pos.toDlpack())
+
+        #Converting pos (CuPy array) into a Tensorflow Tensor
+        pos_tensor = tensorflow.convert_to_tensor(pos)
 
         #Converting delta_pos (tuple) into a CuPy array
         delta_pos_array = cupy.array(tuple(delta_pos))
+
         #Converting delta_pos_array (CuPy array) into a DLPack Tensor
-        delta_pos_tensor = cupy.fromDlpack(delta_pos_array.toDlpack())
+        #delta_pos_tensor = cupy.fromDlpack(delta_pos_array.toDlpack())
+
+        #Converting delta_pos_array (CuPy array) into a Tensorflow Tensor
+        delta_pos_tensor = tensorflow.convert_to_tensor(delta_pos_array)
 
         #pos[0:3] += cupy.array(tuple(delta_pos))
         pos_tensor[0:3] += delta_pos_tensor
@@ -641,6 +650,8 @@ class CLBacteriumMovingAndDividingCellsAsTensors:
         ct_tos = self.ct_tos_dev[0:self.n_cells, :].get()
         cell_to_cts = self.cell_n_cts_dev[0:self.n_cells].get()
         #cell_cts = numpy.zeros(self.n_cells, numpy.int64)
+        cell_cts = tensorflow.zeros(int(self.n_cells)) #<-Fix needed for error:
+        # "IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices"
         cell_cts = cupy.fromDlpack(cupy.ndarray.toDlpack(cupy.zeros(self.n_cells, cupy.int64)))
         for i in range(self.n_cells):
             for j in range(cell_to_cts[i]):
