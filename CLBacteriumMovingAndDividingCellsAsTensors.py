@@ -134,7 +134,8 @@ class CLBacteriumMovingAndDividingCellsAsTensors:
         pos = cupy.array(tuple(self.cell_centers[i]))
 
         #Converting pos (CuPy array) into a DLPack Tensor
-        #pos_tensor = cupy.fromDlpack(pos.toDlpack())
+        #pos_tensor = cupy.fromDlpack(pos.toDlpack())#<-this is not actually a tensor- fromDlpack makes it an array again.
+        #pos_tensor = pos.toDlpack()
 
         #Converting pos (CuPy array) into a Tensorflow Tensor
         pos_tensor = tensorflow.convert_to_tensor(pos)
@@ -143,7 +144,9 @@ class CLBacteriumMovingAndDividingCellsAsTensors:
         delta_pos_array = cupy.array(tuple(delta_pos))
 
         #Converting delta_pos_array (CuPy array) into a DLPack Tensor
-        #delta_pos_tensor = cupy.fromDlpack(delta_pos_array.toDlpack())
+        #delta_pos_tensor = cupy.fromDlpack(delta_pos_array.toDlpack()) #<-this is not actually a tensor- fromDlpack makes it an array again.
+        #delta_pos_tensor = delta_pos_array.toDlpack()
+
 
         #Converting delta_pos_array (CuPy array) into a Tensorflow Tensor
         delta_pos_tensor = tensorflow.convert_to_tensor(delta_pos_array)
@@ -652,7 +655,8 @@ class CLBacteriumMovingAndDividingCellsAsTensors:
         #cell_cts = numpy.zeros(self.n_cells, numpy.int64)
         #cell_cts = tensorflow.zeros(int(self.n_cells)) #<-Fix needed for error:
         # "IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices"
-        cell_cts = cupy.fromDlpack(cupy.ndarray.toDlpack(cupy.zeros(self.n_cells, cupy.int64)))
+        cell_cts = cupy.fromDlpack(cupy.ndarray.toDlpack(cupy.zeros(self.n_cells, cupy.int64)))#<-this is not actually a tensor- fromDlpack makes it an array again.
+        #cell_cts = cupy.ndarray.toDlpack(cupy.zeros(self.n_cells, cupy.int64))
         for i in range(self.n_cells):
             for j in range(cell_to_cts[i]):
                 if ct_tos[i, j] > 0:  # not a plane contact
