@@ -12,7 +12,6 @@ import cupy
 # cell_cols = {0:[0,1.0,0], 1:[1.0,0,0], 2:[0,0,1.0]} #RGB cell colours
 # cell_lens = {0:1.0, 1:2.0, 2:3.5} #target cell lengths
 # cell_growr = {0:2.0x4, 1:1.1x4, 2:0.8x4} #growth rates
-
 cell_cols = {1: [1.0, 0.7, 1.0]}
 
 #ecoli_diameter=cupy.random.uniform(0.25,1.0)
@@ -23,7 +22,7 @@ def setup(sim):
     # Set biophysics, signalling, and regulation models
     # biophys = CLBacterium(sim, jitter_z=True, gamma=20, max_planes=1, max_cells=100000)
     # biophys = CLBacteriumWithGammaCuPyDoublePrecision(sim, jitter_z=True, rho=1.105, u=0.03, gammacoeff=0.59, max_planes=1, max_cells=67081)
-    biophys = CLBacteriumMovingAndDividingCellsAsTensors(sim, jitter_z=True, rho=1.105, u=0.03, gammacoeff=0.59, max_planes=1, max_cells=10000)
+    biophys = CLBacteriumMovingAndDividingCellsAsTensors(sim, jitter_z=True, rho=1.105, u=0.03, gammacoeff=0.59, max_planes=1, max_cells=670812)
 
     biophys.addPlane((0, 0, 0), (0, 0, 1), 1.0)  # Base plane
     # biophys.addPlane((20, 0, 0), (-1, 0, 0), 1.0)
