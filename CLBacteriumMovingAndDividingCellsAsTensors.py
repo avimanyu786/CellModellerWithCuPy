@@ -65,7 +65,8 @@ class CLBacteriumMovingAndDividingCellsAsTensors:
         self.u = u
         self.gammacoeff = gammacoeff
         self.refarea = refarea
-        self.gamma = cupy.double((rho * u * u * gammacoeff * refarea) / 2)
+        #self.gamma = cupy.double((rho * u * u * gammacoeff * refarea) / 2)
+        self.gamma = cupy.divide (cupy.multiply(rho , cupy.multiply(cupy.power(u, 2) , cupy.multiply(gammacoeff , refarea))) , 2)
         self.dt = dt
         self.cgs_tol = cgs_tol
         self.reg_param = cupy.double(reg_param)
