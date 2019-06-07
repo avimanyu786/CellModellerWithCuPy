@@ -30,7 +30,7 @@ def setup(sim):
     # biophys = CLBacterium(sim, jitter_z=True, gamma=20, max_planes=1, max_cells=100000)
     #biophys = CLBacteriumWithGammaCuPyDoublePrecision(sim, jitter_z=True, rho=1.0039, u=0.02, gammacoeff=0.47, max_planes=1, max_cells=6708)
     #biophys = CLBacteriumMovingCellsAsTensors(sim, jitter_z=True, rho=1.0039, u=0.02, gammacoeff=0.47, max_planes=1, max_cells=670812)
-    biophys = CLBacteriumMovingAndDividingCellsAsTensors(sim, jitter_z=True, rho=1.0039, u=0.02, gammacoeff=0.47, max_planes=1, max_cells=20000)
+    biophys = CLBacteriumMovingAndDividingCellsAsTensors(sim, jitter_z=True, rho=1.0039, u=0.02, gammacoeff=0.47, max_planes=1, max_cells=670812)
 
 
 
@@ -152,7 +152,7 @@ def update(cells):
         # Start with more cells?
         #
         # Put darker shades as cells age?
-        
+
 def divide(parent, d1, d2):
     # Specify target cell size that triggers cell division
     #d1.targetVol = (((cell_lens[parent.cellType]**3)*3.14) / 6) + cupy.random.uniform(0.0,1.5)
