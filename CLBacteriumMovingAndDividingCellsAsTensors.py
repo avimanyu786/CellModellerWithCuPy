@@ -30,9 +30,9 @@ class CLBacteriumMovingAndDividingCellsAsTensors:
                  max_sqs=192 ** 2,
                  grid_spacing=5.0,
                  muA=1.0,
-                 rho=1.094,
-                 u=0.03,
-                 gammacoeff=0.59,
+                 rho=1.094,#E.Coli parameter
+                 u=0.03,#E.Coli parameter
+                 gammacoeff=0.59,#E.Coli parameter
                  refarea=10000,
                  gamma=0.0,
                  dt=None,
@@ -158,7 +158,7 @@ class CLBacteriumMovingAndDividingCellsAsTensors:
         #self.cell_centers[i] = pos
         self.cell_centers[i] = pos_tensor
         #self.simulator.cellStates[cid].pos = [self.cell_centers[i][j] for j in range(3)]
-        self.simulator.cellStates[cid].pos_tensor = [self.cell_centers[i][j] for j in range(3)]
+        self.simulator.cellStates[cid].pos = [self.cell_centers[i][j] for j in range(3)]
         self.set_cells()
         self.updateCellState(cellState)
 
@@ -334,7 +334,7 @@ class CLBacteriumMovingAndDividingCellsAsTensors:
 
     def load_test_data(self):
         import CellModeller.Biophysics.BacterialModels.CLData as data
-        self.cell_centers.put(range(len(data.pos)), data.pos)
+        self.cell_centers.put(range(len(data.pos_tensor)), data.pos_tensor)
         self.cell_dirs.put(range(len(data.dirs)), data.dirs)
         self.cell_lens.put(range(len(data.lens)), data.lens)
         self.cell_rads.put(range(len(data.rads)), data.rads)
