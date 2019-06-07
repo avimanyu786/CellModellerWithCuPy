@@ -13,7 +13,7 @@ import time
 ct_map = {}
 
 
-class CLBacterium2CuPyTest:
+class CLBacterium2CuPyTestWithDoublePrecision:
     """A rigid body model of bacterial growth implemented using
     OpenCL. Here, gamma, the frictional drag is being calculated
     from mass density, growth rate, frictional drag coefficient
