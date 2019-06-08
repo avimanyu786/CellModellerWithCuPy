@@ -22,7 +22,7 @@ class CLBacterium2CuPyTestWithDoublePrecision:
 
     def __init__(self, simulator,
                  max_substeps=8,
-                 max_cells=10000,
+                 max_cells=10912,
                  max_contacts=32,
                  max_planes=4,
                  max_sqs=192 ** 2,
@@ -57,8 +57,8 @@ class CLBacterium2CuPyTestWithDoublePrecision:
         self.u = u
         self.gammacoeff = gammacoeff
         self.refarea = refarea
-        #self.gamma = cupy.double((rho * u * u * gammacoeff * refarea) / 2)
-        self.gamma = cupy.divide (cupy.multiply(rho , cupy.multiply(cupy.power(u, 2) , cupy.multiply(gammacoeff , refarea))) , 2) 
+        self.gamma = cupy.double((rho * u * u * gammacoeff * refarea) / 2)
+        #self.gamma = cupy.divide(cupy.multiply(rho, cupy.multiply(cupy.power(u, 2), cupy.multiply(gammacoeff, refarea))), 2)
         self.dt = dt
         self.cgs_tol = cgs_tol
         self.reg_param = cupy.double(reg_param)
@@ -124,8 +124,15 @@ class CLBacterium2CuPyTestWithDoublePrecision:
         print "delta_pos"
         print delta_pos
         pos = cupy.array(tuple(self.cell_centers[i]))
-        pos[0:3] += cupy.array(tuple(delta_pos))
-        self.cell_centers[i] = pos
+        pos_tensor = pos.toDlpack()
+
+        delta_pos_array = cupy.array(tuple(delta_pos))
+        delta_pos_tensor = delta_pos_array.toDlpack()
+
+        #pos[0:3] += cupy.array(tuple(delta_pos))
+        pos_tensor[0:3] += delta_pos_tensor
+        #self.cell_centers[i] = pos
+        self.cell_centers[i] = pos_tensor
         self.simulator.cellStates[cid].pos = [self.cell_centers[i][j] for j in range(3)]
         self.set_cells()
         self.updateCellState(cellState)
@@ -302,7 +309,7 @@ class CLBacterium2CuPyTestWithDoublePrecision:
 
     def load_test_data(self):
         import CellModeller.Biophysics.BacterialModels.CLData as data
-        self.cell_centers.put(range(len(data.pos)), data.pos)
+        self.cell_centers.put(range(len(data.pos_tensor)), data.pos_tensor)
         self.cell_dirs.put(range(len(data.dirs)), data.dirs)
         self.cell_lens.put(range(len(data.lens)), data.lens)
         self.cell_rads.put(range(len(data.rads)), data.rads)
