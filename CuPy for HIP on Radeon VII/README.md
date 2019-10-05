@@ -1,2 +1,2 @@
 
-## CellModellerWithCuPy for HIP (Both NVIDIA and AMD devices)
+## CellModellerWithCuPy for HIP (Both NVIDIA and AMD GPUs)
